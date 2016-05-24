@@ -204,3 +204,23 @@ pre {
         }
     }
 }
+
+.icon--twitter {
+
+    > svg {
+
+        path {
+            fill: $twitter-icon-color;
+        }
+    }
+}
+
+.icon--github {
+
+    > svg {
+
+        path {
+            fill: $github-icon-color;
+        }
+    }
+}

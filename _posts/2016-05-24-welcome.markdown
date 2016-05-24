@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Welcome!"
+date:   2016-05-24 21:02:31 +0300
+categories: posts
+---
+
+Welcome to my website!
+
+I built [bogdanvlviv.github.io][bogdanvlviv.github.io-url] with Jekyll.
+
+Check out the [Jekyll][jekyll] for more info. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh].
+
+[bogdanvlviv.github.io-url]: https://bogdanvlviv.github.io
+[jekyll]: https://jekyllrb.com
+[jekyll-gh]: https://github.com/jekyll/jekyll

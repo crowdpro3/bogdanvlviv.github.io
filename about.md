@@ -4,12 +4,11 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+#ruby developer. love #linux and #vim.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+Rails Contributor since 2016-03-26. I'm on the [Rails Contributors][rails-contributors-url] list - [bogdanvlviv][bogdanvlviv-rails-contributor-url]. List of my commits in GitHub [Rails][rails-gh] repository - [commits][bogdanvlviv-commits-rails-gh].
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+[rails-contributors-url]: http://contributors.rubyonrails.org
+[bogdanvlviv-rails-contributor-url]: http://contributors.rubyonrails.org/contributors/bogdanvlviv/commits
+[rails-gh]: https://github.com/rails/rails
+[bogdanvlviv-commits-rails-gh]: https://github.com/rails/rails/commits/master?author=bogdanvlviv
