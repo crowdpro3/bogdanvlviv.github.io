@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+<img src="/images/bogdanvlviv1.jpg" style="float: right; margin: 0px 0px 10px 10px; max-width: 300px;">
+
 #ruby developer. love #linux and #vim.
 
 Rails Contributor since 2016-03-26. I'm on the [Rails Contributors][rails-contributors-url] list - [bogdanvlviv][bogdanvlviv-rails-contributor-url]. List of my commits at [Rails's GitHub repo][rails-gh] - [commits][bogdanvlviv-commits-rails-gh].
