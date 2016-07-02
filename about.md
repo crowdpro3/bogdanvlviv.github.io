@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img src="/images/bogdanvlviv1.jpg" style="float: right; margin: 0px 0px 10px 10px; max-width: 300px;">
+<img src="/images/bogdanvlviv1.jpg" style="float: right; margin: 0px 0px 10px 10px; max-width: 40%;">
 
 #ruby developer. love #linux and #vim.
 
