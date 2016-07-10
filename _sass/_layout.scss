@@ -240,3 +240,52 @@
         }
     }
 }
+
+.resume {
+  .name {
+    text-align: center;
+  }
+
+  .photo {
+    margin-bottom: 15px;
+    text-align: center;
+
+    img {
+      width: 230px;
+    }
+  }
+
+  ul.vcard-details {
+    list-style: none;
+  }
+
+  .title {
+  }
+
+  ul.skills-details ul {
+    li {
+     font-style: italic;
+    }
+  }
+
+  ol.education-details ul {
+    li {
+     font-style: italic;
+    }
+  }
+
+  ol.work-experience-details ul {
+    li {
+     font-style: italic;
+    }
+  }
+
+  ul.open-source-details {
+  }
+
+  .resume-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+    float: right;
+  }
+}
