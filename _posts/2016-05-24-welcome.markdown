@@ -4,6 +4,7 @@ title:  "Welcome!"
 date:   2016-05-24 21:02:31 +0300
 categories: posts
 comments: true
+permalink: /:categories/:title.html
 ---
 
 Welcome to my website!

@@ -4,6 +4,7 @@ title:  "Decorator Pattern in Ruby"
 date:   2016-10-02 16:30:00 +0300
 categories: posts ruby patterns
 comments: true
+permalink: /:categories/:title.html
 ---
 
 Decorators allow us to add behavior to objects without affecting other objects of the same class.
