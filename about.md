@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /about.html
 ---
 
 <img src="/images/bogdanvlviv1.jpg" class="photo--about">
