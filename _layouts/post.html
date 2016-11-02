@@ -5,7 +5,14 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <span class="post-meta">{{ page.date | date: "%B %-d, %Y" }}</span>
+    <p>
+      <span class="post-meta">{{ page.date | date: "%B %-d, %Y" }}</span>
+    </p>
+    <p>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-via="{{ site.twitter_username }}">
+        Tweet
+      </a>
+    </p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
@@ -13,6 +20,8 @@ layout: default
   </div>
 
 </article>
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 {% if page.comments %}
   <div id="disqus_thread"></div>
