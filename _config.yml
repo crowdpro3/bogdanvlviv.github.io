@@ -9,7 +9,7 @@
 title: bogdanvlviv (Bogdan)
 email: bogdanvlviv@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  #ruby developer. love #linux and #vim.
+  #ruby developer. love #linux, #tmux and #vim.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bogdanvlviv.github.io" # the base hostname & protocol for your site
 twitter_username: bogdanvlviv
