@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Welcome!"
-date:   2016-05-24 21:02:31 +0300
+title: "Welcome!"
+date: 2016-05-24 21:02:31 +0300
 categories: posts
 comments: true
 permalink: /:categories/:title.html
