@@ -1,0 +1,38 @@
+/**
+ * Icons
+ */
+.icon--twitter > svg {
+  path {
+    fill: $twitter-icon-color;
+  }
+}
+
+
+.icon--github > svg {
+  path {
+    fill: $github-icon-color;
+  }
+}
+
+
+
+/**
+ * Photos
+ */
+img {
+  &.image {
+  }
+
+  &.image--about {
+    display: block;
+  }
+
+  &.photo {
+  }
+
+  &.photo--about {
+    float: right;
+    max-width: 40%;
+    margin: 0px 0px 10px 10px;
+  }
+}
