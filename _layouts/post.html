@@ -8,11 +8,14 @@ layout: default
     <p class="post-meta">
       <time datetime="{{ page.date }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
     </p>
-    <p>
-      <a href="https://twitter.com/share" class="twitter-share-button" data-via="{{ site.twitter_username }}" data-lang="en" target="_blank">
-        Tweet
-      </a>
-    </p>
+    <ul class="social-media-share-list">
+      <li>
+        {% include twitter-share-button.html %}
+      </li>
+      <li>
+        {% include reddit-this.html %}
+      </li>
+    </ul>
   </header>
 
   <div class="post-content" itemprop="articleBody">
