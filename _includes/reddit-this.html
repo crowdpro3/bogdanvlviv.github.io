@@ -1,3 +1,3 @@
-<a href="//www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=' + encodeURIComponent(window.location); return false">
-  <img src="//www.redditstatic.com/spreddit10.gif" alt="submit to reddit" border="0" />
+<a href="https://www.reddit.com/submit?url={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}&title={% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}" target="_blank">
+  <img src="/images/reddit-this.gif" alt="reddit this" />
 </a>
