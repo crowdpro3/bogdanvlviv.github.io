@@ -19,15 +19,15 @@ I saw a many posts about *"Decorator Pattern in Ruby"*, such as
 
 and asked myself - "What is the best realization of the Decorator Pattern in Ruby?".
 
-I prefer to use `SimpleDelegator` for building an Decorators in Ruby.
+I prefer to use [`SimpleDelegator`](https://docs.ruby-lang.org/en/2.3.0/SimpleDelegator.html) for building an Decorators in Ruby.
 I think it is the best way.
 
 You can ask me "Why do you think so?".
-The main reasons to think so is - `SimpleDelegator` is in standard library of Ruby, It deserves respect and gives confidence for using.
+The main reasons to think so is - [`SimpleDelegator`](https://docs.ruby-lang.org/en/2.3.0/SimpleDelegator.html) is in standard library of Ruby, It deserves respect and gives confidence for using.
 Everybody can care and help in improving it.
 It is simple, just open pull pequest in [Ruby repository](https://github.com/ruby/ruby) on [GitHub](https://github.com). There is one pull request of mine [#1454](https://github.com/ruby/ruby/pull/1454). ;)
 
-I think you will get correct thoughts for yourself after reading the docs about `SimpleDelegator` in Ruby and some posts about *"Decorator Pattern in Ruby"*. This post only my thoughts about it. Thanks!
+I think you will get correct thoughts for yourself after reading the docs about [`SimpleDelegator`](https://docs.ruby-lang.org/en/2.3.0/SimpleDelegator.html) in Ruby and some posts about *"Decorator Pattern in Ruby"*. This post only my thoughts about it. Thanks!
 
 > NOTE: Please read about the Ruby class [`SimpleDelegator`](https://docs.ruby-lang.org/en/2.3.0/SimpleDelegator.html) and its parent class [`Delegator`](https://docs.ruby-lang.org/en/2.3.0/Delegator.html) to understand how it works.
 
