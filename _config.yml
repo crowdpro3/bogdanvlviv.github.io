@@ -6,6 +6,7 @@ baseurl: ""
 url: "https://bogdanvlviv.github.io"
 twitter_username: bogdanvlviv
 github_username: bogdanvlviv
+gitlab_username: bogdanvlviv
 
 # Build settings
 markdown: kramdown

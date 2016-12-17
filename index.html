@@ -11,7 +11,7 @@ layout: default
           <time datetime="{{ post.date }}" itemprop="datePublished">{{ post.date | date: "%B %-d, %Y" }}</time>
         </span>
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
         </h2>
       </li>
     {% endfor %}
