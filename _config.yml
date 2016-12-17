@@ -7,6 +7,8 @@ url: "https://bogdanvlviv.github.io"
 twitter_username: bogdanvlviv
 github_username: bogdanvlviv
 gitlab_username: bogdanvlviv
+disqus_username: bogdanvlviv
+clicky_site_id: 100995792
 
 # Build settings
 markdown: kramdown
