@@ -8,7 +8,7 @@ permalink: /:categories/:title.html
 ---
 
 This post is based on design patterns, that are described in the excellent book - ["Design Patterns in Ruby" (by Russ Olsen)](https://www.amazon.com/Design-Patterns-Ruby-Addison-Wesley-Professional/dp/0321490452).
-When i was reading the book, i decided to write brief post that shows UML diagram and realization for some pattern described in the book, and add some tips in which way would be better, on my opinion, to realize some patterns in Ruby. Also i use description of each pattern from the book by [The "Gang of Four"](http://wiki.c2.com/?GangOfFour) - ["Design Patterns: Elements of Reusable Object-Oriented Software (by Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides)"](http://wiki.c2.com/?DesignPatternsBook). I think this post is good idea and it will be useful for someone and for me, is not it?
+When i was reading the book, i decided to write brief post that shows UML diagram and realization for some patterns, and add some tips in which way would be better, on my opinion, to realize some patterns in Ruby. Also i use description of each pattern from the book by [The "Gang of Four"](http://wiki.c2.com/?GangOfFour) - ["Design Patterns: Elements of Reusable Object-Oriented Software (by Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides)"](http://wiki.c2.com/?DesignPatternsBook). I think this post is good idea and it will be useful for someone and for me, is not it?
 
 > NOTE: [I asked about permission](https://twitter.com/bogdanvlviv/status/807289812805963776) to use content from ["Design Patterns in Ruby" (by Russ Olsen)](https://www.amazon.com/Design-Patterns-Ruby-Addison-Wesley-Professional/dp/0321490452) in this post. Thanks for the permission [@russolsen](https://twitter.com/russolsen)!
 
@@ -128,10 +128,10 @@ class Habitat
   end
 
   def simulate_one_day
-    @plants.each {|plant| plant.grow}
-    @animals.each {|animal| animal.speak}
-    @animals.each {|animal| animal.eat}
-    @animals.each {|animal| animal.sleep}
+    @plants.each { |plant| plant.grow }
+    @animals.each { |animal| animal.speak }
+    @animals.each { |animal| animal.eat }
+    @animals.each { |animal| animal.sleep }
   end
 end
 ```
@@ -161,10 +161,10 @@ end
 ```
 
 ```ruby
-jungle = Habitat.new(1, 4, JungleOrganismFactory.new)
+jungle = Habitat.new(JungleOrganismFactory.new, number_animals: 1, number_plants: 4)
 jungle.simulate_one_day
 
-pond = Habitat.new( 2, 4, PondOrganismFactory.new)
+pond = Habitat.new(PondOrganismFactory.new, number_animals: 2, number_plants: 4)
 pond.simulate_one_day
 ```
 
