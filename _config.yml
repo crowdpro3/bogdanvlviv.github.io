@@ -9,6 +9,7 @@ github_username: bogdanvlviv
 gitlab_username: bogdanvlviv
 disqus_username: bogdanvlviv
 clicky_site_id: 100995792
+google_analytics_id: "UA-89178612-1"
 
 # Build settings
 markdown: kramdown
