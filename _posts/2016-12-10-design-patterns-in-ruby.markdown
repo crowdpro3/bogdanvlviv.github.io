@@ -12,6 +12,8 @@ When i was reading the book, i decided to write brief post that shows UML diagra
 
 > NOTE: [I asked about permission](https://twitter.com/bogdanvlviv/status/807289812805963776) to use content from ["Design Patterns in Ruby" (by Russ Olsen)](https://www.amazon.com/Design-Patterns-Ruby-Addison-Wesley-Professional/dp/0321490452) in this post. Thanks for the permission [@russolsen](https://twitter.com/russolsen)!
 
+> NOTE:  Not all of the patterns are covered in the book ["Design Patterns in Ruby" (by Russ Olsen)](https://www.amazon.com/Design-Patterns-Ruby-Addison-Wesley-Professional/dp/0321490452). There really was a number of reasons. Read the post ["The Lost Patterns"](http://designpatternsinruby.com/blog/2015/01/13/lost/) for more information.
+
 ## Patterns
 
 - Creational
