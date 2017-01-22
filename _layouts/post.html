@@ -13,6 +13,9 @@ layout: default
         {% include twitter-share-button.html %}
       </li>
       <li>
+        {% include google-share-button.html %}
+      </li>
+      <li>
         {% include reddit-this.html %}
       </li>
     </ul>
@@ -25,6 +28,8 @@ layout: default
 </article>
 
 {% include twitter.html %}
+
+{% include google.html %}
 
 {% if page.comments %}
 {% include disqus.html %}
