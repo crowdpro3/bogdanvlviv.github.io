@@ -49,7 +49,7 @@ When i was reading the book, i decided to write brief post that shows UML diagra
 Creates an instance of several families of classes. Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
 
 <div class="picture">
-  <img src="{{ "/images/posts/ruby/patterns/design-patterns-in-ruby/abstract-factory_pattern.png" | prepend: site.baseurl | prepend: site.url }}" title="Abstract Factory pattern">
+  <img src="{{ "/images/posts/ruby/patterns/design-patterns-in-ruby/abstract-factory_pattern.png" | absolute_url }}" title="Abstract Factory pattern">
 </div>
 
 Example:
@@ -174,7 +174,7 @@ pond.simulate_one_day
 Separates object construction from its representation. Separate the construction of a complex object from its representation so that the same construction processes can create different representations.
 
 <div class="picture">
-  <img src="{{ "/images/posts/ruby/patterns/design-patterns-in-ruby/builder_pattern.png" | prepend: site.baseurl | prepend: site.url }}" title="Builder pattern">
+  <img src="{{ "/images/posts/ruby/patterns/design-patterns-in-ruby/builder_pattern.png" | absolute_url }}" title="Builder pattern">
 </div>
 
 Example:
@@ -283,7 +283,7 @@ computer = builder.computer
 Creates an instance of several derived classes. Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
 
 <div class="picture">
-  <img src="{{ "/images/posts/ruby/patterns/design-patterns-in-ruby/factory-method_pattern.png" | prepend: site.baseurl | prepend: site.url }}" title="Factory Method pattern">
+  <img src="{{ "/images/posts/ruby/patterns/design-patterns-in-ruby/factory-method_pattern.png" | absolute_url }}" title="Factory Method pattern">
 </div>
 
 Example:
@@ -442,7 +442,7 @@ Using [`Singleton`](https://docs.ruby-lang.org/en/2.3.0/Singleton.html) module f
 Match interfaces of different classes. Convert the interface of a class into another interface clients expect. Adapter lets classes work together that couldn’t otherwise because of incompatible interfaces.
 
 <div class="picture">
-  <img src="{{ "/images/posts/ruby/patterns/design-patterns-in-ruby/adapter_pattern.png" | prepend: site.baseurl | prepend: site.url }}" title="Adapter pattern">
+  <img src="{{ "/images/posts/ruby/patterns/design-patterns-in-ruby/adapter_pattern.png" | absolute_url }}" title="Adapter pattern">
 </div>
 
 Example:
@@ -508,7 +508,7 @@ Separates an object’s interface from its implementation. Decouple an abstracti
 A tree structure of simple and composite objects. Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
 
 <div class="picture">
-  <img src="{{ "/images/posts/ruby/patterns/design-patterns-in-ruby/composite_pattern.png" | prepend: site.baseurl | prepend: site.url }}" title="Composite pattern">
+  <img src="{{ "/images/posts/ruby/patterns/design-patterns-in-ruby/composite_pattern.png" | absolute_url }}" title="Composite pattern">
 </div>
 
 Example:
@@ -650,10 +650,10 @@ end
 Add responsibilities to objects dynamically. Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
 
 <div class="picture">
-  <img src="{{ "/images/posts/ruby/patterns/design-patterns-in-ruby/decorator_pattern.png" | prepend: site.baseurl | prepend: site.url }}" title="Decorator pattern">
+  <img src="{{ "/images/posts/ruby/patterns/design-patterns-in-ruby/decorator_pattern.png" | absolute_url }}" title="Decorator pattern">
 </div>
 
-I think to use [`SimpleDelegator`](https://docs.ruby-lang.org/en/2.3.0/SimpleDelegator.html) class for realizing Decorator pattern in Ruby is good idea. You can read my post ["Decorator Pattern in Ruby"]({{ "/posts/ruby/patterns/decorator-pattern-in-ruby.html" | prepend: site.baseurl | prepend: site.url }}) for more information.
+I think to use [`SimpleDelegator`](https://docs.ruby-lang.org/en/2.3.0/SimpleDelegator.html) class for realizing Decorator pattern in Ruby is good idea. You can read my post ["Decorator Pattern in Ruby"]({{ "/posts/ruby/patterns/decorator-pattern-in-ruby.html" | absolute_url }}) for more information.
 
 Also good idea to use  [`Forwardable`](https://docs.ruby-lang.org/en/2.3.0/Forwardable.html) module for realizing Decorator pattern in Ruby.
 
@@ -670,7 +670,7 @@ A fine-grained instance used for efficient sharing. Use sharing to support large
 An object representing another object. Provide a surrogate or placeholder for another object to control access to it.
 
 <div class="picture">
-  <img src="{{ "/images/posts/ruby/patterns/design-patterns-in-ruby/proxy_pattern.png" | prepend: site.baseurl | prepend: site.url }}" title="Proxy pattern">
+  <img src="{{ "/images/posts/ruby/patterns/design-patterns-in-ruby/proxy_pattern.png" | absolute_url }}" title="Proxy pattern">
 </div>
 
 Example:
@@ -744,7 +744,7 @@ A way of passing a request between a chain of objects. Avoid coupling the sender
 Encapsulate a command request as an object. Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.
 
 <div class="picture">
-  <img src="{{ "/images/posts/ruby/patterns/design-patterns-in-ruby/command_pattern.png" | prepend: site.baseurl | prepend: site.url }}" title="Command pattern">
+  <img src="{{ "/images/posts/ruby/patterns/design-patterns-in-ruby/command_pattern.png" | absolute_url }}" title="Command pattern">
 </div>
 
 Example:
@@ -812,7 +812,7 @@ end
 A way to include language elements in a program. Given a language, define a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language.
 
 <div class="picture">
-  <img src="{{ "/images/posts/ruby/patterns/design-patterns-in-ruby/interpreter_pattern.png" | prepend: site.baseurl | prepend: site.url }}" title="Interpreter pattern">
+  <img src="{{ "/images/posts/ruby/patterns/design-patterns-in-ruby/interpreter_pattern.png" | absolute_url }}" title="Interpreter pattern">
 </div>
 
 Example:
@@ -1047,7 +1047,7 @@ Capture and restore an object's internal state. Without violating encapsulation,
 A way of notifying change to a number of classes. Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
 
 <div class="picture">
-  <img src="{{ "/images/posts/ruby/patterns/design-patterns-in-ruby/observer_pattern.png" | prepend: site.baseurl | prepend: site.url }}" title="Observer pattern">
+  <img src="{{ "/images/posts/ruby/patterns/design-patterns-in-ruby/observer_pattern.png" | absolute_url }}" title="Observer pattern">
 </div>
 
 Example:
@@ -1132,7 +1132,7 @@ Alter an object's behavior when its state changes. Allow an object to alter its 
 Encapsulates an algorithm inside a class. Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
 
 <div class="picture">
-  <img src="{{ "/images/posts/ruby/patterns/design-patterns-in-ruby/strategy_pattern.png" | prepend: site.baseurl | prepend: site.url }}" title="Strategy pattern">
+  <img src="{{ "/images/posts/ruby/patterns/design-patterns-in-ruby/strategy_pattern.png" | absolute_url }}" title="Strategy pattern">
 </div>
 
 Example:
@@ -1204,7 +1204,7 @@ report.output_report
 Defer the exact steps of an algorithm to a subclass. Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm’s structure.
 
 <div class="picture">
-  <img src="{{ "/images/posts/ruby/patterns/design-patterns-in-ruby/template_method_pattern.png" | prepend: site.baseurl | prepend: site.url }}" title="Template Method pattern">
+  <img src="{{ "/images/posts/ruby/patterns/design-patterns-in-ruby/template_method_pattern.png" | absolute_url }}" title="Template Method pattern">
 </div>
 
 Example:
@@ -1326,7 +1326,7 @@ Defines a new operation to a class without change. Represent an operation to be 
 
 ## Acknowledgment
 <div class="picture">
-  <img src="{{ "/images/posts/ruby/patterns/design-patterns-in-ruby/main.jpg"  | prepend: site.baseurl | prepend: site.url }}" title='"Design Patterns in Ruby" (by Russ Olsen)'>
+  <img src="{{ "/images/posts/ruby/patterns/design-patterns-in-ruby/main.jpg"  | absolute_url }}" title='"Design Patterns in Ruby" (by Russ Olsen)'>
 </div>
 
 Thanks for the book [@russolsen](https://twitter.com/russolsen)!

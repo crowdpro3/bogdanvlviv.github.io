@@ -11,7 +11,7 @@ permalink: /:categories/:title.html
 Вирішив занотувати свій 2016-ий рік, деякі думки, зміни, провали і досягнення.
 
 <div class="picture">
-  <img src="{{ "/images/posts/life/my-2016/karpaty.jpg" | prepend: site.baseurl | prepend: site.url }}" title="Karpaty">
+  <img src="{{ "/images/posts/life/my-2016/karpaty.jpg" | absolute_url }}" title="Karpaty">
 </div>
 
 2016 став переломним роком для мене.
@@ -89,7 +89,7 @@ index 09d55ad..a20d7e0 100644
 
 > Є речі, які не залежать від часу. (Перший реліз vi, був у 1976-ці)
 <div class="picture">
-  <img src="{{ "/images/posts/life/my-2016/ubuntu-tmux-vim.png" | prepend: site.baseurl | prepend: site.url }}" title="Ubuntu, tmux, vim">
+  <img src="{{ "/images/posts/life/my-2016/ubuntu-tmux-vim.png" | absolute_url }}" title="Ubuntu, tmux, vim">
 </div>
 
 Я оформив конфігурації для vim, tmux, xterm, як окремі репозиторії, для більшої гнучкості в їх підтримці і використанні.
@@ -103,7 +103,7 @@ index 09d55ad..a20d7e0 100644
 > "Розкласти все по поличках" - це те що потрібно!
 
 <div class="picture">
-  <img src="{{ "/images/posts/life/my-2016/workplace.jpg" | prepend: site.baseurl | prepend: site.url }}" title="Workplace">
+  <img src="{{ "/images/posts/life/my-2016/workplace.jpg" | absolute_url }}" title="Workplace">
 </div>
 
 2016-ий рік був для мене роком "опен сорсу" (Open Source). Як і в Rails, мені вдалось зробити внесок ще в декілька проектів, включаючи мої особисті:
@@ -124,10 +124,10 @@ index 09d55ad..a20d7e0 100644
 - [tolk](https://github.com/tolk/tolk/commits/master?author=bogdanvlviv)
 
 <div class="picture">
-  <img src="{{ "/images/posts/life/my-2016/github-473-2016.png" | prepend: site.baseurl | prepend: site.url }}" title="GitHub - bogdanvlviv - 2016">
+  <img src="{{ "/images/posts/life/my-2016/github-473-2016.png" | absolute_url }}" title="GitHub - bogdanvlviv - 2016">
 </div>
 
-Протягом 2016-го року, я написав дві статті - ["Decorator Pattern in Ruby"]({{ "/posts/ruby/patterns/decorator-pattern-in-ruby.html" | prepend: site.baseurl | prepend: site.url }}) і ["Design Patterns in Ruby"]({{ "/posts/ruby/patterns/design-patterns-in-ruby.html" | prepend: site.baseurl | prepend: site.url }}).
+Протягом 2016-го року, я написав дві статті - ["Decorator Pattern in Ruby"]({{ "/posts/ruby/patterns/decorator-pattern-in-ruby.html" | absolute_url }}) і ["Design Patterns in Ruby"]({{ "/posts/ruby/patterns/design-patterns-in-ruby.html" | absolute_url }}).
 Публікування навчальних статей - це не тільки хороша методика засвоїти знання, це хороша справа, ми ділимось своїми знаннями, що в свою чергу допомагає рухати цей світ вперед.
 
 > Знання нічого не варті, якщо їх не використовувати і ними не ділитись.

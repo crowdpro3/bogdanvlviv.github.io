@@ -1,6 +1,17 @@
 /**
  * Icons
  */
+.icon--without-fill > svg {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.social-media-list {
+  .icon--without-fill {
+    padding-right: 5px;
+  }
+}
+
 .icon--github > svg {
   path {
     fill: $github-icon-color;

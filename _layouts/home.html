@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="home">
+  <h1 class="page-heading">Posts</h1>
+
+  {{ content }}
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | absolute_url }}">via RSS</a></p>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">
+          <time datetime="{{ post.date }}" itemprop="datePublished">{{ post.date | date: site.date_format }}</time>
+        </span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | absolute_url }}">{{ post.title | escape }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

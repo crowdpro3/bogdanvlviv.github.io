@@ -9,7 +9,7 @@ permalink: /:categories/:title.html
 
 Welcome to my website!
 
-I built [{{ site.title }}]({{ site.baseurl | prepend: site.url }}) with Jekyll.
+I built [{{ site.title }}]({{ absolute_url }}) with Jekyll.
 
 Check out the [Jekyll][jekyll] for more info. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh].
 

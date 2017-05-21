@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+// Define defaults for each variable.
+
+$github-icon-color:  #24292e !default;
+$twitter-icon-color: #1da1f2 !default;
+
+// Import partials.
+@import
+  "bogdanvlviv/base",
+  "bogdanvlviv/layout"
+;
