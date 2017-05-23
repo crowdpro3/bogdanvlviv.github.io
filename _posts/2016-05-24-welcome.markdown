@@ -9,7 +9,7 @@ permalink: /:categories/:title.html
 
 Welcome to my website!
 
-I built [{{ site.title }}]({{ "/index.html" | absolute_url }}) with Jekyll and theme Minima.
+I built [{{ site.title }}]({{ "/index.html" | absolute_url }}) with Jekyll and Minima.
 
 Check out the [Jekyll][jekyll] for more info. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh].
 
