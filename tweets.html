@@ -4,6 +4,7 @@ title: "Tweets"
 permalink: /tweets.html
 ---
 
+{% if site.twitter_username %}
 <div class="tweets">
   <p>
     <a href="https://twitter.com/{{ site.twitter_username }}" class="twitter-follow-button" data-show-count="false" data-size="large" data-lang="en" target="_blank">
@@ -19,3 +20,4 @@ permalink: /tweets.html
 </div>
 
 {% include twitter.html %}
+{% endif %}
