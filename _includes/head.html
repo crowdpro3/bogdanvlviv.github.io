@@ -28,4 +28,6 @@
   <meta property="og:title" content="{{ page.title | default: site.title | escape }}" />
   <meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 280 | escape }}" />
   <meta property="og:image" content="{{ page.share_image | default: site.share_image | absolute_url }}" />
+
+  {% include google-analytics.html %}
 </head>
