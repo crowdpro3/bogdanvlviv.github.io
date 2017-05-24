@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: "en"
 title: "New method Kernel#yield_self (since Ruby 2.5.0)"
 date: 2017-05-11 21:44:00 +0300
 categories: posts ruby

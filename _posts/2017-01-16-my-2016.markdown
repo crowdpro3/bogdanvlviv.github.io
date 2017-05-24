@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: "uk"
 title: "Мій 2016 (git show 2016)"
 share_image: "/images/posts/life/my-2016/karpaty.jpg"
 date: 2017-01-16 17:29:00 +0200
