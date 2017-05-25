@@ -82,3 +82,12 @@
 .post-link {
   @include relative-font-size(1.1875);
 }
+
+
+
+/**
+ * Posts
+ */
+.post-title {
+  @include relative-font-size(1.25);
+}
