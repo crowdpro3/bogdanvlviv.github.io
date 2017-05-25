@@ -7,7 +7,9 @@ layout: default
 
   {{ content }}
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | absolute_url }}">via RSS</a></p>
+  <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | absolute_url }}">via RSS</a></p>
+
+  <p class="email-subscribe"><a href="{{ "/subscribe.html" | absolute_url }}">Subscribe to my mailing list</a></p>
 
   <ul class="post-list">
     {% for post in site.posts %}
