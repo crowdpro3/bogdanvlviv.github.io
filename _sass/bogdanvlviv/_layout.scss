@@ -73,3 +73,12 @@
 
 .tweets {
 }
+
+
+
+/**
+ * Page content
+ */
+.post-link {
+  @include relative-font-size(1.1875);
+}
