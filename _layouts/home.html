@@ -9,7 +9,9 @@ layout: default
 
   <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | absolute_url }}">via RSS</a></p>
 
-  <p class="email-subscribe"><a href="{{ "/subscribe.html" | absolute_url }}">Subscribe to my mailing list</a></p>
+  {% if site.mailchimp_signup_form_url %}
+  <p class="email-subscribe"><a href="{{ site.mailchimp_signup_form_url }}">Subscribe to my mailing list</a></p>
+  {% endif %}
 
   <ul class="post-list">
     {% for post in site.posts %}
