@@ -79,8 +79,13 @@
 /**
  * Page content
  */
+.page-heading {
+  line-height: 1;
+}
+
 .post-link {
   @include relative-font-size(1.1875);
+  line-height: 1;
 }
 
 
@@ -90,4 +95,5 @@
  */
 .post-title {
   @include relative-font-size(1.25);
+  letter-spacing: 0px;
 }
