@@ -19,6 +19,7 @@ Let's refresh our knowledge about the methods [`Array#push`](https://docs.ruby-l
 > **push(obj, ... )** => **ary**
 >
 > Append — Pushes the given object(s) on to the end of this array. This expression returns the array itself, so several appends may be chained together. See also [#pop](https://docs.ruby-lang.org/en/trunk/Array.html#method-i-pop) for the opposite effect.
+
 ```ruby
 a = [ "a", "b", "c" ]
 a.push("d", "e", "f")
@@ -30,6 +31,7 @@ a.push("d", "e", "f")
 > **unshift(obj, ...)** => **ary**
 >
 > Prepends objects to the front of self, moving other elements upwards. See also [#shift](https://docs.ruby-lang.org/en/trunk/Array.html#method-i-shift) for the opposite effect.
+
 ```ruby
 a = [ "b", "c", "d" ]
 a.unshift("a")   #=> ["a", "b", "c", "d"]
