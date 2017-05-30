@@ -17,10 +17,10 @@ Ruby is going to introduce new method [`Kernel#yield_self`](https://docs.ruby-la
 Example:
 
 ```ruby
-(1..10)                  .tap {|x| puts "original: #{x}" }
-  .to_a                  .tap {|x| puts "array:    #{x}" }
-  .select {|x| x.even? } .tap {|x| puts "evens:    #{x}" }
-  .map {|x| x*x }        .tap {|x| puts "squares:  #{x}" }
+(1..10)                   .tap { |x| puts "original: #{x}" }
+  .to_a                   .tap { |x| puts "array:    #{x}" }
+  .select { |x| x.even? } .tap { |x| puts "evens:    #{x}" }
+  .map { |x| x*x }        .tap { |x| puts "squares:  #{x}" }
 # => original: 1..10
 # => array:    [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 # => evens:    [2, 4, 6, 8, 10]
