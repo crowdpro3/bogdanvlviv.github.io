@@ -18,8 +18,6 @@ lang: "en"
 
 # Build settings
 markdown: kramdown
-gems:
-  - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock
