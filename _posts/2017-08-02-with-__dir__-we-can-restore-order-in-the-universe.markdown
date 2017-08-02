@@ -20,7 +20,7 @@ Let's take a look at the method [`Kernel#__dir__`](https://docs.ruby-lang.org/en
 
 This method was introduced in Ruby since version 2.0.0 ([NEWS for Ruby 2.0.0](https://docs.ruby-lang.org/en/2.0.0/NEWS.html)).
 
-More info about development [`Kernel#__dir__`](https://docs.ruby-lang.org/en/2.4.0/Kernel.html#method-i-__dir__) here: [Feature #1961](https://bugs.ruby-lang.org/issues/1961).
+More info about development of [`Kernel#__dir__`](https://docs.ruby-lang.org/en/2.4.0/Kernel.html#method-i-__dir__) here: [Feature #1961](https://bugs.ruby-lang.org/issues/1961).
 
 Since [Ruby 2.0.0](https://docs.ruby-lang.org/en/2.0.0) it is time to define relative paths with `__dir__` and refactor all definitions of relative paths with `__FILE__`.
 
@@ -113,4 +113,4 @@ Also, I got applause from [@fxn](https://twitter.com/fxn) for my [Pull Request](
 
 <iframe src="https://www.youtube.com/embed/P4hPUAY05nE?start=1553&end=1596" frameborder="0" allowfullscreen></iframe>
 
-Hope you got inspiration from my little story related to `__dir__` and you will find time for providing a patch with definitions of relative paths with `__dir__` to projects that you often use, it will help to "restore order in the Universe".
+Hope you got inspiration from my little story that related to `__dir__` and you will find time for providing a patch with definitions of relative paths with `__dir__` to projects that you often use, it will help to "restore order in the Universe". I am sure that you will get applause too if you do it. ;)
