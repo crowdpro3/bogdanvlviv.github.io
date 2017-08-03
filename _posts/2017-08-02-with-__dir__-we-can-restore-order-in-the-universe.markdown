@@ -24,6 +24,28 @@ More info about development of [`Kernel#__dir__`](https://docs.ruby-lang.org/en/
 
 Since [Ruby 2.0.0](https://docs.ruby-lang.org/en/2.0.0) it is time to define relative paths with `__dir__` and refactor all definitions of relative paths with `__FILE__`.
 
+Why is `__dir__` better than `__FILE__` for a definition of path?
+
+Imagine there is folder `project/` that contains files: `Rakefile`, `application.rb`.
+Inside the file `Rakefile` need to get the path to the file `application.rb`. We can do it by using `__FILE__`:
+
+```ruby
+File.expand_path('../application.rb', __FILE__)
+```
+
+There is the definition of path to the file `application.rb` by using `__dir__`:
+
+```ruby
+File.expand_path('application.rb', __dir__)
+```
+
+By using `__dir__` we get rid of redundant `../`. Looks better, isn't it?
+The result of these definitions is the same, but if we need number `5`, we don't type `3+2` or `1+4`.
+
+`__FILE__` is definitely better than `File.expand_path('Rakefile', __dir__)` when inside the file `Rakefile` need to get the path to the file `Rakefile`(the current file).
+
+It is important not to do and get rid of needless things in a code!
+
 Examples of refactoring with `__dir__`:
 
 ```diff
