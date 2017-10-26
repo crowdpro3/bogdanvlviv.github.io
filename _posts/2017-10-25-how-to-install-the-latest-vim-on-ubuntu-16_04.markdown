@@ -9,6 +9,10 @@ comments: true
 permalink: /:categories/:title.html
 ---
 
+<div class="picture">
+  <img src="{{ "/images/posts/vim/how-to-install-the-latest-vim-on-ubuntu-16_04/vim.png" | absolute_url }}" title="Vim">
+</div>
+
 ## What is Vim?
 
 Vim is a highly configurable text editor built to enable efficient text editing. It is an improved version of the vi editor distributed with most UNIX systems. [Read more](https://vim.sourceforge.io/about.php).
