@@ -56,19 +56,19 @@ $ git clone https://github.com/vim/vim.git /tmp/vim
 Compile the Vim binaries:
 
 ```bash
-make -C /tmp/vim
+$ make -C /tmp/vim
 ```
 
 Install the binaries into the system:
 
 ```bash
-sudo make install -C /tmp/vim
+$ sudo make install -C /tmp/vim
 ```
 
 We don't need to keep the downloaded Vim binaries, so we can remove `/tmp/vim`:
 
 ```bash
-rm -fr /tmp/vim
+$ rm -fr /tmp/vim
 ```
 
 Successfully finishing all steps above we can use the latest `vim`. Enjoy!
