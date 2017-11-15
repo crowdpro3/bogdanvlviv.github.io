@@ -32,13 +32,14 @@ $ sudo apt install -y git
 ```
 
 In order to get the latest version of tmux, we'll be compiling and installing the software from source. We need to satisfy the build and tmux dependencies so that we can compile the software.
-To do this, we can install the `build-essential`, `libevent-dev`, `pkg-config`, `automake` packages:
+To do this, we can install the `build-essential`, `libevent-dev`, `pkg-config`, `automake`, `libncurses5-dev` packages:
 
 ```bash
 $ sudo apt install -y build-essential
 $ sudo apt install -y libevent-dev
 $ sudo apt install -y pkg-config
 $ sudo apt install -y automake
+$ sudo apt install -y libncurses5-dev
 ```
 
 ## Download, compile and install tmux
@@ -107,6 +108,7 @@ sudo apt install -y build-essential
 sudo apt install -y libevent-dev
 sudo apt install -y pkg-config
 sudo apt install -y automake
+sudo apt install -y libncurses5-dev
 
 rm -fr /tmp/tmux
 
