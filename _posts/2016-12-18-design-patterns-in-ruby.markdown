@@ -9,8 +9,10 @@ comments: true
 permalink: /:categories/:title.html
 ---
 
+> Read ["Object-Oriented Design Patterns in Life"](http://www.sihui.io/design-patterns).
+
 This post is based on design patterns, that are described in the excellent book - ["Design Patterns in Ruby" (by Russ Olsen)](https://www.amazon.com/Design-Patterns-Ruby-Addison-Wesley-Professional/dp/0321490452).
-When i was reading the book, i decided to write brief post that shows UML diagram and realization for some patterns, and add some tips in which way would be better, on my opinion, to realize some patterns in Ruby. Also i use description of each pattern from the book by [The "Gang of Four"](http://wiki.c2.com/?GangOfFour) - ["Design Patterns: Elements of Reusable Object-Oriented Software (by Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides)"](http://wiki.c2.com/?DesignPatternsBook). I think this post is good idea and it will be useful for someone and for me, is not it?
+When i was reading the book, i decided to write brief post that shows UML diagram and realization for some patterns, and add some tips in which way would be better, on my opinion, to realize some patterns in Ruby. Also i use description of each pattern from the book by [The "Gang of Four"](http://wiki.c2.com/?GangOfFour) - ["Design Patterns: Elements of Reusable Object-Oriented Software (by Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides)"](http://wiki.c2.com/?DesignPatternsBook). I think this post is a good idea and it will be useful for someone and for me.
 
 > NOTE: [I asked about permission](https://twitter.com/bogdanvlviv/status/807289812805963776) to use content from ["Design Patterns in Ruby" (by Russ Olsen)](https://www.amazon.com/Design-Patterns-Ruby-Addison-Wesley-Professional/dp/0321490452) in this post. Thanks for the permission [@russolsen](https://twitter.com/russolsen)!
 
@@ -436,7 +438,7 @@ A fully initialized instance to be copied or cloned. Specify the kinds of object
 
 A class of which only a single instance can exist. Ensure a class only has one instance, and provide a global point of access to it.
 
-Using [`Singleton`](https://docs.ruby-lang.org/en/2.3.0/Singleton.html) module for realizing Singleton pattern in Ruby is good idea.
+Using [`Singleton`](https://docs.ruby-lang.org/en/2.3.0/Singleton.html) module for realizing Singleton pattern in Ruby is a good idea.
 
 ### Adapter
 
@@ -654,7 +656,7 @@ Add responsibilities to objects dynamically. Attach additional responsibilities 
   <img src="{{ "/images/posts/ruby/patterns/design-patterns-in-ruby/decorator_pattern.png" | absolute_url }}" title="Decorator pattern">
 </div>
 
-I think to use [`SimpleDelegator`](https://docs.ruby-lang.org/en/2.3.0/SimpleDelegator.html) class for realizing Decorator pattern in Ruby is good idea. You can read my post ["Decorator Pattern in Ruby"]({{ "/posts/ruby/patterns/decorator-pattern-in-ruby.html" | absolute_url }}) for more information.
+I think to use [`SimpleDelegator`](https://docs.ruby-lang.org/en/2.3.0/SimpleDelegator.html) class for realizing Decorator pattern in Ruby is a good idea. You can read my post ["Decorator Pattern in Ruby"]({{ "/posts/ruby/patterns/decorator-pattern-in-ruby.html" | absolute_url }}) for more information.
 
 Also good idea to use  [`Forwardable`](https://docs.ruby-lang.org/en/2.3.0/Forwardable.html) module for realizing Decorator pattern in Ruby.
 
@@ -1122,7 +1124,7 @@ fred.salary = 90000.0
 ```
 
 The Ruby standard library comes with a fine, prebuilt [`Observable`](https://docs.ruby-lang.org/en/2.3.0/Observable.html) module that provides all of the support you need to make your object, well, observable.
-I think to use [`Observable`](https://docs.ruby-lang.org/en/2.3.0/Observable.html) module for realizing Observer pattern in Ruby is good idea.
+I think to use [`Observable`](https://docs.ruby-lang.org/en/2.3.0/Observable.html) module for realizing Observer pattern in Ruby is a good idea.
 
 ### State
 
