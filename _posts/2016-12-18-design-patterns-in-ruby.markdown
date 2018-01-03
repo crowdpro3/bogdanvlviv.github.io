@@ -9,14 +9,14 @@ comments: true
 permalink: /:categories/:title.html
 ---
 
-> Read ["Object-Oriented Design Patterns in Life"](http://www.sihui.io/design-patterns).
-
 This post is based on design patterns, that are described in the excellent book - ["Design Patterns in Ruby" (by Russ Olsen)](https://www.amazon.com/Design-Patterns-Ruby-Addison-Wesley-Professional/dp/0321490452).
 When i was reading the book, i decided to write brief post that shows UML diagram and realization for some patterns, and add some tips in which way would be better, on my opinion, to realize some patterns in Ruby. Also i use description of each pattern from the book by [The "Gang of Four"](http://wiki.c2.com/?GangOfFour) - ["Design Patterns: Elements of Reusable Object-Oriented Software (by Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides)"](http://wiki.c2.com/?DesignPatternsBook). I think this post is a good idea and it will be useful for someone and for me.
 
 > NOTE: [I asked about permission](https://twitter.com/bogdanvlviv/status/807289812805963776) to use content from ["Design Patterns in Ruby" (by Russ Olsen)](https://www.amazon.com/Design-Patterns-Ruby-Addison-Wesley-Professional/dp/0321490452) in this post. Thanks for the permission [@russolsen](https://twitter.com/russolsen)!
 
 > NOTE:  Not all of the patterns are covered in the book ["Design Patterns in Ruby" (by Russ Olsen)](https://www.amazon.com/Design-Patterns-Ruby-Addison-Wesley-Professional/dp/0321490452). There really was a number of reasons. Read the post ["The Lost Patterns"](http://designpatternsinruby.com/blog/2015/01/13/lost/) for more information.
+
+> Read ["Object-Oriented Design Patterns in Life"](http://www.sihui.io/design-patterns).
 
 ## Patterns
 
