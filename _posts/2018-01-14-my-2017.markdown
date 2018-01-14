@@ -1,0 +1,105 @@
+---
+layout: post
+lang: "uk"
+title: "Мій 2017"
+share_image: "/images/posts/life/my-2017/lviv-town-hall.jpg"
+date: 2018-01-14 19:49:00 +0200
+categories: posts life
+comments: true
+permalink: /:categories/:title.html
+---
+
+<div class="picture">
+  <img src="{{ "/images/posts/life/my-2017/lviv-town-hall.jpg" | absolute_url }}" title="Lviv Town Hall">
+</div>
+
+2017-ий був продуктивним.
+
+<div class="picture">
+  <img src="{{ "/images/posts/life/my-2017/github-1399-2017.png" | absolute_url }}" title="GitHub - bogdanvlviv - 2017">
+</div>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">My last 2 weeks were productive. <a href="https://t.co/HnfiDQ0NyR">pic.twitter.com/HnfiDQ0NyR</a></p>&mdash; Bogdan (@bogdanvlviv) <a href="https://twitter.com/bogdanvlviv/status/898980474290266112?ref_src=twsrc%5Etfw">August 19, 2017</a></blockquote>
+
+Навчився змінювати колесо на автомобілі.
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">first 1000 km are behind. <a href="https://t.co/qixiJdjDi6">pic.twitter.com/qixiJdjDi6</a></p>&mdash; Bogdan (@bogdanvlviv) <a href="https://twitter.com/bogdanvlviv/status/846009888736235520?ref_src=twsrc%5Etfw">March 26, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="und" dir="ltr"><a href="https://twitter.com/hashtag/coffee?src=hash&amp;ref_src=twsrc%5Etfw">#coffee</a> ☕, <a href="https://twitter.com/hashtag/morning?src=hash&amp;ref_src=twsrc%5Etfw">#morning</a> <a href="https://t.co/XVb4OLSTuK">pic.twitter.com/XVb4OLSTuK</a></p>&mdash; Bogdan (@bogdanvlviv) <a href="https://twitter.com/bogdanvlviv/status/859984511660171265?ref_src=twsrc%5Etfw">May 4, 2017</a></blockquote>
+
+Провів курс по [Ruby on Rails](http://rubyonrails.org).
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="uk" dir="ltr">cьогодні стартували курси live-idea-2017 <a href="https://t.co/CINoLH5JkS">https://t.co/CINoLH5JkS</a> <a href="https://t.co/tvKdfUDWmm">pic.twitter.com/tvKdfUDWmm</a></p>&mdash; Bogdan (@bogdanvlviv) <a href="https://twitter.com/bogdanvlviv/status/830498469320196099?ref_src=twsrc%5Etfw">February 11, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">There we go! 🎉 live-idea-2017 <a href="https://t.co/CINoLH5JkS">https://t.co/CINoLH5JkS</a> <a href="https://t.co/OveLvmexd7">pic.twitter.com/OveLvmexd7</a></p>&mdash; Bogdan (@bogdanvlviv) <a href="https://twitter.com/bogdanvlviv/status/841004074891935744?ref_src=twsrc%5Etfw">March 12, 2017</a></blockquote>
+
+Отримав Візу в США.
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">My USA visa is approved! <a href="https://t.co/aqUP2XCdVd">pic.twitter.com/aqUP2XCdVd</a></p>&mdash; Bogdan (@bogdanvlviv) <a href="https://twitter.com/bogdanvlviv/status/870590273205796864?ref_src=twsrc%5Etfw">June 2, 2017</a></blockquote>
+
+Відвідав конференцію [RubyC 2017](https://rubyc.eu).
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/RubyC?src=hash&amp;ref_src=twsrc%5Etfw">#RubyC</a>-2017 is ready to welcome <a href="https://twitter.com/hashtag/Ruby?src=hash&amp;ref_src=twsrc%5Etfw">#Ruby</a> people tomorrow! <a href="https://t.co/8cD1Y7VMDr">pic.twitter.com/8cD1Y7VMDr</a></p>&mdash; Kyiv Ruby Conference (@rubyc_eu) <a href="https://twitter.com/rubyc_eu/status/870675884981837825?ref_src=twsrc%5Etfw">June 2, 2017</a></blockquote>
+
+Отримав аплодисменти від [@fxn](https://twitter.com/fxn) на [RubyC 2017](https://rubyc.eu).
+
+<iframe src="https://www.youtube.com/embed/P4hPUAY05nE?start=1553&end=1596" frameborder="0" allowfullscreen></iframe>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Wow! Pivoraker <a href="https://twitter.com/bogdanvlviv?ref_src=twsrc%5Etfw">@bogdanvlviv</a> in <a href="https://twitter.com/fxn?ref_src=twsrc%5Etfw">@fxn</a> presentation at <a href="https://twitter.com/hashtag/RubyC?src=hash&amp;ref_src=twsrc%5Etfw">#RubyC</a> <a href="https://twitter.com/hashtag/pivorak?src=hash&amp;ref_src=twsrc%5Etfw">#pivorak</a> <a href="https://twitter.com/hashtag/ruby?src=hash&amp;ref_src=twsrc%5Etfw">#ruby</a> <a href="https://t.co/9pCBB09vXB">pic.twitter.com/9pCBB09vXB</a></p>&mdash; Pivorak (@pivorakmeetup) <a href="https://twitter.com/pivorakmeetup/status/870931497531957248?ref_src=twsrc%5Etfw">June 3, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">... with __dir__ we can restore order in the Universe <a href="https://t.co/kIdCZozD1F">https://t.co/kIdCZozD1F</a></p>&mdash; Bogdan (@bogdanvlviv) <a href="https://twitter.com/bogdanvlviv/status/892633602059628544?ref_src=twsrc%5Etfw">August 2, 2017</a></blockquote>
+
+Написав декілька технічних статей.
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">It&#39;s lovely when Active Support can serve as an experimental lab for future core features in Ruby ❤️👌 <a href="https://t.co/JCHAdxCaHI">https://t.co/JCHAdxCaHI</a></p>&mdash; DHH (@dhh) <a href="https://twitter.com/dhh/status/871034291786002433?ref_src=twsrc%5Etfw">June 3, 2017</a></blockquote>
+
+Отримав ступінь Бакалавра у [Львівський національний університет імені Івана Франка](http://www.lnu.edu.ua), [Факультет прикладної математики та інформатики](http://ami.lnu.edu.ua).
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Today I got Bachelor&#39;s degree. Hooray! 🎓 <a href="https://t.co/IGGbgglo4m">pic.twitter.com/IGGbgglo4m</a></p>&mdash; Bogdan (@bogdanvlviv) <a href="https://twitter.com/bogdanvlviv/status/876757480361086976?ref_src=twsrc%5Etfw">June 19, 2017</a></blockquote>
+
+Зробив [87 "комітів" (commits)](http://contributors.rubyonrails.org/contributors/bogdanvlviv/commits/in-time-window/20170101-20171231) в [rails/rails](https://github.com/rails/rails).
+Приєднався до проекту [Rails](https://3.basecamp.com/3076981/projects) на [Basecamp](https://basecamp.com).
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I&#39;ve just joined to <a href="https://twitter.com/rails?ref_src=twsrc%5Etfw">@rails</a> <a href="https://twitter.com/hashtag/Contributors?src=hash&amp;ref_src=twsrc%5Etfw">#Contributors</a> team. Nice to join this Camp!</p>&mdash; Bogdan (@bogdanvlviv) <a href="https://twitter.com/bogdanvlviv/status/895899791078686724?ref_src=twsrc%5Etfw">August 11, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">My 100th commit already in Rails <a href="https://t.co/gj2a9EdcBe">https://t.co/gj2a9EdcBe</a> <a href="https://t.co/sWHEIdZCid">pic.twitter.com/sWHEIdZCid</a></p>&mdash; Bogdan (@bogdanvlviv) <a href="https://twitter.com/bogdanvlviv/status/940703322620743681?ref_src=twsrc%5Etfw">December 12, 2017</a></blockquote>
+
+Відвідав конференцію [EuRuKo 2017](https://www.euruko2017.org).
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/euruko2017?src=hash&amp;ref_src=twsrc%5Etfw">#euruko2017</a> is starting <a href="https://t.co/KGXjcYVndv">pic.twitter.com/KGXjcYVndv</a></p>&mdash; Bogdan (@bogdanvlviv) <a href="https://twitter.com/bogdanvlviv/status/913671238790402048?ref_src=twsrc%5Etfw">September 29, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="in" dir="ltr">on Duna, Budapest <a href="https://t.co/JxZLWFYIC7">pic.twitter.com/JxZLWFYIC7</a></p>&mdash; Bogdan (@bogdanvlviv) <a href="https://twitter.com/bogdanvlviv/status/914203325045886977?ref_src=twsrc%5Etfw">September 30, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">In &quot;Bp BARbq&quot;(<a href="https://t.co/Mhz1p7X3zd">https://t.co/Mhz1p7X3zd</a>)(Budapest) probably the best burgers I&#39;ve ever eaten. <a href="https://t.co/pmoBe9FIzV">https://t.co/pmoBe9FIzV</a> <a href="https://t.co/fTudQl6Qvt">pic.twitter.com/fTudQl6Qvt</a></p>&mdash; Bogdan (@bogdanvlviv) <a href="https://twitter.com/bogdanvlviv/status/914605313885601792?ref_src=twsrc%5Etfw">October 1, 2017</a></blockquote>
+
+Був згаданий в релізі [Jekyll 3.6.0](https://jekyllrb.com/news/2017/09/21/jekyll-3-6-0-released).
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="da" dir="ltr">Jekyll(<a href="https://twitter.com/jekyllrb?ref_src=twsrc%5Etfw">@jekyllrb</a>) v3.6.0 has been released! Happy Jekylling! <a href="https://t.co/3cKTLQyE8D">https://t.co/3cKTLQyE8D</a></p>&mdash; Bogdan (@bogdanvlviv) <a href="https://twitter.com/bogdanvlviv/status/911672784891400198?ref_src=twsrc%5Etfw">September 23, 2017</a></blockquote>
+
+Придбав ноутбук Lenovo ThinkPad X270.
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="uk" dir="ltr">Як споживач, не відчуваю себе в Україні захищеним. Вже більше ніж 2 тижні очікую на обмін неякісного на якісний ноутбук.</p>&mdash; Bogdan (@bogdanvlviv) <a href="https://twitter.com/bogdanvlviv/status/879677278694801409?ref_src=twsrc%5Etfw">June 27, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Turned off! <a href="https://t.co/Qc4IllZpeu">pic.twitter.com/Qc4IllZpeu</a></p>&mdash; Bogdan (@bogdanvlviv) <a href="https://twitter.com/bogdanvlviv/status/922963709613527040?ref_src=twsrc%5Etfw">October 24, 2017</a></blockquote>
+
+Дав першу публічну доповідь.
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Rails Contributor <a href="https://twitter.com/bogdanvlviv?ref_src=twsrc%5Etfw">@bogdanvlviv</a> at <a href="https://twitter.com/hashtag/pivorak?src=hash&amp;ref_src=twsrc%5Etfw">#pivorak</a>! 🙌<a href="https://twitter.com/hashtag/ruby?src=hash&amp;ref_src=twsrc%5Etfw">#ruby</a> <a href="https://twitter.com/hashtag/rails?src=hash&amp;ref_src=twsrc%5Etfw">#rails</a> <a href="https://twitter.com/hashtag/ror?src=hash&amp;ref_src=twsrc%5Etfw">#ror</a> <a href="https://twitter.com/hashtag/opensource?src=hash&amp;ref_src=twsrc%5Etfw">#opensource</a> <a href="https://twitter.com/hashtag/Lviv?src=hash&amp;ref_src=twsrc%5Etfw">#Lviv</a> <a href="https://twitter.com/hashtag/Ukraine?src=hash&amp;ref_src=twsrc%5Etfw">#Ukraine</a> <a href="https://t.co/rPt8gslRlX">pic.twitter.com/rPt8gslRlX</a></p>&mdash; Pivorak (@pivorakmeetup) <a href="https://twitter.com/pivorakmeetup/status/934117066784821250?ref_src=twsrc%5Etfw">November 24, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Videos!<br><br>4. Rails 5.2. by <a href="https://twitter.com/bogdanvlviv?ref_src=twsrc%5Etfw">@bogdanvlviv</a> from <a href="https://twitter.com/vertalab?ref_src=twsrc%5Etfw">@vertalab</a> <br><br>Video &gt;&gt; <a href="https://t.co/Aswma8i3cz">https://t.co/Aswma8i3cz</a><br>Slides &gt;&gt; <a href="https://t.co/sTVgHX2wrV">https://t.co/sTVgHX2wrV</a><a href="https://twitter.com/hashtag/Ruby?src=hash&amp;ref_src=twsrc%5Etfw">#Ruby</a> <a href="https://twitter.com/hashtag/Rails52?src=hash&amp;ref_src=twsrc%5Etfw">#Rails52</a> <a href="https://twitter.com/hashtag/pivorakmeetup?src=hash&amp;ref_src=twsrc%5Etfw">#pivorakmeetup</a> <a href="https://twitter.com/hashtag/Lviv?src=hash&amp;ref_src=twsrc%5Etfw">#Lviv</a> <a href="https://twitter.com/hashtag/Ukraine?src=hash&amp;ref_src=twsrc%5Etfw">#Ukraine</a> <a href="https://t.co/8jLfgBveB5">pic.twitter.com/8jLfgBveB5</a></p>&mdash; Pivorak (@pivorakmeetup) <a href="https://twitter.com/pivorakmeetup/status/937777468903174145?ref_src=twsrc%5Etfw">December 4, 2017</a></blockquote>
+
+Вперше спробував намалювати картину, назвав її "mess".
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">drew my first pic. <a href="https://t.co/D3CHVoiBdY">pic.twitter.com/D3CHVoiBdY</a></p>&mdash; Bogdan (@bogdanvlviv) <a href="https://twitter.com/bogdanvlviv/status/942037277827616768?ref_src=twsrc%5Etfw">December 16, 2017</a></blockquote>
+
+Позбувся багатьох зайвих речей.
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">My current desktop became more simple without pgAdmin, MySQL Workbench, Sqliteman, etc ... I prefer to use console! <a href="https://t.co/vXNYMknmwi">pic.twitter.com/vXNYMknmwi</a></p>&mdash; Bogdan (@bogdanvlviv) <a href="https://twitter.com/bogdanvlviv/status/858749286900801538?ref_src=twsrc%5Etfw">April 30, 2017</a></blockquote>
+
+Став більш організованим.
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">You&#39;re all done! 😎 <a href="https://t.co/TUV5f6XMid">pic.twitter.com/TUV5f6XMid</a></p>&mdash; Bogdan (@bogdanvlviv) <a href="https://twitter.com/bogdanvlviv/status/919671653470175233?ref_src=twsrc%5Etfw">October 15, 2017</a></blockquote>
+
+Вперше піднявся на Львівську ратушу.
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Climbed up the Lviv&#39; town hall. <a href="https://t.co/CwwvVf1jhk">pic.twitter.com/CwwvVf1jhk</a></p>&mdash; Bogdan (@bogdanvlviv) <a href="https://twitter.com/bogdanvlviv/status/919225505123102721?ref_src=twsrc%5Etfw">October 14, 2017</a></blockquote>
