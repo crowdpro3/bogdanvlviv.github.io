@@ -17,6 +17,9 @@ lang: "en"
 
 # Build settings
 markdown: kramdown
+collections:
+  posts:
+    permalink: /:categories/:title.html
 exclude:
   - Gemfile
   - Gemfile.lock
