@@ -1,17 +1,6 @@
 /**
  * Icons
  */
-.icon--without-fill > svg {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.social-media-list {
-  .icon--without-fill {
-    padding-right: 5px;
-  }
-}
-
 .icon--github > svg {
   path {
     fill: $github-icon-color;
@@ -29,11 +18,11 @@
 /**
  * Photos
  */
-img {
-  &.photo {
-  }
+.photo {
+}
 
-  &.photo--about {
+.photo--about {
+  img {
     float: right;
     max-width: 40%;
     margin: 0px 0px 10px 10px;

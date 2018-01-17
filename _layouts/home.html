@@ -7,10 +7,10 @@ layout: default
 
   {{ content }}
 
-  <p class="feed-subscribe">Subscribe via <a href="{{ "/feed.json" | absolute_url }}">JSON Feed</a> or <a href="{{ "/feed.xml" | absolute_url }}">Atom Feed</a></p>
+  <p>Subscribe via <a href="{{ "/feed.json" | absolute_url }}">JSON Feed</a> or <a href="{{ "/feed.xml" | absolute_url }}">Atom Feed</a></p>
 
   {% if site.mailchimp_signup_form_url %}
-  <p class="email-subscribe"><a href="{{ site.mailchimp_signup_form_url }}">Subscribe to my mailing list</a></p>
+  <p><a href="{{ site.mailchimp_signup_form_url }}">Subscribe to my mailing list</a></p>
   {% endif %}
 
   <ul class="post-list">

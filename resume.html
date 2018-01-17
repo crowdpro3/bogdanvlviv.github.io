@@ -6,9 +6,7 @@ permalink: /resume.html
 ---
 
 <div class="resume">
-  <div class="notices">
-    <!-- <p>I am clumsy in English!</p> -->
-  </div>
+  <!-- <p class="notice">I am clumsy in English!</p> -->
 
   <h1 class="name">Bogdan Denkovych</h1>
 
@@ -16,81 +14,100 @@ permalink: /resume.html
     <img src="{{ "/images/bogdanvlviv2.jpg" | absolute_url }}" title="Bogdan Denkovych">
   </div>
 
-  <ul class="vcard-details">
-    <li><b>About me:</b> Ruby Developer, <a href="http://contributors.rubyonrails.org/contributors/bogdanvlviv/commits" target="_blank">Ruby on Rails Contributor</a></li>
+  <div class="info">
+    <b>About me:</b>
+    <span>Ruby Developer, <a href="http://contributors.rubyonrails.org/contributors/bogdanvlviv/commits" target="_blank">Ruby on Rails Contributor</a></span>
+  </div>
 
-    <li><b>Location:</b> Lviv, Ukraine</li>
+  <div class="info">
+    <b>Location:</b>
+    <span>Lviv, Ukraine</span>
+  </div>
 
-    <li><b>Website:</b> <a href="{{ "/index.html" | absolute_url }}" target="_blank">{{ site.url }}</a></li>
+  <div class="info">
+    <b>Website:</b>
+    <span><a href="{{ "/index.html" | absolute_url }}" target="_blank">{{ site.url }}</a></span>
+  </div>
 
-    {% if site.email %}
-    <li><b>Email:</b> <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-    {% endif %}
+  {% if site.email %}
+  <div class="info">
+    <b>Email:</b>
+    <span><a href="mailto:{{ site.email }}">{{ site.email }}</a></span>
+  </div>
+  {% endif %}
 
-    {% if site.github_username %}
-    <li><b>GitHub:</b> <a href="https://github.com/{{ site.github_username }}" target="_blank">{{ site.github_username }}</a></li>
-    {% endif %}
-  </ul>
+  {% if site.github_username %}
+  <div class="info">
+    <b>GitHub:</b>
+    <span><a href="https://github.com/{{ site.github_username }}" target="_blank">{{ site.github_username }}</a></span>
+  </div>
+  {% endif %}
 
-  <b>Work experience:</b>
-  <ol class="work-experience-details">
-    <li>Self-learning</li>
-    <li>
-      <a href="https://vertalab.com" target="_blank">Vertalab</a>
-      <ul>
-        <li>
-          June 10, 2015 - July 10, 2016
-          <ul>
-            <li>Ruby on Rails Developer</li>
-          </ul>
-        </li>
-        <li>
-          September 5, 2016 - present
-          <ul>
-            <li>Ruby Developer</li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li>
-      <a href="http://rubyonrails.org" target="_blank">Ruby on Rails</a>
-      <ul>
-        <li>
-          March 26, 2016 - August 10, 2017
-          <ul>
-            <li>Contributor</li>
-          </ul>
-        </li>
-        <li>
-          August 11, 2017 - present
-          <ul>
-            <li>Contributors Team Member</li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li>Contributing to Open Source</li>
-  </ol>
+  <div class="info">
+    <b>Work experience:</b>
+    <ul>
+      <li>Self-learning</li>
+      <li>
+        <a href="https://vertalab.com" target="_blank">Vertalab</a>
+        <ul>
+          <li>
+            June 10, 2015 - July 10, 2016
+            <ul>
+              <li>Ruby on Rails Developer</li>
+            </ul>
+          </li>
+          <li>
+            September 5, 2016 - present
+            <ul>
+              <li>Ruby Developer</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="http://rubyonrails.org" target="_blank">Ruby on Rails</a>
+        <ul>
+          <li>
+            March 26, 2016 - August 10, 2017
+            <ul>
+              <li>Contributor</li>
+            </ul>
+          </li>
+          <li>
+            August 11, 2017 - present
+            <ul>
+              <li>Contributors Team Member</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Contributing to Open Source</li>
+    </ul>
+  </div>
 
-  <b>Education:</b>
-  <ol class="education-details">
-    <li>
-      Lviv University (Ivan Franko National University of Lviv)
-      <ul>
-        <li>
-          Faculty of  Applied Mathematics and Informatics
-          <ul>
-            <li>
-              Bachelor's degree (September 1, 2013 - June 30, 2017)
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-  </ol>
+  <div class="info">
+    <b>Education:</b>
+    <ul>
+      <li>
+        Lviv University (Ivan Franko National University of Lviv)
+        <ul>
+          <li>
+            Faculty of  Applied Mathematics and Informatics
+            <ul>
+              <li>
+                Bachelor's degree (September 1, 2013 - June 30, 2017)
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
 
-  <b>Tags:</b>
-  <p>bash, code review, css, elasticsearch, git, html, javascript, linux, mariadb, mongodb, nginx, postgresql, redis, ruby, test-driven development, tmux, vagrant, vim.</p>
+  <div class="info">
+    <b>Tags:</b>
+    <div>bash, code review, css, elasticsearch, git, html, javascript, linux, mariadb, mongodb, nginx, postgresql, redis, ruby, test-driven development, tmux, vagrant, vim.</div>
+  </div>
 
   <span class="resume-meta" title="Updated at"><time itemprop="dateUpdated">December 9, 2017</time></span>
 </div>

@@ -10,17 +10,17 @@ layout: default
       <time datetime="{{ page.date }}" itemprop="datePublished">{{ page.date | date: site.date_format }}</time>
     </p>
 
-    <ul class="social-media-share-list">
-      <li>
+    <div class="social-media-share-list">
+      <div>
         {% include twitter-share-button.html %}
-      </li>
-      <li>
+      </div>
+      <div>
         {% include google-share-button.html %}
-      </li>
-      <li>
+      </div>
+      <div>
         {% include reddit-this.html %}
-      </li>
-    </ul>
+      </div>
+    </div>
   </header>
 
   <div class="post-content" itemprop="articleBody">
