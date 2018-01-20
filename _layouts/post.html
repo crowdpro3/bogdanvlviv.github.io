@@ -9,24 +9,14 @@ layout: default
     <p class="post-meta">
       <time datetime="{{ page.date }}" itemprop="datePublished">{{ page.date | date: site.date_format }}</time>
     </p>
-
-    <div class="social-media-share-list">
-      <div>
-        {% include twitter-share-button.html %}
-      </div>
-      <div>
-        {% include google-share-button.html %}
-      </div>
-      <div>
-        {% include reddit-this.html %}
-      </div>
-    </div>
   </header>
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
 </article>
+
+{% include share-buttons.html %}
 
 {% include mailchimp.html %}
 
