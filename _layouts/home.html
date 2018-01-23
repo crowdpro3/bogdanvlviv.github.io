@@ -3,15 +3,12 @@ layout: default
 ---
 
 <div class="home">
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">{{ page.title | escape }}</h1>
 
   {{ content }}
 
-  <p>Subscribe via <a href="{{ "/feed.json" | absolute_url }}">JSON Feed</a> or <a href="{{ "/feed.xml" | absolute_url }}">Atom Feed</a></p>
-
-  {% if site.mailchimp_signup_form_url %}
-  <p><a href="{{ site.mailchimp_signup_form_url }}">Subscribe to my mailing list</a></p>
-  {% endif %}
+  {% if site.posts.size > 0 %}
+  <h2 class="post-list-heading">Posts</h2>
 
   <ul class="post-list">
     {% for post in site.posts %}
@@ -20,10 +17,11 @@ layout: default
         <time datetime="{{ post.date }}" itemprop="datePublished">{{ post.date | date: site.date_format }}</time>
       </span>
 
-      <h2>
+      <h3>
         <a class="post-link" href="{{ post.url | absolute_url }}">{{ post.title | escape }}</a>
-      </h2>
+      </h3>
     </li>
     {% endfor %}
   </ul>
+  {% endif %}
 </div>

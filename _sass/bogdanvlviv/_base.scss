@@ -1,16 +1,12 @@
 /**
  * Icons
  */
-.icon--github > svg {
-  path {
-    fill: $github-icon-color;
-  }
+.svg-icon--github {
+  fill: $github-icon-color;
 }
 
-.icon--twitter > svg {
-  path {
-    fill: $twitter-icon-color;
-  }
+.svg-icon--twitter {
+  fill: $twitter-icon-color;
 }
 
 
@@ -19,7 +15,7 @@
  * Buttons
  */
 .share-buttons {
-  margin-bottom: 15px;
+  margin-bottom: $base-margin-bottom;
 }
 
 

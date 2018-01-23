@@ -3,7 +3,7 @@
 
 .post {
   .picture {
-    margin-bottom: 15px;
+    margin-bottom: $base-margin-bottom;
     text-align: center;
   }
 }
@@ -18,7 +18,7 @@
   }
 
   .photo {
-    margin-bottom: 15px;
+    margin-bottom: $base-margin-bottom;
     text-align: center;
 
     img {
@@ -45,6 +45,12 @@
  * Page content
  */
 .page-heading {
+  @include relative-font-size(1.25);
+  line-height: 1;
+}
+
+.post-list-heading {
+  @include relative-font-size(1.25);
   line-height: 1;
 }
 
