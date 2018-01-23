@@ -2,7 +2,7 @@
 layout: post
 lang: "en"
 title: "How to install the latest Vim on Ubuntu 16.04"
-share_image: "/images/posts/vim/how-to-install-the-latest-vim-on-ubuntu-16_04/vim.png"
+image: "/images/posts/vim/how-to-install-the-latest-vim-on-ubuntu-16_04/vim.png"
 date: 2017-10-25 17:55:00 +0300
 categories: posts vim
 comments: true

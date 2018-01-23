@@ -9,7 +9,7 @@ permalink: /feed.json
   "description": {{ site.description | jsonify }},
   "home_page_url": {{ "/index.html" | absolute_url | jsonify }},
   "feed_url": {{ "/feed.json" | absolute_url | jsonify }},
-  "icon": {{ site.share_image | absolute_url | jsonify }},
+  "icon": {{ site.image | absolute_url | jsonify }},
   "favicon": {{ "/images/favicon.ico" | absolute_url | jsonify }},
   "author": {
     "name": {{ site.username | jsonify }},
@@ -26,8 +26,8 @@ permalink: /feed.json
       "title": {{ post.title | jsonify }},
       "content_html": {{ post.content | jsonify }},
       "summary": {{ post.excerpt | strip_html | normalize_whitespace | truncate: 280 | escape | jsonify }},
-      "image": {{ post.share_image | default: site.share_image | absolute_url | jsonify }},
-      "banner_image": {{ post.share_image | default: site.share_image | absolute_url | jsonify }},
+      "image": {{ post.image | default: site.image | absolute_url | jsonify }},
+      "banner_image": {{ post.image | default: site.image | absolute_url | jsonify }},
       "date_published": {{ post.date | jsonify }},
       "tags": {{ post.categories | jsonify }}
     }
