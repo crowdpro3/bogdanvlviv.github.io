@@ -8,7 +8,7 @@ comments: true
 permalink: /:categories/:title.html
 ---
 
-Ruby is going to introduce new methods aliases [`Array#append`](https://docs.ruby-lang.org/en/trunk/Array.html#method-i-append) to [`Array#push`](https://docs.ruby-lang.org/en/trunk/Array.html#method-i-push) and [`Array#prepend`](https://docs.ruby-lang.org/en/trunk/Array.html#method-i-prepend) to [`Array#unshift`](https://docs.ruby-lang.org/en/trunk/Array.html#method-i-unshift) since the version 2.5.0.
+Ruby introduces new methods aliases [`Array#append`](https://docs.ruby-lang.org/en/trunk/Array.html#method-i-append) to [`Array#push`](https://docs.ruby-lang.org/en/trunk/Array.html#method-i-push) and [`Array#prepend`](https://docs.ruby-lang.org/en/trunk/Array.html#method-i-prepend) to [`Array#unshift`](https://docs.ruby-lang.org/en/trunk/Array.html#method-i-unshift) since the version 2.5.0.
 
 [Feature [#12746](https://bugs.ruby-lang.org/issues/12746)]
 

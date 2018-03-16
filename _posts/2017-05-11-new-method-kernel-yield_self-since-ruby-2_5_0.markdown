@@ -8,7 +8,7 @@ comments: true
 permalink: /:categories/:title.html
 ---
 
-Ruby is going to introduce new method [`Kernel#yield_self`](https://docs.ruby-lang.org/en/trunk/Object.html#method-i-yield_self) [Feature [#6721](https://bugs.ruby-lang.org/issues/6721)] since the version 2.5.0, so let’s take a look at it.
+Ruby introduces new method [`Kernel#yield_self`](https://docs.ruby-lang.org/en/trunk/Object.html#method-i-yield_self) [Feature [#6721](https://bugs.ruby-lang.org/issues/6721)] since the version 2.5.0.
 
 [`Kernel#yield_self`](https://docs.ruby-lang.org/en/trunk/Object.html#method-i-yield_self) works similarly to the method [`Object#tap`](https://docs.ruby-lang.org/en/2.4.0/Object.html#method-i-tap), but they return different values.
 
@@ -44,3 +44,5 @@ user.yield_self { |u| u.male? ? "Mr. #{u.name}" : "Ms. #{u.name}" } # => "Mr. Bo
 user.yield_self { |u| "Hi, #{u.name.upcase!}" } # => "Hi, BOGDAN"
 user.name # => "BOGDAN"
 ```
+
+> Read ["Using `yield_self` for composable ActiveRecord relations"](https://robots.thoughtbot.com/using-yieldself-for-composable-activerecord-relations).
