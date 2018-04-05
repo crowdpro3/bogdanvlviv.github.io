@@ -2,8 +2,8 @@
   <div class="wrapper">
     <a class="site-title" href="{{ "/index.html" | absolute_url }}">{{ site.title | escape }}</a>
 
-    {% assign pages = site.pages | where: "link_in_header", true %}
-    {% if pages.size > 0 %}
+    {%- assign pages = site.pages | where: "link_in_header", true -%}
+    {%- if pages.size > 0 -%}
     <nav class="site-nav">
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
       <label for="nav-trigger">
@@ -17,13 +17,13 @@
       </label>
 
       <div class="trigger">
-        {% for page in pages %}
-          {% if page.title %}
+        {%- for page in pages -%}
+          {%- if page.title -%}
           <a class="page-link" href="{{ page.url | absolute_url }}">{{ page.title | escape }}</a>
-          {% endif %}
-        {% endfor %}
+          {%- endif -%}
+        {%- endfor -%}
       </div>
     </nav>
-    {% endif %}
+    {%- endif -%}
   </div>
 </header>

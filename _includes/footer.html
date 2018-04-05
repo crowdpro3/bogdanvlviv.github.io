@@ -6,14 +6,14 @@
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li><a href="{{ "/index.html" | absolute_url }}" target="_blank">{{ site.url | escape }}</a></li>
-          {% if site.email %}
+          {%- if site.email -%}
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-          {% endif %}
+          {%- endif -%}
         </ul>
       </div>
 
       <div class="footer-col footer-col-2">
-        {% include social-media-list.html %}
+        {%- include social-media-list.html -%}
       </div>
 
       <div class="footer-col footer-col-3">
@@ -21,7 +21,7 @@
       </div>
     </div>
 
-    <p>{% include creativecommons.html %}</p>
+    <p>{%- include creativecommons.html -%}</p>
   </div>
 
 </footer>

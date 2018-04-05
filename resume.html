@@ -30,19 +30,19 @@ permalink: /resume.html
     <span><a href="{{ "/index.html" | absolute_url }}" target="_blank">{{ site.url | escape }}</a></span>
   </div>
 
-  {% if site.email %}
+  {%- if site.email -%}
   <div class="info">
     <b>Email:</b>
     <span><a href="mailto:{{ site.email }}">{{ site.email }}</a></span>
   </div>
-  {% endif %}
+  {%- endif -%}
 
-  {% if site.github_username %}
+  {%- if site.github_username -%}
   <div class="info">
     <b>GitHub:</b>
     <span><a href="https://github.com/{{ site.github_username }}" target="_blank">{{ site.github_username }}</a></span>
   </div>
-  {% endif %}
+  {%- endif -%}
 
   <div class="info">
     <b>Work experience:</b>

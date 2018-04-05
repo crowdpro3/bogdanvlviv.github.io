@@ -13,13 +13,13 @@ permalink: /feed.xml
   <id>{{ "/index.html" | absolute_url | xml_escape }}</id>
   <author>
     <name>{{ site.username | xml_escape }}</name>
-    {% if site.twitter_username %}
+    {%- if site.twitter_username -%}
     <uri>https://twitter.com/{{ site.twitter_username }}</uri>
-    {% endif %}
+    {%- endif -%}
     <email>{{ site.email | xml_escape }}</email>
   </author>
 
-  {% for post in site.posts %}
+  {%- for post in site.posts -%}
   <entry>
     <title>{{ post.title | xml_escape }}</title>
     <link rel="alternate" type="text/html" href="{{ post.url | absolute_url | xml_escape }}"/>
@@ -29,9 +29,9 @@ permalink: /feed.xml
     </content>
     <published>{{ post.date | date_to_xmlschema }}</published>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
-    {% for category in post.categories %}
+    {%- for category in post.categories -%}
     <category term="{{ category | xml_escape }}"/>
-    {% endfor %}
+    {%- endfor -%}
   </entry>
-  {% endfor %}
+  {%- endfor -%}
 </feed>

@@ -16,14 +16,14 @@ layout: default
   </div>
 </article>
 
-{% include share-buttons.html %}
+{%- include share-buttons.html -%}
 
-{% include mailchimp.html %}
+{%- include mailchimp.html -%}
 
-{% if page.comments %}
-{% include disqus.html %}
-{% endif %}
+{%- if page.comments -%}
+{%- include disqus.html -%}
+{%- endif -%}
 
-{% include twitter.html %}
+{%- include twitter.html -%}
 
-{% include google.html %}
+{%- include google.html -%}
