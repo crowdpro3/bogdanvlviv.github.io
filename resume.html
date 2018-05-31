@@ -44,8 +44,15 @@ permalink: /resume.html
   </div>
   {%- endif -%}
 
+  {%- if site.twitter_username -%}
   <div class="info">
-    <b>Work experience:</b>
+    <b>Twitter:</b>
+    <span><a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">{{ site.twitter_username }}</a></span>
+  </div>
+  {%- endif -%}
+
+  <div class="info">
+    <b>Experience:</b>
     <ul>
       <li>Self-learning</li>
       <li>
@@ -60,13 +67,13 @@ permalink: /resume.html
           <li>
             June 10, 2015 - July 10, 2016
             <ul>
-              <li>Ruby Developer</li>
+              <li>Ruby Programmer</li>
             </ul>
           </li>
           <li>
-            September 5, 2016 - present
+            September 5, 2016 - Present
             <ul>
-              <li>Ruby Developer</li>
+              <li>Ruby Programmer</li>
             </ul>
           </li>
           <li>
@@ -87,7 +94,7 @@ permalink: /resume.html
             </ul>
           </li>
           <li>
-            August 11, 2017 - present
+            August 11, 2017 - Present
             <ul>
               <li>Contributors Team Member</li>
             </ul>
@@ -148,5 +155,5 @@ permalink: /resume.html
     <div>bash, code review, css, docker, elasticsearch, git, html, javascript, linux, mariadb, mongodb, nginx, postgresql, redis, ruby, test-driven development, tmux, vagrant, vim.</div>
   </div>
 
-  <span class="resume-meta" title="Updated at"><time itemprop="dateUpdated">May 17, 2018</time></span>
+  <span class="resume-meta" title="Updated at"><time itemprop="dateUpdated">May 31, 2018</time></span>
 </div>
