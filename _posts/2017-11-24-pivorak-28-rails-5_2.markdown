@@ -11,6 +11,12 @@ permalink: /:categories/:title.html
 
 It is my first talk!
 
+[Pivorak](https://pivorak.com) is a [Lviv](https://en.wikipedia.org/wiki/Lviv) Ruby Meetup. A solid community of Rubyists in Lviv.
+
+If you are Rubyist, you should come to Lviv and give a talk at Pivorak.
+
+I was really excited to give a [talk](https://pivorak.com/talks/rails-5-2) at Pivorak.
+
 <div class="picture">
   <img src="{{ "/images/posts/talks/pivorak-28-rails-5_2/pivorak-28-rails-5_2-bogdanvlviv.jpg" | absolute_url }}" title="Pivorak 28: Rails 5.2">
 </div>
