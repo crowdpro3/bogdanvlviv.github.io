@@ -22,6 +22,7 @@ permalink: /:categories/:title.html
   - ["Ruby Under a Microscope" (by Pat Shaughnessy)](http://patshaughnessy.net/ruby-under-a-microscope)
   - ["The Best of Me" (by Nicholas Sparks)](http://nicholassparks.com/stories/the-best-of-me)
   - ["The Five Dysfunctions of a Team" (by Patrick Lencioni)](https://www.tablegroup.com/books/dysfunctions)
+  - ["The Healthy Programmer" (by Joe Kutner)](http://healthyprog.com)
   - ["The Ruby Programming Language" (by David Flanagan, Yukihiro Matsumoto)](http://shop.oreilly.com/product/9780596516178.do)
   - ["tmux" (by Brian P. Hogan)](https://pragprog.com/book/bhtmux/tmux)
 - I am reading books
