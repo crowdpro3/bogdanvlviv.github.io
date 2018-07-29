@@ -12,6 +12,7 @@ permalink: /:categories/:title.html
   - ["A Dog's Purpose" (by W. Bruce Cameron)](http://www.brucecameron.com/books/a-dog-s-purpose)
   - ["Agile Web Development with Rails 4" (by Sam Ruby)](https://pragprog.com/book/rails4/agile-web-development-with-rails-4)
   - ["Design Patterns in Ruby" (by Russ Olsen)](https://www.amazon.com/Design-Patterns-Ruby-Addison-Wesley-Professional/dp/0321490452)
+  - ["Designing Your Life" (by Bill Burnett, Dave Evans)](https://designingyour.life/the-book)
   - ["JavaScript: The Good Parts" (by Douglas Crockford)](http://shop.oreilly.com/product/9780596517748.do)
   - ["Learn to Program" (by Chris Pine)](https://pine.fm/LearnToProgram)
   - ["Linux Phrasebook 1st Edition" (by Scott Granneman)](https://www.amazon.com/Linux-Phrasebook-Scott-Granneman/dp/0672328380)
@@ -30,7 +31,6 @@ permalink: /:categories/:title.html
   - ["Ruby on Rails Guides"](http://edgeguides.rubyonrails.org)
   - ["The C Programming Language 2nd Edition" (by Brian W. Kernighan, Dennis M. Ritchie)](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
 - I am going to read books
-  - ["Designing Your Life" (by Bill Burnett, Dave Evans)](https://designingyour.life/the-book)
   - ["How Linux Works, 2nd Edition" (by Brian Ward)](https://www.nostarch.com/howlinuxworks2)
   - ["Learning SQL 2nd Edition" (by Alan Beaulieu)](http://shop.oreilly.com/product/9780596520847.do)
   - ["PostgreSQL: Up and Running" (by Regina O. Obe, Leo S. Hsu)](http://shop.oreilly.com/product/0636920025061.do)
