@@ -11,6 +11,7 @@ permalink: /:categories/:title.html
 - I read books
   - ["A Dog's Purpose" (by W. Bruce Cameron)](http://www.brucecameron.com/books/a-dog-s-purpose)
   - ["Agile Web Development with Rails 4" (by Sam Ruby)](https://pragprog.com/book/rails4/agile-web-development-with-rails-4)
+  - ["Crafting Rails 4 Applications" (by José Valim)](https://pragprog.com/book/jvrails2/crafting-rails-4-applications)
   - ["Design Patterns in Ruby" (by Russ Olsen)](https://www.amazon.com/Design-Patterns-Ruby-Addison-Wesley-Professional/dp/0321490452)
   - ["Designing Your Life" (by Bill Burnett, Dave Evans)](https://designingyour.life/the-book)
   - ["JavaScript: The Good Parts" (by Douglas Crockford)](http://shop.oreilly.com/product/9780596517748.do)
@@ -27,7 +28,6 @@ permalink: /:categories/:title.html
   - ["The Ruby Programming Language" (by David Flanagan, Yukihiro Matsumoto)](http://shop.oreilly.com/product/9780596516178.do)
   - ["tmux" (by Brian P. Hogan)](https://pragprog.com/book/bhtmux/tmux)
 - I am reading books
-  - ["Crafting Rails 4 Applications" (by José Valim)](https://pragprog.com/book/jvrails2/crafting-rails-4-applications)
   - ["Ruby on Rails Guides"](http://edgeguides.rubyonrails.org)
   - ["The C Programming Language 2nd Edition" (by Brian W. Kernighan, Dennis M. Ritchie)](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
 - I am going to read books
