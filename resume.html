@@ -30,13 +30,6 @@ permalink: /resume.html
     <span><a href="{{ "/index.html" | absolute_url }}" target="_blank">{{ site.url | escape }}</a></span>
   </div>
 
-  {%- if site.email -%}
-  <div class="info">
-    <b>Email:</b>
-    <span><a href="mailto:{{ site.email }}">{{ site.email }}</a></span>
-  </div>
-  {%- endif -%}
-
   {%- if site.github_username -%}
   <div class="info">
     <b>GitHub:</b>
@@ -44,10 +37,10 @@ permalink: /resume.html
   </div>
   {%- endif -%}
 
-  {%- if site.twitter_username -%}
+  {%- if site.email -%}
   <div class="info">
-    <b>Twitter:</b>
-    <span><a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">{{ site.twitter_username }}</a></span>
+    <b>Email:</b>
+    <span><a href="mailto:{{ site.email }}">{{ site.email }}</a></span>
   </div>
   {%- endif -%}
 
@@ -152,8 +145,8 @@ permalink: /resume.html
 
   <div class="info">
     <b>Tags:</b>
-    <div>bash, code review, css, docker, elasticsearch, git, html, javascript, linux, mariadb, mongodb, nginx, postgresql, redis, ruby, test-driven development, tmux, vagrant, vim.</div>
+    <div>bash, code review, css, docker, elasticsearch, git, html, javascript, linux, mariadb, mongodb, nginx, postgresql, rails, redis, ruby, test-driven development, tmux, vagrant, vim.</div>
   </div>
 
-  <span class="resume-meta" title="Updated at"><time itemprop="dateUpdated">May 31, 2018</time></span>
+  <span class="resume-meta" title="Updated at"><time itemprop="dateUpdated">August 7, 2018</time></span>
 </div>
