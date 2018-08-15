@@ -9,7 +9,7 @@ comments: true
 permalink: /:categories/:title.html
 ---
 
-> TL;DR? [#33137](https://github.com/rails/rails/pull/33137)
+> TL;DR? [#33137](https://github.com/rails/rails/pull/33137).
 
 I have worked on a task, which included handling an array of data, recently.
 I needed to **extract** a data that satisfy some condition from the array, without losing the rest of the data that do not satisfy the condition, and then handle those arrays of data differently.
