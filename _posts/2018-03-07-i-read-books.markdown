@@ -28,10 +28,10 @@ permalink: /:categories/:title.html
   - ["The Ruby Programming Language" (by David Flanagan, Yukihiro Matsumoto)](http://shop.oreilly.com/product/9780596516178.do)
   - ["tmux" (by Brian P. Hogan)](https://pragprog.com/book/bhtmux/tmux)
 - I am reading books
+  - ["How Linux Works, 2nd Edition" (by Brian Ward)](https://nostarch.com/howlinuxworks2)
   - ["Ruby on Rails Guides"](http://edgeguides.rubyonrails.org)
   - ["The C Programming Language 2nd Edition" (by Brian W. Kernighan, Dennis M. Ritchie)](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
 - I am going to read books
-  - ["How Linux Works, 2nd Edition" (by Brian Ward)](https://www.nostarch.com/howlinuxworks2)
   - ["Learning SQL 2nd Edition" (by Alan Beaulieu)](http://shop.oreilly.com/product/9780596520847.do)
   - ["PostgreSQL: Up and Running" (by Regina O. Obe, Leo S. Hsu)](http://shop.oreilly.com/product/0636920025061.do)
   - ["Practical Vim, Second Edition" (by Drew Neil)](https://pragprog.com/book/dnvim2/practical-vim-second-edition)
