@@ -1327,6 +1327,8 @@ report.output_report
 
 Defines a new operation to a class without change. Represent an operation to be performed on the elements of an object structure. Visitor lets you define a new operation without changing the classes of the elements on which it operates.
 
+Read ["Visitor design pattern in Ruby"](https://medium.com/kkempin/visitor-design-pattern-in-ruby-bc07395c4abc).
+
 ## Acknowledgment
 <div class="picture">
   <img src="{{ "/images/posts/ruby/patterns/design-patterns-in-ruby/main.jpg"  | absolute_url }}" title='"Design Patterns in Ruby" (by Russ Olsen)'>
