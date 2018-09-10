@@ -10,13 +10,12 @@ permalink: /:categories/:title.html
 ---
 
 This post is based on design patterns, that are described in the excellent book - ["Design Patterns in Ruby" (by Russ Olsen)](https://www.amazon.com/Design-Patterns-Ruby-Addison-Wesley-Professional/dp/0321490452).
-When i was reading the book, i decided to write brief post that shows UML diagram and realization for some patterns, and add some tips in which way would be better, on my opinion, to realize some patterns in Ruby. Also i use description of each pattern from the book by [The "Gang of Four"](http://wiki.c2.com/?GangOfFour) - ["Design Patterns: Elements of Reusable Object-Oriented Software (by Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides)"](http://wiki.c2.com/?DesignPatternsBook). I think this post is a good idea and it will be useful for someone and for me.
 
-> NOTE: [I asked about permission](https://twitter.com/bogdanvlviv/status/807289812805963776) to use content from ["Design Patterns in Ruby" (by Russ Olsen)](https://www.amazon.com/Design-Patterns-Ruby-Addison-Wesley-Professional/dp/0321490452) in this post. Thanks for the permission [@russolsen](https://twitter.com/russolsen)!
+> NOTE: [I asked about permission](https://twitter.com/bogdanvlviv/status/807289812805963776) to use content from ["Design Patterns in Ruby" (by Russ Olsen)](https://www.amazon.com/Design-Patterns-Ruby-Addison-Wesley-Professional/dp/0321490452) in this post.
 
 > NOTE:  Not all of the patterns are covered in the book ["Design Patterns in Ruby" (by Russ Olsen)](https://www.amazon.com/Design-Patterns-Ruby-Addison-Wesley-Professional/dp/0321490452). There really was a number of reasons. Read the post ["The Lost Patterns"](http://designpatternsinruby.com/blog/2015/01/13/lost/) for more information.
 
-> Read ["Object-Oriented Design Patterns in Life"](http://www.sihui.io/design-patterns).
+Read ["Object-Oriented Design Patterns in Life"](http://www.sihui.io/design-patterns).
 
 ## Patterns
 
@@ -172,6 +171,8 @@ pond = Habitat.new(PondOrganismFactory.new, number_animals: 2, number_plants: 4)
 pond.simulate_one_day
 ```
 
+Read ["Design Patterns in Ruby: Abstract Factory"](https://medium.com/@dljerome/design-patterns-in-ruby-abstract-factory-82b74682e04e).
+
 ### Builder
 
 Separates object construction from its representation. Separate the construction of a complex object from its representation so that the same construction processes can create different representations.
@@ -280,6 +281,10 @@ builder.add_cd(true)
 builder.add_dvd
 computer = builder.computer
 ```
+
+Read ["Design Patterns in Ruby: Builder"](https://medium.com/@dljerome/design-patterns-in-ruby-builder-6c6d172e8de8).
+
+Read ["Builder design pattern in Ruby"](https://medium.com/kkempin/builder-design-pattern-in-ruby-dfa2d557ff1b).
 
 ### Factory Method
 
@@ -430,15 +435,21 @@ DuckWaterLilyPond.new(number_animals: 4, number_plants: 2)
 FrogAlgaePond.new(number_animals: 3, number_plants: 7)
 ```
 
+Read ["Design Patterns in Ruby: Factory Method"](https://medium.com/@dljerome/design-patterns-in-ruby-factory-method-e4e4cd995254).
+
 ### Prototype
 
 A fully initialized instance to be copied or cloned. Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype.
+
+Read ["Design Patterns in Ruby: Prototype"](https://medium.com/@dljerome/design-patterns-in-ruby-prototype-342cb26ea75).
 
 ### Singleton
 
 A class of which only a single instance can exist. Ensure a class only has one instance, and provide a global point of access to it.
 
 Using [`Singleton`](https://docs.ruby-lang.org/en/2.3.0/Singleton.html) module for realizing Singleton pattern in Ruby is a good idea.
+
+Read ["Design Patterns in Ruby: Singleton"](https://medium.com/@dljerome/design-patterns-in-ruby-singleton-8c132da6a9ce).
 
 ### Adapter
 
@@ -502,9 +513,13 @@ writer = File.open('out.txt', 'w')
 encrypter.encrypt(reader, writer)
 ```
 
+Read ["Design Patterns in Ruby: Adapter"](https://medium.com/@dljerome/design-patterns-in-ruby-adapter-89a482c26d8c).
+
 ### Bridge
 
 Separates an object’s interface from its implementation. Decouple an abstraction from its implementation so that the two can vary independently.
+
+Read ["Design Patterns in Ruby: Bridge"](https://medium.com/@dljerome/design-patterns-in-ruby-bridge-7aebb1b7bbc6).
 
 ### Composite
 
@@ -647,6 +662,7 @@ class MakeCakeTask < CompositeTask
   end
 end
 ```
+Read ["Design Patterns in Ruby: Composite"](https://medium.com/@dljerome/design-patterns-in-ruby-composite-e815a25467b5).
 
 ### Decorator
 
@@ -660,13 +676,21 @@ I think to use [`SimpleDelegator`](https://docs.ruby-lang.org/en/2.3.0/SimpleDel
 
 Also good idea to use  [`Forwardable`](https://docs.ruby-lang.org/en/2.3.0/Forwardable.html) module for realizing Decorator pattern in Ruby.
 
+Read ["Design Patterns in Ruby: Decorator"](https://medium.com/@dljerome/design-patterns-in-ruby-decorator-b7f2da4153b0).
+
 ### Facade
 
 A single class that represents an entire subsystem. Provide a unified interface to a set of interfaces in a system. Facade defines a higher-level interface that makes the subsystem easier to use.
 
+Read ["Design Patterns in Ruby: Facade"](https://medium.com/@dljerome/design-patterns-in-ruby-facade-a88e6b3949bb).
+
+Read ["Facade design pattern in Ruby on Rails"](https://medium.com/kkempin/facade-design-pattern-in-ruby-on-rails-710aa88326f).
+
 ### Flyweight
 
 A fine-grained instance used for efficient sharing. Use sharing to support large numbers of fine-grained objects efficiently. A flyweight is a shared object that can be used in multiple contexts simultaneously. The flyweight acts as an independent object in each context — it’s indistinguishable from an instance of the object that’s not shared.
+
+Read ["Design Patterns in Ruby: Flyweight"](https://medium.com/@dljerome/design-patterns-in-ruby-flyweight-64b4d57a6f89).
 
 ### Proxy
 
@@ -738,9 +762,15 @@ proxy.deposit(50)
 proxy.withdraw(10)
 ```
 
+Read ["Design Patterns in Ruby: Proxy"](https://medium.com/@dljerome/design-patterns-in-ruby-proxy-48a379a3b8d3).
+
 ### Chain of responsibility
 
 A way of passing a request between a chain of objects. Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it.
+
+Read ["Design Patterns in Ruby: Chain of Responsibility"](https://medium.com/@dljerome/design-patterns-in-ruby-chain-of-responsibility-2868e40fe8c9).
+
+Read ["Chain of responsibility design pattern in Ruby"](https://medium.com/kkempin/chain-of-responsibility-design-pattern-in-ruby-e0b756d4bb3b).
 
 ### Command
 
@@ -809,6 +839,8 @@ class CopyFile < Command
   end
 end
 ```
+
+Read ["Design Patterns in Ruby: Command"](https://medium.com/@dljerome/design-patterns-in-ruby-command-802b785d1bbd).
 
 ### Interpreter
 
@@ -982,6 +1014,8 @@ expression2 = (bigger(2000) & except(writable)) | file_name('*.mp3')
 expression2.evaluate('.')
 ```
 
+Read ["Design Patterns in Ruby: Interpreter"](https://medium.com/@dljerome/design-patterns-in-ruby-interpreter-4b5375062897).
+
 ### Iterator
 
 Sequentially access the elements of a collection. Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
@@ -1037,13 +1071,19 @@ my_portfolio.max
 my_portfolio.min
 ```
 
+Read ["Design Patterns in Ruby: Iterator"](https://medium.com/@dljerome/design-patterns-in-ruby-iterator-beead2c6492).
+
 ### Mediator
 
 Defines simplified communication between classes. Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it lets you vary their interaction independently.
 
+Read ["Design Patterns in Ruby: Mediator"](https://medium.com/@dljerome/design-patterns-in-ruby-mediator-169e77710e37).
+
 ### Memento
 
 Capture and restore an object's internal state. Without violating encapsulation, capture and externalize an object’s internal state so that the object can be restored to this state later.
+
+Read ["Design Patterns in Ruby: Memento"](https://medium.com/@dljerome/design-patterns-in-ruby-memento-1287f926fd0a).
 
 ### Observer
 
@@ -1126,6 +1166,8 @@ fred.salary = 90000.0
 The Ruby standard library comes with a fine, prebuilt [`Observable`](https://docs.ruby-lang.org/en/2.3.0/Observable.html) module that provides all of the support you need to make your object, well, observable.
 I think to use [`Observable`](https://docs.ruby-lang.org/en/2.3.0/Observable.html) module for realizing Observer pattern in Ruby is a good idea.
 
+Read ["Design Patterns in Ruby: Observer"](https://medium.com/@dljerome/design-patterns-in-ruby-observer-a6e8fe2e5c0a).
+
 ### State
 
 Alter an object's behavior when its state changes. Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.
@@ -1201,6 +1243,8 @@ report.output_report
 report = Report.new(PlainTextFormatter.new)
 report.output_report
 ```
+
+Read ["Design Patterns in Ruby: Strategy"](https://medium.com/@dljerome/design-patterns-in-ruby-strategy-1189135d2ce7).
 
 ### Template Method
 
@@ -1322,6 +1366,8 @@ report.output_report
 report = PlainTextReport.new
 report.output_report
 ```
+
+Read ["Design Patterns in Ruby: Template Method"](https://medium.com/@dljerome/design-patterns-in-ruby-template-method-753443f5a1c8).
 
 ### Visitor
 
