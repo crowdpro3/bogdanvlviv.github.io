@@ -447,7 +447,7 @@ Read ["Design Patterns in Ruby: Prototype"](https://medium.com/@dljerome/design-
 
 A class of which only a single instance can exist. Ensure a class only has one instance, and provide a global point of access to it.
 
-Using [`Singleton`](https://docs.ruby-lang.org/en/2.3.0/Singleton.html) module for realizing Singleton pattern in Ruby is a good idea.
+You can use [`Singleton`](https://docs.ruby-lang.org/en/2.3.0/Singleton.html) module for building Singleton pattern in Ruby.
 
 Read ["Design Patterns in Ruby: Singleton"](https://medium.com/@dljerome/design-patterns-in-ruby-singleton-8c132da6a9ce).
 
@@ -672,9 +672,8 @@ Add responsibilities to objects dynamically. Attach additional responsibilities 
   <img src="{{ "/images/posts/ruby/patterns/design-patterns-in-ruby/decorator_pattern.png" | absolute_url }}" title="Decorator pattern">
 </div>
 
-I think to use [`SimpleDelegator`](https://docs.ruby-lang.org/en/2.3.0/SimpleDelegator.html) class for realizing Decorator pattern in Ruby is a good idea. You can read my post ["Decorator Pattern in Ruby"]({{ "/posts/ruby/patterns/decorator-pattern-in-ruby.html" | absolute_url }}) for more information.
-
-Also good idea to use  [`Forwardable`](https://docs.ruby-lang.org/en/2.3.0/Forwardable.html) module for realizing Decorator pattern in Ruby.
+You can use [`SimpleDelegator`](https://docs.ruby-lang.org/en/2.3.0/SimpleDelegator.html) class for building Decorator pattern in Ruby.
+Read my post ["Decorator Pattern in Ruby"]({{ "/posts/ruby/patterns/decorator-pattern-in-ruby.html" | absolute_url }}) for more information.
 
 Read ["Design Patterns in Ruby: Decorator"](https://medium.com/@dljerome/design-patterns-in-ruby-decorator-b7f2da4153b0).
 
@@ -1164,7 +1163,7 @@ fred.salary = 90000.0
 ```
 
 The Ruby standard library comes with a fine, prebuilt [`Observable`](https://docs.ruby-lang.org/en/2.3.0/Observable.html) module that provides all of the support you need to make your object, well, observable.
-I think to use [`Observable`](https://docs.ruby-lang.org/en/2.3.0/Observable.html) module for realizing Observer pattern in Ruby is a good idea.
+You can use [`Observable`](https://docs.ruby-lang.org/en/2.3.0/Observable.html) module for building Observer pattern in Ruby.
 
 Read ["Design Patterns in Ruby: Observer"](https://medium.com/@dljerome/design-patterns-in-ruby-observer-a6e8fe2e5c0a).
 
