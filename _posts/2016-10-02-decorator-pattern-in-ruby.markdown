@@ -17,8 +17,6 @@ Read:
 - [Evaluating Alternative Decorator Implementations In Ruby](https://robots.thoughtbot.com/evaluating-alternative-decorator-implementations-in)
 - [Decorator Pattern in Ruby](http://nithinbekal.com/posts/ruby-decorators)
 
-and asked myself - "What is the best realization of the Decorator Pattern in Ruby?".
-
 You can use [`SimpleDelegator`](https://docs.ruby-lang.org/en/2.3.0/SimpleDelegator.html) for building Decorators in Ruby.
 
 > NOTE: Please read about the Ruby class [`SimpleDelegator`](https://docs.ruby-lang.org/en/2.3.0/SimpleDelegator.html) and its parent class [`Delegator`](https://docs.ruby-lang.org/en/2.3.0/Delegator.html) to understand how it works.
