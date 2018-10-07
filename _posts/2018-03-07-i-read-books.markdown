@@ -28,7 +28,9 @@ permalink: /:categories/:title.html
   - ["The Ruby Programming Language" (by David Flanagan, Yukihiro Matsumoto)](http://shop.oreilly.com/product/9780596516178.do)
   - ["tmux" (by Brian P. Hogan)](https://pragprog.com/book/bhtmux/tmux)
 - I am reading books
+  - ["1984" (by George Orwell)](https://www.amazon.com/gp/product/0451524934)
   - ["How Linux Works, 2nd Edition" (by Brian Ward)](https://nostarch.com/howlinuxworks2)
+  - ["It Doesn't Have to Be Crazy at Work" (by Jason Fried, David Heinemeier Hansson)](https://basecamp.com/books/calm)
   - ["Ruby on Rails Guides"](http://edgeguides.rubyonrails.org)
   - ["The C Programming Language 2nd Edition" (by Brian W. Kernighan, Dennis M. Ritchie)](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
 - I am going to read books
