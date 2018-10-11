@@ -57,8 +57,6 @@ Links to sort out:
 
 [Introduce explicit rails server handler option](https://github.com/rails/rails/pull/32058)
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Programming is an art.<a href="https://t.co/5Gg8phro0j">https://t.co/5Gg8phro0j</a></p>&mdash; Bogdan (@bogdanvlviv) <a href="https://twitter.com/bogdanvlviv/status/970582062662127616?ref_src=twsrc%5Etfw">March 5, 2018</a></blockquote>
-
 [Add `before?` and `after?` methods to date and time classes](https://github.com/rails/rails/pull/32185)
 
 [Disable ActionView::Template finalizers in test environment](https://github.com/rails/rails/pull/32418)
@@ -215,3 +213,7 @@ Links to sort out:
 [Encode Content-Disposition filenames on send_data and send_file](https://github.com/rails/rails/pull/33829)
 
 [Fix `transaction` reverting for migrations](https://github.com/rails/rails/pull/31604)
+
+[Allow assert_enqueued_with/assert_performed_with methods to accept a proc for the args argument. This is useful to check if only a subset of arguments matches your expectations.](https://github.com/rails/rails/pull/33995)
+
+[Add ActionCable::Channel::TestCase](https://github.com/rails/rails/pull/33969)
