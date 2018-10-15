@@ -156,8 +156,6 @@ Links to sort out:
 
 [Part 3: Multi-db Improvements, identifying replica configurations](https://github.com/rails/rails/pull/33770)
 
-[Add migrations_paths option to migration generator](https://github.com/rails/rails/pull/33760)
-
 [Emit warning for unknown inflection rule when generating model.](https://github.com/rails/rails/pull/33766)
 
 [Make null_store the default cache store in test environment config ](https://github.com/rails/rails/pull/33773)
@@ -217,3 +215,13 @@ Links to sort out:
 [Allow assert_enqueued_with/assert_performed_with methods to accept a proc for the args argument. This is useful to check if only a subset of arguments matches your expectations.](https://github.com/rails/rails/pull/33995)
 
 [Add ActionCable::Channel::TestCase](https://github.com/rails/rails/pull/33969)
+
+[Add `ActionController::Parameters#each_value`](https://github.com/rails/rails/pull/33979)
+
+[Add migrations_paths option to migration generator](https://github.com/rails/rails/pull/33760)
+[Add migrations_paths option to model generator](https://github.com/rails/rails/pull/33994)
+[Refactor migrations_path command option to database](https://github.com/rails/rails/pull/34021)
+
+[Treat `#delete_prefix`, `#delete_suffix` and `#unicode_normalize` results as non-`html_safe`. Ensure safety of arguments for `#insert`, `#[]=` and `#replace` calls on `html_safe` Strings.](https://github.com/rails/rails/pull/33990)
+
+[Add deprecation warning when String#first and String#last receive negative integers](https://github.com/rails/rails/pull/33058)
