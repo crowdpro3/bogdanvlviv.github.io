@@ -225,3 +225,7 @@ Links to sort out:
 [Treat `#delete_prefix`, `#delete_suffix` and `#unicode_normalize` results as non-`html_safe`. Ensure safety of arguments for `#insert`, `#[]=` and `#replace` calls on `html_safe` Strings.](https://github.com/rails/rails/pull/33990)
 
 [Add deprecation warning when String#first and String#last receive negative integers](https://github.com/rails/rails/pull/33058)
+
+[Remove undocumented `params` option from `url_for` helper](https://github.com/rails/rails/pull/33256)
+
+[Make Webpacker the default JavaScript compiler for Rails 6](https://github.com/rails/rails/pull/33079)
