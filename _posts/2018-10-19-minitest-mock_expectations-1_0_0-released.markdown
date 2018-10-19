@@ -10,13 +10,13 @@ permalink: /:categories/:title.html
 
 Hello!
 
-A few months ago, [utilum](https://github.com/utilum) and me([bogdanvlviv](https://github.com/bogdanvlviv)) were working on removing [Mocha](https://github.com/freerange/mocha) from [Rails](https://github.com/rails/rails). See our work in [rails/rails#33162](https://github.com/rails/rails/pull/33162), and related pull requests [https://github.com/rails/rails/pulls?q=Mocha](https://github.com/rails/rails/pulls?q=Mocha).
+A few months ago, [utilum](https://github.com/utilum), and me([bogdanvlviv](https://github.com/bogdanvlviv)) were working on removing [Mocha](https://github.com/freerange/mocha) from [Rails](https://github.com/rails/rails). See our work in [rails/rails#33162](https://github.com/rails/rails/pull/33162), and related pull requests [https://github.com/rails/rails/pulls?q=Mocha](https://github.com/rails/rails/pulls?q=Mocha).
 The main reason for removing this as mentioned in the Mocha's `README.md` file is that ["Mocha is currently not thread-safe"](https://github.com/freerange/mocha/blob/6c22196776477f19f6bf4177d13b81ff6b92bceb/README.md#thread-safety).
 
 There were lots of Mocha's mocks, and stubs in the Rails's tests, so we needed to replace all of them.
 We [replaced some stub-objects with Ruby classes](https://github.com/rails/rails/commit/f7bfb3db282f8333adb469b6d223b58523428d7d), [Mocha's `#stubs` method replaced with minitest's `#stub` method](https://github.com/rails/rails/commit/837d6031783c2fcf7920320d386f2ea7211f8cb1), [added new](https://github.com/rails/rails/commit/a72bca82301bc4851f40945f85711f5cefd10178), and [used already existed](https://github.com/rails/rails/blob/ac717d65a31d05458588b78ea7719b79f8ea69e5/activesupport/lib/active_support/testing/method_call_assertions.rb) custom method call assertions.
 
-I think these "method call assertions" could be useful for the rest of Ruby community, so I decided to create a gem that would extend [minitest](https://github.com/seattlerb/minitest) with these almost the same assertions. It is how gem [minitest-mock_expectations](https://github.com/bogdanvlviv/minitest-mock_expectations) was born.
+I thought these "method call assertions" could be useful for the Ruby community, so I decided to create a gem that would extend [minitest](https://github.com/seattlerb/minitest) with these, almost the same, assertions. It is how gem [minitest-mock_expectations](https://github.com/bogdanvlviv/minitest-mock_expectations) was born.
 
 > NOTE: Module [`ActiveSupport::Testing::MethodCallAssertions`](https://github.com/rails/rails/blob/a72bca82301bc4851f40945f85711f5cefd10178/activesupport/lib/active_support/testing/method_call_assertions.rb) marked as private API by `# :nodoc:` comment.
 
@@ -72,7 +72,7 @@ class Post
 end
 ```
 
-and variable `@post` that reffers to instance of `Post`:
+And variable `@post` that reffers to instance of `Post`:
 
 ```ruby
 def setup
