@@ -18,7 +18,7 @@ We [replaced some stub-objects with Ruby classes](https://github.com/rails/rails
 
 I thought these "method call assertions" could be useful for the Ruby community, so I decided to create a gem that would extend [minitest](https://github.com/seattlerb/minitest) with these, almost the same, assertions. It is how gem [minitest-mock_expectations](https://github.com/bogdanvlviv/minitest-mock_expectations) was born.
 
-> NOTE: Module [`ActiveSupport::Testing::MethodCallAssertions`](https://github.com/rails/rails/blob/a72bca82301bc4851f40945f85711f5cefd10178/activesupport/lib/active_support/testing/method_call_assertions.rb) marked as private API by `# :nodoc:` comment.
+> NOTE: Module [`ActiveSupport::Testing::MethodCallAssertions`](https://github.com/rails/rails/blob/a72bca82301bc4851f40945f85711f5cefd10178/activesupport/lib/active_support/testing/method_call_assertions.rb) is marked as private API by `# :nodoc:` comment.
 
 
 ## minitest-mock_expectations 1.0.0
