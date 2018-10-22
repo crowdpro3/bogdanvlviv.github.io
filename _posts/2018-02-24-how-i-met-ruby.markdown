@@ -29,7 +29,7 @@ Ruby definitely deserves it.
 
 When I finished secondary school I had asked myself "Who do I want to be, what do I want to do, ... ?".
 In order to give the answer to these kind of questions I had to remind my childhood's dreams about future professions like a football player, a writer, a programmer, etc.
-I stopped at the last one because I always was interested in "how does computer work", and it was one of the most promising profession for that time.
+I stopped at the last one because I always was interested in "how does computer work" and it was one of the most promising profession for that time.
 
 I did not know anything about how this work looks like in real life so had to ask someone who knows.
 I knew only one person who works in this area - [Oleksandr Bondar](https://medium.com/@kiosan).
@@ -39,7 +39,7 @@ It was code with the algorithm of the [Quadratic equation](https://en.wikipedia.
 I definitely fell in love what I had seen on the screen but I did not recognize this at that moment, just felt something new.
 It was the first time when I met Ruby.
 
-Despite I wrote the first program that outputted `Hello, World!` on [Liberty BASIC](http://libertybasic.com) at secondary school, and learned the [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming) paradigm on [C++](https://isocpp.org) at university I was always spending some time with Ruby, and each next day, the practice time was increasing.
+Despite I wrote the first program that outputted `Hello, World!` on [Liberty BASIC](http://libertybasic.com) at secondary school and learned the [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming) paradigm on [C++](https://isocpp.org) at university I was always spending some time with Ruby, and each next day, the practice time was increasing.
 
 The first book about Ruby that I read is ["Learn to Program" (by Chris Pine)](https://pine.fm/LearnToProgram).
 This book was the first source that helped me to learn basics of Ruby.

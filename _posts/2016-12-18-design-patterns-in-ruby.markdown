@@ -439,13 +439,13 @@ Read ["Design Patterns in Ruby: Factory Method"](https://medium.com/@dljerome/de
 
 ### Prototype
 
-A fully initialized instance to be copied or cloned. Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype.
+A fully initialized instance to be copied or cloned. Specify the kinds of objects to create using a prototypical instance and create new objects by copying this prototype.
 
 Read ["Design Patterns in Ruby: Prototype"](https://medium.com/@dljerome/design-patterns-in-ruby-prototype-342cb26ea75).
 
 ### Singleton
 
-A class of which only a single instance can exist. Ensure a class only has one instance, and provide a global point of access to it.
+A class of which only a single instance can exist. Ensure a class only has one instance and provide a global point of access to it.
 
 You can use [`Singleton`](https://docs.ruby-lang.org/en/2.3.0/Singleton.html) module for building Singleton pattern in Ruby.
 
@@ -1074,7 +1074,7 @@ Read ["Design Patterns in Ruby: Iterator"](https://medium.com/@dljerome/design-p
 
 ### Mediator
 
-Defines simplified communication between classes. Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it lets you vary their interaction independently.
+Defines simplified communication between classes. Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly and it lets you vary their interaction independently.
 
 Read ["Design Patterns in Ruby: Mediator"](https://medium.com/@dljerome/design-patterns-in-ruby-mediator-169e77710e37).
 

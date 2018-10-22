@@ -124,7 +124,7 @@ index 80ec808..513a2e0 100644
  require 'rails/commands'
 ```
 
-I got inspiration from [this commit](https://github.com/rails/rails/commit/5b8738c2df003a96f0e490c43559747618d10f5f), and decided to "restore order" in [Rails](https://github.com/rails/rails), [Jekyll](https://github.com/jekyll/jekyll), and own projects.
+I got inspiration from [this commit](https://github.com/rails/rails/commit/5b8738c2df003a96f0e490c43559747618d10f5f) and decided to "restore order" in [Rails](https://github.com/rails/rails), [Jekyll](https://github.com/jekyll/jekyll), and own projects.
 
 I made 2 patches and they are already merged:
 
