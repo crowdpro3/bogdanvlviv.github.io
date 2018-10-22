@@ -229,3 +229,7 @@ Links to sort out:
 [Remove undocumented `params` option from `url_for` helper](https://github.com/rails/rails/pull/33256)
 
 [Make Webpacker the default JavaScript compiler for Rails 6](https://github.com/rails/rails/pull/33079)
+
+[Deprecate the use of `LoggerSilence` in favor of `ActiveSupport::LoggerSilence`](https://github.com/rails/rails/pull/34045)
+
+[Rename `Module#parent`, `Module#parents`, and `Module#parent_name` to `module_parent`, `module_parents`, and `module_parent_name`](https://github.com/rails/rails/pull/34051)
