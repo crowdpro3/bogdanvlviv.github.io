@@ -29,10 +29,13 @@ permalink: /:categories/:title.html
   - ["tmux" (by Brian P. Hogan)](https://pragprog.com/book/bhtmux/tmux)
 - I am reading books
   - ["1984" (by George Orwell)](https://www.amazon.com/gp/product/0451524934)
+  - ["Colorless Tsukuru Tazaki and His Years of Pilgrimage" (by Haruki Murakami)](http://www.harukimurakami.com/book/colorless-tsukuru-tazaki-and-his-years-of-pilgrimage)
   - ["How Linux Works, 2nd Edition" (by Brian Ward)](https://nostarch.com/howlinuxworks2)
   - ["It Doesn't Have to Be Crazy at Work" (by Jason Fried, David Heinemeier Hansson)](https://basecamp.com/books/calm)
+  - ["Les dieux voyagent toujours incognito" (by Laurent Gounelle)](https://www.laurentgounelle.com/livres/les-dieux-voyagent-toujours-incognito-9782266219150)
   - ["Ruby on Rails Guides"](http://edgeguides.rubyonrails.org)
   - ["The C Programming Language 2nd Edition" (by Brian W. Kernighan, Dennis M. Ritchie)](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
+  - ["The Power of Habit" (by Charles Duhigg)](https://charlesduhigg.com/books/the-power-of-habit)
 - I am going to read books
   - ["Learning SQL 2nd Edition" (by Alan Beaulieu)](http://shop.oreilly.com/product/9780596520847.do)
   - ["PostgreSQL: Up and Running" (by Regina O. Obe, Leo S. Hsu)](http://shop.oreilly.com/product/0636920025061.do)
