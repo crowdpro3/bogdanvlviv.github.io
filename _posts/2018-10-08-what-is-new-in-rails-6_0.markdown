@@ -233,3 +233,7 @@ Links to sort out:
 [Deprecate the use of `LoggerSilence` in favor of `ActiveSupport::LoggerSilence`](https://github.com/rails/rails/pull/34045)
 
 [Rename `Module#parent`, `Module#parents`, and `Module#parent_name` to `module_parent`, `module_parents`, and `module_parent_name`](https://github.com/rails/rails/pull/34051)
+
+[Parameterized mailers can configure delivery job](https://github.com/rails/rails/pull/34097)
+
+[Deprecate `ActionDispatch::Http::ParameterFilter` in favor of `ActiveSupport::ParameterFilter`](https://github.com/rails/rails/pull/34039)
