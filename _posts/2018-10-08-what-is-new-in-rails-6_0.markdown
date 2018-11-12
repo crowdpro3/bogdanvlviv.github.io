@@ -237,3 +237,13 @@ Links to sort out:
 [Parameterized mailers can configure delivery job](https://github.com/rails/rails/pull/34097)
 
 [Deprecate `ActionDispatch::Http::ParameterFilter` in favor of `ActiveSupport::ParameterFilter`](https://github.com/rails/rails/pull/34039)
+
+[Add multi-db support to rails db:migrate:status](https://github.com/rails/rails/pull/34137)
+
+[Fix inconsistent behavior by clearing QueryCache when reloading associations](https://github.com/rails/rails/pull/34094)
+
+[Enum raises on invalid definition values](https://github.com/rails/rails/pull/34110)
+
+[Add allocations to template renderer subscription](https://github.com/rails/rails/pull/34136)
+
+[Part 4: Multi db improvements, Basic API for connection switching](https://github.com/rails/rails/pull/34052)
