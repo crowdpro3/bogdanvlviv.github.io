@@ -67,14 +67,20 @@ var talk = {
 
     this.displayNumberOfSlides();
 
-    document.onkeypress = function(keyboardEvent) {
+    document.onkeydown = function(keyboardEvent) {
+      keyboardEvent.preventDefault();
+
       switch(keyboardEvent.key) {
         case "j":
         case "l":
+        case "PageDown":
+        case "ArrowRight":
           this.nextSlide();
           break;
         case "k":
         case "h":
+        case "PageUp":
+        case "ArrowLeft":
           this.previousSlide();
           break;
       }
