@@ -68,7 +68,13 @@ var talk = {
     this.displayNumberOfSlides();
 
     document.onkeydown = function(keyboardEvent) {
-      keyboardEvent.preventDefault();
+      switch(keyboardEvent.key) {
+      case "F11":
+        // full screen
+        break;
+      default:
+        keyboardEvent.preventDefault();
+      }
 
       switch(keyboardEvent.key) {
         case "j":

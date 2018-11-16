@@ -17,8 +17,20 @@ This this is default example of my slides.
 
 ## Navigation
 
-- In order to go to the next slide click the link "Next slide(j, l)" or press "j" or "l"
-- In order to go to the previous slide click the link "Previous slide(h, k)" or press "h" or "k"
+- In order to go to the next slide
+  - click the link "Next slide(j, l)"
+  - press "j"
+  - press "l"
+  - press "PageDown"
+  - press "ArrowRight"
+- In order to go to the previous slide
+  - click the link "Previous slide(h, k)"
+  - press "k"
+  - press "h"
+  - press "PageUp"
+  - press "ArrowLeft"
+- In order to open slides in a the full screen
+  - press "F11"
 </div>
 
 <div class="talk-slide">
