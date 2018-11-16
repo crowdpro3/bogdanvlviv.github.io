@@ -247,3 +247,12 @@ Links to sort out:
 [Add allocations to template renderer subscription](https://github.com/rails/rails/pull/34136)
 
 [Part 4: Multi db improvements, Basic API for connection switching](https://github.com/rails/rails/pull/34052)
+
+[Deprecate `ActiveSupport::Multibyte::Unicode#downcase/upcase/swapcase` in favor of `String#downcase/upcase/swapcase`](https://github.com/rails/rails/pull/34123)
+[Deprecate `ActiveSupport::Multibyte::Unicode#normalize` and `ActiveSuppport::Multibyte::Chars#normalize` in favor of `String#unicode_normalize`](https://github.com/rails/rails/pull/34202)
+
+[Include deserialized arguments in job instances returned from `assert_enqueued_with` and `assert_performed_with`](https://github.com/rails/rails/pull/34204)
+
+[Fix duration being rounded to a full second](https://github.com/rails/rails/pull/34135)
+
+[Use Ids instead of memory addresses when displaying references in scaffold views](https://github.com/rails/rails/pull/29204)
