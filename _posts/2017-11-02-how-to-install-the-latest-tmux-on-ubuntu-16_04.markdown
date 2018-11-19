@@ -63,6 +63,13 @@ Go to the `/tmp/tmux` directory:
 $ cd /tmp/tmux
 ```
 
+Choose the version of tmux you want to install from [the list](https://github.com/tmux/tmux/tags) (e.g. `2.7`, `2.8`, `master`).
+Note that `master` points to the latest not stable version of tmux:
+
+```bash
+git checkout master
+```
+
 Execute `autogen.sh` file:
 
 ```bash
@@ -115,6 +122,8 @@ rm -fr /tmp/tmux
 git clone https://github.com/tmux/tmux.git /tmp/tmux
 
 cd /tmp/tmux
+
+git checkout master
 
 sh autogen.sh
 
