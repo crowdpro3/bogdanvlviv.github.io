@@ -172,7 +172,8 @@ Links to sort out:
 
 [update I18n fallbacks configuration to be compatible with i18n 1.1.0](https://github.com/rails/rails/pull/33574)
 
-[Add `inspection_masks` to make values of sensitive database columns won't be exposed while call #inspect.](https://github.com/rails/rails/pull/33756)
+[Configuration item `config.filter_parameters` could also filter out sensitive values of database columns when call `#inspect`.](https://github.com/rails/rails/pull/33756)
+[Implement AR#inspect using ParameterFilter](https://github.com/rails/rails/pull/34208)
 
 [Add #unfreeze_time to ActiveSupport::Testing::TimeHelpers](https://github.com/rails/rails/pull/33813)
 
@@ -256,3 +257,7 @@ Links to sort out:
 [Fix duration being rounded to a full second](https://github.com/rails/rails/pull/34135)
 
 [Use Ids instead of memory addresses when displaying references in scaffold views](https://github.com/rails/rails/pull/29204)
+
+[Deprecate ActiveSupport::Multibyte::Chars.consumes?](https://github.com/rails/rails/pull/34215)
+
+[Deprecate `ActiveSupport::Multibyte::Unicode#pack_graphemes(array)` and `ActiveSuppport::Multibyte::Unicode#unpack_graphemes(string)` in favor of `array.flatten.pack("U*")` and `string.scan(/\X/).map(&:codepoints)`, respectively](https://github.com/rails/rails/pull/34254)
