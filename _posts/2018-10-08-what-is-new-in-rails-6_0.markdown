@@ -23,15 +23,137 @@ I am [bogdanvlviv](https://github.com/bogdanvlviv) - [Rails Contributor](http://
 > In order to be notified about new changes in this post, you can [subscribe to my mailing list]({{ site.mailchimp_signup_form_url }}), [follow me on Twitter](https://twitter.com/bogdanvlviv), or just refresh this page from time to time.
 Stay tuned!
 
-Links to sort out:
+## [Parallel testing](#parallel-testing)
+
+Pull Requests:
+- [Parallel testing](https://github.com/rails/rails/pull/31900)
+
+You know that class `ActiveSupport::TestCase` uses [minitest](https://github.com/seattlerb/minitest) under the hood (`Minitest::Test` is the superclass of the class).
+To `ActiveSupport::TestCase` was added `parallelize` method.
+It allows you to parallelize your test suite with forked processes.
+Running tests in parallel reduces the time it takes your entire test suite to run.
+
+Running test in threads is supported as well, but note that it doesn't make your test run faster (read ["Minitest Parallelization and You"](http://www.zenspider.com/ruby/2012/12/minitest-parallelization-and-you.html) since it uses [`Minitest::Parallel::Executor`](https://github.com/seattlerb/minitest/blob/master/lib/minitest/parallel.rb)).
+
+The default parallelization method is to [fork](https://docs.ruby-lang.org/en/2.5.0/Kernel.html#method-i-fork) processes using Ruby's [DRb](https://docs.ruby-lang.org/en/2.5.0/DRb.html) system.
+
+To enable parallelization with forked processes add the following to your `test/test_helper.rb`:
+
+ ```ruby
+class ActiveSupport::TestCase
+  parallelize(workers: 3, with: :processes)
+end
+```
+
+The `:workers` option controls how many times the the process is forked or how many threads are used, the default is 2.
+
+If you would like to parallelize your test suite with threads, you should set `:with` option to `:threads`:
+
+```ruby
+class ActiveSupport::TestCase
+  parallelize(workers: 3, with: :threads)
+end
+```
+
+You can also use environment variable `PARALLEL_WORKERS` to easily change the number of workers a test run should use.
+This is useful for CI environments or other environments where you may need more or less workers than you do for local testing:
+
+```
+PARALLEL_WORKERS=6 bin/rails test
+```
+When parallelizing test with processes, Active Record automatically handles creating a database and loading the schema into the database for each process. The databases will be suffixed with the number corresponding to the worker.
+For example, if you have 2 workers the tests will create `test_database-0` and `test_database-1` databases respectively.
+If the number of workers passed is 1 or fewer the processes will not be forked and the tests will not be parallelized and the tests will use the original `test_database` database.
+Also, two hooks are provided, one runs when the process is forked but before the tests run, and one runs before the forked process is closed.
+These can be useful if your app uses multiple databases or perform other tasks that depend on the number of workers.
+The `parallelize_setup` method is called right after the process is forked. The `parallelize_teardown` method is called right before the process is closed:
+
+ ```ruby
+class ActiveSupport::TestCase
+  parallelize_setup do |worker|
+    # code
+  end
+
+  parallelize_teardown do |worker|
+    # code
+  end
+
+  parallelize(workers: 2)
+end
+```
+
+Note that these methods are not available with the threaded parallelization.
+
+## [ActiveRecord::Relation#pick as shorthand for single-value plucks](#activerecordrelationpick-as-shorthand-for-single-value-plucks)
+
+Pull Requests:
+- [Add Relation#pick as short-hand for single-value plucks](https://github.com/rails/rails/pull/31941)
+
+I am sure you know about the method `#pluck` that [has been in Rails since version 3.2.0](https://github.com/rails/rails/pull/1915).
+Let's refresh our knowledge.
+`#pluck` is a shortcut to select one or more attributes without loading a bunch of records just to grab the attributes you want:
+
+```ruby
+User.pluck(:name)
+# SELECT "users"."name" FROM "users"
+# => ["Bogdan", "David"]
+
+User.where(id: 1).pluck(:name, :email)
+# SELECT "users"."name", "users"."email" FROM "users" WHERE "users"."id" = ?  [["id", 1]]
+# => [["Bogdan", "bogdanvlviv@gmail.com"]]
+
+User.where("1=0").pluck(:name)
+# SELECT "users"."name" FROM "users" WHERE (1=0)
+# => []
+```
+
+But sometimes you just need single value(s) from the result. To get this you can do something like:
+
+```ruby
+User.limit(1).pluck(:name).first
+# SELECT "users"."name" FROM "users" LIMIT ?  [["LIMIT", 1]]
+# => "Bogdan"
+
+User.where(id: 1).limit(1).pluck(:name, :email).first
+# SELECT "users"."name", "users"."email" FROM "users" WHERE "users"."id" = ? LIMIT ?  [["id", 1], ["LIMIT", 1]]
+# => ["Bogdan", "bogdanvlviv@gmail.com"]
+```
+
+Since Rails 6.0 you can use the method `#pick`, it is shorthand for `limit(1).pluck(*column_names).first`:
+
+```ruby
+User.pick(:name)
+# SELECT "users"."name" FROM "users" LIMIT ?  [["LIMIT", 1]]
+# => "Bogdan"
+
+User.where(id: 1).pick(:name, :email)
+# SELECT "users"."name", "users"."email" FROM "users" WHERE "users"."id" = ? LIMIT ?  [["id", 1], ["LIMIT", 1]]
+# => ["Bogdan", "bogdanvlviv@gmail.com"]
+
+User.pick(Arel.sql("UPPER(name)"))
+# SELECT UPPER(name) FROM "users" LIMIT ?  [["LIMIT", 1]]
+# => "BOGDAN"
+
+User.where("1=0").pick(:name)
+# SELECT "users"."name" FROM "users" WHERE (1=0) LIMIT ?  [["LIMIT", 1]]
+# => nil
+```
+
+You probably noticed that the method `#pluck` does not guarantee the order of the returned value(s) by any column.
+So note that `#pick` does not guarantee to return the value(s) of the first row ordered by any column either.
+For instance, if you want to get value(s) of the first row ordered by `id` column, you should apply `order(:id)` before `pick`:
+
+```ruby
+User.order(:id).pick(:name)
+# SELECT "users"."name" FROM "users" ORDER BY "users"."id" ASC LIMIT ?  [["LIMIT", 1]]
+# => "Bogdan"
+```
+
+## Links to sort out:
 
 [Start Rails 6.0 development!!!](https://github.com/rails/rails/commit/1c383df324fdf0b68b3f54a649eb7d2a4f55bcb7)
 
 [Rails 6 requires Ruby 2.4.1+](https://github.com/rails/rails/pull/32034)
-
-[Parallel testing](https://github.com/rails/rails/pull/31900)
-
-[Add Relation#pick as short-hand for single-value plucks](https://github.com/rails/rails/pull/31941)
 
 [Add #create_or_find_by to lean on unique constraints](https://github.com/rails/rails/pull/31989)
 
