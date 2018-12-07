@@ -149,13 +149,62 @@ User.order(:id).pick(:name)
 # => "Bogdan"
 ```
 
+## [ActiveRecord::Relation#create_or_find_by/! to lean on unique constraints](#activerecordrelationcreate_or_find_by-to-lean-on-unique-constraints)
+
+Pull Requests:
+- [Add #create_or_find_by to lean on unique constraints](https://github.com/rails/rails/pull/31989)
+- [#create_or_find_by/!: add more tests and fix docs](https://github.com/rails/rails/pull/34653)
+
+`#create_or_find_by` attempts to create a record with the given attributes in a table that has a unique constraint
+on one or several of its columns.
+If a row already exists with one or several of these unique constraints, the exception such an insertion would normally raise is caught and the existing record with those attributes is found using [`#find_by!`](https://edgeapi.rubyonrails.org/classes/ActiveRecord/FinderMethods.html#method-i-find_by-21).
+
+This is similar to [`#find_or_create_by`](https://api.rubyonrails.org/v5.2/classes/ActiveRecord/Relation.html#method-i-find_or_create_by), but avoids the problem of stale reads between the `SELECT` and the `INSERT`, as that method needs to first query the table, then attempt to insert a row if none is found.
+
+There are several drawbacks to `#create_or_find_by`, though:
+
+- The underlying table must have the relevant columns defined with unique constraints.
+- A unique constraint violation may be triggered by only one, or at least less than all, of the given attributes. This means that the subsequent `#find_by!` may fail to find a matching record, which will then raise an `ActiveRecord::RecordNotFound` exception, rather than a record with the given attributes.
+- While we avoid the race condition between `SELECT` -> `INSERT` from `#find_or_create_by`, we actually have another race condition between `INSERT` -> `SELECT`, which can be triggered if a `DELETE` between those two statements is run by another client. But for most applications, that's a significantly less likely condition to hit.
+- It relies on exception handling to handle control flow, which may be marginally slower.
+
+This method will return a record if all given attributes are covered by unique constraints (unless the `INSERT` -> `DELETE` -> `SELECT` race condition is triggered), but if creation was attempted and failed due to validation errors it won't be persisted, you get what [`#create`](https://api.rubyonrails.org/v5.2/classes/ActiveRecord/Persistence/ClassMethods.html#method-i-create) returns in such situation.
+
+`#create_or_find_by!` is like `#create_or_find_by`, but calls [`create!`](https://api.rubyonrails.org/v5.2/classes/ActiveRecord/Persistence/ClassMethods.html#method-i-create-21) so an exception is raised if the created record is invalid.
+
+Implementation of these methods look like:
+
+```ruby
+def create_or_find_by(attributes, &block)
+  transaction(requires_new: true) { create(attributes, &block) }
+rescue ActiveRecord::RecordNotUnique
+  find_by!(attributes)
+ end
+
+def create_or_find_by!(attributes, &block)
+  transaction(requires_new: true) { create!(attributes, &block) }
+rescue ActiveRecord::RecordNotUnique
+  find_by!(attributes)
+end
+```
+
+Examples using of these methods:
+
+```ruby
+User.create_or_find_by(email: "bogdanvlviv@gmail.com") do |user|
+  user.name = "Bogdan"
+end
+
+User.create_or_find_by!(email: "bogdanvlviv@gmail.com") do |user|
+  user.name = "Богдан"
+end
+```
+
 ## Links to sort out:
 
 [Start Rails 6.0 development!!!](https://github.com/rails/rails/commit/1c383df324fdf0b68b3f54a649eb7d2a4f55bcb7)
 
 [Rails 6 requires Ruby 2.4.1+](https://github.com/rails/rails/pull/32034)
-
-[Add #create_or_find_by to lean on unique constraints](https://github.com/rails/rails/pull/31989)
 
 [Introduce custom serializers to ActiveJob arguments](https://github.com/rails/rails/pull/30941)
 
