@@ -32,8 +32,10 @@ var talk = {
   },
 
   displayNumberOfSlides: function() {
-    document.getElementById("js-talk-number-of-slides").textContent =
-      "(" + this.numberOfActiveSlide + "/" + this.numberOfSlides() + ")";
+    var numberOfSlides = document.getElementById("js-talk-number-of-slides");
+
+    numberOfSlides.href = document.location.href.split("?")[0].split("#")[0] + "?slide=" + this.numberOfActiveSlide;
+    numberOfSlides.textContent = "(" + this.numberOfActiveSlide + "/" + this.numberOfSlides() + ")";
   },
 
   previousSlide: function() {
@@ -61,7 +63,16 @@ var talk = {
   },
 
   start: function() {
-    this.slides().slice(1).reverse().forEach(function(slide) {
+    var numberOfActiveSlideFromParams = parseInt((new URL(document.location)).searchParams.get("slide"));
+    if (!Number.isNaN(numberOfActiveSlideFromParams) &&
+        numberOfActiveSlideFromParams > 0 &&
+        numberOfActiveSlideFromParams <= this.numberOfSlides()) {
+      this.numberOfActiveSlide = numberOfActiveSlideFromParams;
+    }
+
+    var slidesToHide = this.slides();
+    slidesToHide.splice(this.numberOfActiveSlide - 1, 1);
+    slidesToHide.forEach(function(slide) {
       this.hideSlide(slide);
     }.bind(this));
 
