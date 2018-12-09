@@ -21,3 +21,13 @@ permalink: /:categories/:title.html
 Ні, за день ніхто не зможе навчитись програмувати, мета події познайомити учасників з програмування, дати можливість спробувати це на практиці, показати, що програмувати легко, а також допомогти відповісти на питання такі як "чи мені цікаво програмувати?", "чи хотів би я бути програмістом у майбутньому?".
 
 Форма реєстрації на подію: [Rails Teens 2018](https://docs.google.com/forms/d/e/1FAIpQLSdMFI4vC2Z9So2u0ocJiyM1ORUjiIDgrcoCTLo6RnNdYRviaQ/viewform).
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Rails Teens 2018 - done<br>The whole day of programming for school kids, with tons of laughter and balloons<br>Thank you, mentors and students, you are the best❤️ <a href="https://t.co/7FbAfoNrkf">pic.twitter.com/7FbAfoNrkf</a></p>&mdash; Pivorak (@pivorakmeetup) <a href="https://twitter.com/pivorakmeetup/status/1071455108137971713?ref_src=twsrc%5Etfw">December 8, 2018</a></blockquote>
+
+<div class="picture">
+  <img src="{{ "/images/posts/ruby/rails/rails-teens-programming-day-for-senior-pupils-08-12-2018-lviv/1.jpg" | absolute_url }}" title="Rails Teens">
+</div>
+
+<div class="picture">
+  <img src="{{ "/images/posts/ruby/rails/rails-teens-programming-day-for-senior-pupils-08-12-2018-lviv/2.jpg" | absolute_url }}" title="Rails Teens">
+</div>
