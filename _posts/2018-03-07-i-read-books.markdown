@@ -33,6 +33,7 @@ permalink: /:categories/:title.html
   - ["Colorless Tsukuru Tazaki and His Years of Pilgrimage" (by Haruki Murakami)](http://www.harukimurakami.com/book/colorless-tsukuru-tazaki-and-his-years-of-pilgrimage)
   - ["How Linux Works, 2nd Edition" (by Brian Ward)](https://nostarch.com/howlinuxworks2)
   - ["Les dieux voyagent toujours incognito" (by Laurent Gounelle)](https://www.laurentgounelle.com/livres/les-dieux-voyagent-toujours-incognito-9782266219150)
+  - ["On Writing Well: The Classic Guide to Writing Nonfiction" (by William Zinsser)](https://www.amazon.com/gp/product/0060891548)
   - ["Ruby on Rails Guides"](http://edgeguides.rubyonrails.org)
   - ["The C Programming Language 2nd Edition" (by Brian W. Kernighan, Dennis M. Ritchie)](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
   - ["The Power of Habit" (by Charles Duhigg)](https://charlesduhigg.com/books/the-power-of-habit)
