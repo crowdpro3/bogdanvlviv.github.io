@@ -9,6 +9,7 @@ permalink: /:categories/:title.html
 ---
 
 - I read books
+  - ["1984" (by George Orwell)](https://www.amazon.com/gp/product/0451524934)
   - ["A Dog's Purpose" (by W. Bruce Cameron)](http://www.brucecameron.com/books/a-dog-s-purpose)
   - ["Agile Web Development with Rails 4" (by Sam Ruby)](https://pragprog.com/book/rails4/agile-web-development-with-rails-4)
   - ["Crafting Rails 4 Applications" (by José Valim)](https://pragprog.com/book/jvrails2/crafting-rails-4-applications)
@@ -29,7 +30,6 @@ permalink: /:categories/:title.html
   - ["The Ruby Programming Language" (by David Flanagan, Yukihiro Matsumoto)](http://shop.oreilly.com/product/9780596516178.do)
   - ["tmux" (by Brian P. Hogan)](https://pragprog.com/book/bhtmux/tmux)
 - I am reading books
-  - ["1984" (by George Orwell)](https://www.amazon.com/gp/product/0451524934)
   - ["Colorless Tsukuru Tazaki and His Years of Pilgrimage" (by Haruki Murakami)](http://www.harukimurakami.com/book/colorless-tsukuru-tazaki-and-his-years-of-pilgrimage)
   - ["How Linux Works, 2nd Edition" (by Brian Ward)](https://nostarch.com/howlinuxworks2)
   - ["Les dieux voyagent toujours incognito" (by Laurent Gounelle)](https://www.laurentgounelle.com/livres/les-dieux-voyagent-toujours-incognito-9782266219150)
