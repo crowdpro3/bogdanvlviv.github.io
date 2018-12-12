@@ -19,7 +19,9 @@
           <a class="page-link" href="{{ page.url | absolute_url }}">{{ page.title | escape }}</a>
           {%- endif -%}
         {%- endfor -%}
-        <a class="page-link" href="{{ "/tweets/" | absolute_url }}" target="_blank">Tweets</a>
+        {%- if site.twitter_username -%}
+        <a class="page-link" href="https://twitter.com/{{ site.twitter_username }}" target="_blank">Tweets</a>
+        {%- endif -%}
       </div>
     </nav>
   </div>
