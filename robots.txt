@@ -4,5 +4,5 @@ permalink: /robots.txt
 ---
 
 User-agent: *
-Disallow:
+Disallow: /tweets/
 Sitemap: {{ "/sitemap.xml" | absolute_url }}
