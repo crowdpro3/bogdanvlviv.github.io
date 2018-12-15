@@ -26,3 +26,4 @@ exclude:
   - Dockerfile
   - Gemfile
   - Gemfile.lock
+  - LICENSE.md
