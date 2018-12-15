@@ -2095,7 +2095,7 @@ Grailbird.data.tweets_2018_07 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\"\u003ETwitter for Android\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "grajohnt \uD83E\uDD14\uD83D\uDC8E\uD83D\uDE80\uD83D\uDD27",
+      "name" : "grajohnt \uD83C\uDF84\uD83D\uDD4E\uD83E\uDD42",
       "screen_name" : "grajohnt",
       "indices" : [ 3, 12 ],
       "id_str" : "233916688",
@@ -2133,7 +2133,7 @@ Grailbird.data.tweets_2018_07 =
     "id" : 1022458701423226880,
     "created_at" : "2018-07-26 12:28:45 +0000",
     "user" : {
-      "name" : "grajohnt \uD83E\uDD14\uD83D\uDC8E\uD83D\uDE80\uD83D\uDD27",
+      "name" : "grajohnt \uD83C\uDF84\uD83D\uDD4E\uD83E\uDD42",
       "screen_name" : "grajohnt",
       "protected" : false,
       "id_str" : "233916688",
@@ -8357,7 +8357,7 @@ Grailbird.data.tweets_2018_07 =
       "id_str" : "732521058507620356",
       "id" : 732521058507620356
     }, {
-      "name" : "FIFA.com",
+      "name" : "#ClubWC \uD83C\uDFC6",
       "screen_name" : "FIFAcom",
       "indices" : [ 17, 25 ],
       "id_str" : "140070953",
@@ -8374,7 +8374,7 @@ Grailbird.data.tweets_2018_07 =
     "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
     "entities" : {
       "user_mentions" : [ {
-        "name" : "FIFA.com",
+        "name" : "#ClubWC \uD83C\uDFC6",
         "screen_name" : "FIFAcom",
         "indices" : [ 4, 12 ],
         "id_str" : "140070953",

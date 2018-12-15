@@ -4836,33 +4836,6 @@ Grailbird.data.tweets_2018_04 =
     "hashtags" : [ ],
     "urls" : [ ]
   },
-  "in_reply_to_status_id_str" : "988159055767244800",
-  "geo" : { },
-  "id_str" : "988159057470152709",
-  "in_reply_to_user_id" : 723791414388232192,
-  "text" : "just reminded that once i ordered on amazon two pair Levi's jeans, cool Levi's belt, and one t-shirt and delivery from US to Ukraine, and it cost me almost the same price that cost buying one pair Levi's jeans in Ukraine in a shop.",
-  "id" : 988159057470152709,
-  "in_reply_to_status_id" : 988159055767244800,
-  "created_at" : "2018-04-22 20:54:13 +0000",
-  "in_reply_to_screen_name" : "bogdanvlviv",
-  "in_reply_to_user_id_str" : "723791414388232192",
-  "user" : {
-    "name" : "Bogdan",
-    "screen_name" : "bogdanvlviv",
-    "protected" : false,
-    "id_str" : "723791414388232192",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/994303059932131334\/7trK_6tt_normal.jpg",
-    "id" : 723791414388232192,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
   "in_reply_to_status_id_str" : "988159057470152709",
   "geo" : { },
   "id_str" : "988159059151990784",
@@ -4897,6 +4870,33 @@ Grailbird.data.tweets_2018_04 =
   "text" : "ok. sleeping time for me. \uD83D\uDE34",
   "id" : 988159060930375682,
   "in_reply_to_status_id" : 988159059151990784,
+  "created_at" : "2018-04-22 20:54:13 +0000",
+  "in_reply_to_screen_name" : "bogdanvlviv",
+  "in_reply_to_user_id_str" : "723791414388232192",
+  "user" : {
+    "name" : "Bogdan",
+    "screen_name" : "bogdanvlviv",
+    "protected" : false,
+    "id_str" : "723791414388232192",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/994303059932131334\/7trK_6tt_normal.jpg",
+    "id" : 723791414388232192,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "988159055767244800",
+  "geo" : { },
+  "id_str" : "988159057470152709",
+  "in_reply_to_user_id" : 723791414388232192,
+  "text" : "just reminded that once i ordered on amazon two pair Levi's jeans, cool Levi's belt, and one t-shirt and delivery from US to Ukraine, and it cost me almost the same price that cost buying one pair Levi's jeans in Ukraine in a shop.",
+  "id" : 988159057470152709,
+  "in_reply_to_status_id" : 988159055767244800,
   "created_at" : "2018-04-22 20:54:13 +0000",
   "in_reply_to_screen_name" : "bogdanvlviv",
   "in_reply_to_user_id_str" : "723791414388232192",
@@ -9784,7 +9784,7 @@ Grailbird.data.tweets_2018_04 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "YRP\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "indices" : [ 3, 16 ],
       "id_str" : "5787442",
@@ -9821,7 +9821,7 @@ Grailbird.data.tweets_2018_04 =
     "id" : 986469671879688193,
     "created_at" : "2018-04-18 05:01:12 +0000",
     "user" : {
-      "name" : "YRP\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "protected" : false,
       "id_str" : "5787442",
@@ -12550,7 +12550,7 @@ Grailbird.data.tweets_2018_04 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "YRP\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "indices" : [ 3, 16 ],
       "id_str" : "5787442",
@@ -12587,7 +12587,7 @@ Grailbird.data.tweets_2018_04 =
     "id" : 984619521146175488,
     "created_at" : "2018-04-13 02:29:21 +0000",
     "user" : {
-      "name" : "YRP\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "protected" : false,
       "id_str" : "5787442",
@@ -14986,7 +14986,7 @@ Grailbird.data.tweets_2018_04 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\"\u003ETwitter for Android\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "YRP\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "indices" : [ 3, 16 ],
       "id_str" : "5787442",
@@ -15075,7 +15075,7 @@ Grailbird.data.tweets_2018_04 =
     "id" : 982904122251755520,
     "created_at" : "2018-04-08 08:52:58 +0000",
     "user" : {
-      "name" : "YRP\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "protected" : false,
       "id_str" : "5787442",
@@ -16011,7 +16011,7 @@ Grailbird.data.tweets_2018_04 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "YRP\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "indices" : [ 3, 16 ],
       "id_str" : "5787442",
@@ -16038,7 +16038,7 @@ Grailbird.data.tweets_2018_04 =
     "id" : 981621793411624960,
     "created_at" : "2018-04-04 19:57:27 +0000",
     "user" : {
-      "name" : "YRP\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "protected" : false,
       "id_str" : "5787442",

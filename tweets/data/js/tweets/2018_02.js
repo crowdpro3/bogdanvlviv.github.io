@@ -7757,7 +7757,7 @@ Grailbird.data.tweets_2018_02 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "YRP\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "indices" : [ 3, 16 ],
       "id_str" : "5787442",
@@ -7794,7 +7794,7 @@ Grailbird.data.tweets_2018_02 =
     "id" : 963925606541873152,
     "created_at" : "2018-02-14 23:59:08 +0000",
     "user" : {
-      "name" : "YRP\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "protected" : false,
       "id_str" : "5787442",
@@ -9774,7 +9774,7 @@ Grailbird.data.tweets_2018_02 =
       "screen_name" : "frank_chimero",
       "protected" : false,
       "id_str" : "13212522",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1034105385609842688\/ti7DO8yO_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1073266984907890692\/JDgvBweh_normal.jpg",
       "id" : 13212522,
       "verified" : false
     }

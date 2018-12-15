@@ -3167,7 +3167,7 @@ Grailbird.data.tweets_2018_01 =
       "screen_name" : "FCBarcelona",
       "protected" : false,
       "id_str" : "96951800",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1069594261312729088\/lU3NakEL_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1070948700527173632\/eJ4q0dsV_normal.jpg",
       "id" : 96951800,
       "verified" : true
     }
@@ -6062,7 +6062,7 @@ Grailbird.data.tweets_2018_01 =
       "screen_name" : "iamdevloper",
       "protected" : false,
       "id_str" : "564919357",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1069991769998323714\/0gSFjrtL_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1071055431215276033\/U9-RIlDs_normal.jpg",
       "id" : 564919357,
       "verified" : false
     }

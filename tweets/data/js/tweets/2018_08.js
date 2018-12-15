@@ -6181,7 +6181,7 @@ Grailbird.data.tweets_2018_08 =
       "screen_name" : "Charliestolz",
       "protected" : false,
       "id_str" : "367886704",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/998810964664303616\/h300YF0d_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1073274186737598464\/KOUlpQl7_normal.jpg",
       "id" : 367886704,
       "verified" : false
     }
@@ -11485,7 +11485,7 @@ Grailbird.data.tweets_2018_08 =
       "screen_name" : "davemacladd",
       "protected" : false,
       "id_str" : "31252613",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1062750996839968769\/M8KN3jid_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1073344912333131777\/dmsVdLS-_normal.jpg",
       "id" : 31252613,
       "verified" : false
     }
@@ -11698,7 +11698,7 @@ Grailbird.data.tweets_2018_08 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\"\u003ETwitter for Android\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Google Cloud Platform",
+      "name" : "GCP @ KubeCon",
       "screen_name" : "GCPcloud",
       "indices" : [ 3, 12 ],
       "id_str" : "15813140",
@@ -11761,7 +11761,7 @@ Grailbird.data.tweets_2018_08 =
     "id" : 1029153107278790657,
     "created_at" : "2018-08-13 23:49:56 +0000",
     "user" : {
-      "name" : "Google Cloud Platform",
+      "name" : "GCP @ KubeCon",
       "screen_name" : "GCPcloud",
       "protected" : false,
       "id_str" : "15813140",
@@ -12000,7 +12000,7 @@ Grailbird.data.tweets_2018_08 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Major League Soccer\uD83C\uDFC6",
+      "name" : "Major League Soccer",
       "screen_name" : "MLS",
       "indices" : [ 3, 7 ],
       "id_str" : "107146095",
@@ -12055,11 +12055,11 @@ Grailbird.data.tweets_2018_08 =
     "id" : 1028827728298954752,
     "created_at" : "2018-08-13 02:16:59 +0000",
     "user" : {
-      "name" : "Major League Soccer\uD83C\uDFC6",
+      "name" : "Major League Soccer",
       "screen_name" : "MLS",
       "protected" : false,
       "id_str" : "107146095",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1068418779581865984\/4YoFXba2_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1072593613085917184\/3XQkbeNc_normal.jpg",
       "id" : 107146095,
       "verified" : true
     }

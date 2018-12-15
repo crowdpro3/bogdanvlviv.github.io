@@ -1734,7 +1734,7 @@ Grailbird.data.tweets_2018_10 =
       "screen_name" : "_vector_ja",
       "protected" : false,
       "id_str" : "227052485",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1049394588543344640\/kYcj1CYq_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1072511817862316034\/PkrQteF9_normal.jpg",
       "id" : 227052485,
       "verified" : false
     }
@@ -2661,7 +2661,7 @@ Grailbird.data.tweets_2018_10 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "YRP\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "indices" : [ 3, 16 ],
       "id_str" : "5787442",
@@ -2750,7 +2750,7 @@ Grailbird.data.tweets_2018_10 =
     "id" : 1055573154725212160,
     "created_at" : "2018-10-25 21:33:46 +0000",
     "user" : {
-      "name" : "YRP\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "protected" : false,
       "id_str" : "5787442",
@@ -3938,7 +3938,7 @@ Grailbird.data.tweets_2018_10 =
       "screen_name" : "juventusfcen",
       "protected" : false,
       "id_str" : "1638021792",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/925816184309764096\/U37FzSUq_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1073222443915993089\/RRi6qiXq_normal.jpg",
       "id" : 1638021792,
       "verified" : true
     }
@@ -4135,7 +4135,7 @@ Grailbird.data.tweets_2018_10 =
       "screen_name" : "juventusfcen",
       "protected" : false,
       "id_str" : "1638021792",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/925816184309764096\/U37FzSUq_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1073222443915993089\/RRi6qiXq_normal.jpg",
       "id" : 1638021792,
       "verified" : true
     }
@@ -5428,7 +5428,7 @@ Grailbird.data.tweets_2018_10 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\"\u003ETwitter for Android\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "YRP\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "indices" : [ 3, 16 ],
       "id_str" : "5787442",
@@ -5517,7 +5517,7 @@ Grailbird.data.tweets_2018_10 =
     "id" : 1054508916996956160,
     "created_at" : "2018-10-22 23:04:52 +0000",
     "user" : {
-      "name" : "YRP\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "protected" : false,
       "id_str" : "5787442",
@@ -7608,7 +7608,7 @@ Grailbird.data.tweets_2018_10 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "\u30AB**\u30B9",
+      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "indices" : [ 3, 16 ],
       "id_str" : "5787442",
@@ -7697,7 +7697,7 @@ Grailbird.data.tweets_2018_10 =
     "id" : 1053925259240337408,
     "created_at" : "2018-10-21 08:25:37 +0000",
     "user" : {
-      "name" : "YRP\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "protected" : false,
       "id_str" : "5787442",
@@ -13616,7 +13616,7 @@ Grailbird.data.tweets_2018_10 =
       "screen_name" : "christineexists",
       "protected" : false,
       "id_str" : "763453788409724928",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1065634025837072397\/b1wKYvNo_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1073359404026814466\/Rf8m5iAz_normal.jpg",
       "id" : 763453788409724928,
       "verified" : false
     }
@@ -18478,7 +18478,7 @@ Grailbird.data.tweets_2018_10 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\"\u003ETwitter for Android\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "\u30AB**\u30B9",
+      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "indices" : [ 3, 16 ],
       "id_str" : "5787442",
@@ -18567,7 +18567,7 @@ Grailbird.data.tweets_2018_10 =
     "id" : 1049074369807278080,
     "created_at" : "2018-10-07 23:09:55 +0000",
     "user" : {
-      "name" : "YRP\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "protected" : false,
       "id_str" : "5787442",
@@ -19215,7 +19215,7 @@ Grailbird.data.tweets_2018_10 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\"\u003ETwitter for Android\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "\u30AB**\u30B9",
+      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "indices" : [ 0, 13 ],
       "id_str" : "5787442",
@@ -19248,7 +19248,7 @@ Grailbird.data.tweets_2018_10 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\"\u003ETwitter for Android\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "\u30AB**\u30B9",
+      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "indices" : [ 3, 16 ],
       "id_str" : "5787442",
@@ -19337,7 +19337,7 @@ Grailbird.data.tweets_2018_10 =
     "id" : 1048683969959489536,
     "created_at" : "2018-10-06 21:18:36 +0000",
     "user" : {
-      "name" : "YRP\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "protected" : false,
       "id_str" : "5787442",
@@ -19361,7 +19361,7 @@ Grailbird.data.tweets_2018_10 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\"\u003ETwitter for Android\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "\u30AB**\u30B9",
+      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "indices" : [ 0, 13 ],
       "id_str" : "5787442",

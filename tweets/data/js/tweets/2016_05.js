@@ -1615,7 +1615,7 @@ Grailbird.data.tweets_2016_05 =
       "screen_name" : "LCFC",
       "protected" : false,
       "id_str" : "122392884",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1068197854378946562\/oM8zW5vO_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1070679456862429184\/NyXx6IbN_normal.jpg",
       "id" : 122392884,
       "verified" : true
     }

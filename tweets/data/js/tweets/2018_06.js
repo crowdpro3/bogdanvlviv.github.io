@@ -3134,13 +3134,7 @@ Grailbird.data.tweets_2018_06 =
 }, {
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
-    "user_mentions" : [ {
-      "name" : "Serhii",
-      "screen_name" : "ltavnqivre",
-      "indices" : [ 0, 11 ],
-      "id_str" : "3240344859",
-      "id" : 3240344859
-    } ],
+    "user_mentions" : [ ],
     "media" : [ ],
     "hashtags" : [ ],
     "urls" : [ ]
@@ -3153,7 +3147,7 @@ Grailbird.data.tweets_2018_06 =
   "id" : 1010956828908445696,
   "in_reply_to_status_id" : 1010872624652701697,
   "created_at" : "2018-06-24 18:44:25 +0000",
-  "in_reply_to_screen_name" : "ltavnqivre",
+  "in_reply_to_screen_name" : "just_serhii",
   "in_reply_to_user_id_str" : "3240344859",
   "user" : {
     "name" : "Bogdan",
@@ -3216,119 +3210,6 @@ Grailbird.data.tweets_2018_06 =
   },
   "id" : 1010951343371104256,
   "created_at" : "2018-06-24 18:22:37 +0000",
-  "user" : {
-    "name" : "Bogdan",
-    "screen_name" : "bogdanvlviv",
-    "protected" : false,
-    "id_str" : "723791414388232192",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/994303059932131334\/7trK_6tt_normal.jpg",
-    "id" : 723791414388232192,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "dan nolan",
-      "screen_name" : "dannolan",
-      "indices" : [ 3, 12 ],
-      "id_str" : "971761",
-      "id" : 971761
-    } ],
-    "media" : [ {
-      "expanded_url" : "https:\/\/twitter.com\/dannolan\/status\/1009245771865001984\/photo\/1",
-      "indices" : [ 66, 89 ],
-      "url" : "https:\/\/t.co\/PsYfYUQtTU",
-      "media_url" : "http:\/\/pbs.twimg.com\/media\/DgGPrHrV4AASUVs.jpg",
-      "id_str" : "1009245762465685504",
-      "id" : 1009245762465685504,
-      "media_url_https" : "https:\/\/pbs.twimg.com\/media\/DgGPrHrV4AASUVs.jpg",
-      "sizes" : [ {
-        "h" : 150,
-        "resize" : "crop",
-        "w" : 150
-      }, {
-        "h" : 860,
-        "resize" : "fit",
-        "w" : 1200
-      }, {
-        "h" : 487,
-        "resize" : "fit",
-        "w" : 680
-      }, {
-        "h" : 860,
-        "resize" : "fit",
-        "w" : 1200
-      }, {
-        "h" : 860,
-        "resize" : "fit",
-        "w" : 1200
-      } ],
-      "media_alt" : "",
-      "display_url" : "pic.twitter.com\/PsYfYUQtTU"
-    } ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "1010950908820312065",
-  "text" : "RT @dannolan: lmao hard at this ad industry propaganda cartoon bs https:\/\/t.co\/PsYfYUQtTU",
-  "retweeted_status" : {
-    "source" : "\u003Ca href=\"https:\/\/mobile.twitter.com\" rel=\"nofollow\"\u003ETwitter Lite\u003C\/a\u003E",
-    "entities" : {
-      "user_mentions" : [ ],
-      "media" : [ {
-        "expanded_url" : "https:\/\/twitter.com\/dannolan\/status\/1009245771865001984\/photo\/1",
-        "indices" : [ 52, 75 ],
-        "url" : "https:\/\/t.co\/PsYfYUQtTU",
-        "media_url" : "http:\/\/pbs.twimg.com\/media\/DgGPrHrV4AASUVs.jpg",
-        "id_str" : "1009245762465685504",
-        "id" : 1009245762465685504,
-        "media_url_https" : "https:\/\/pbs.twimg.com\/media\/DgGPrHrV4AASUVs.jpg",
-        "sizes" : [ {
-          "h" : 150,
-          "resize" : "crop",
-          "w" : 150
-        }, {
-          "h" : 860,
-          "resize" : "fit",
-          "w" : 1200
-        }, {
-          "h" : 487,
-          "resize" : "fit",
-          "w" : 680
-        }, {
-          "h" : 860,
-          "resize" : "fit",
-          "w" : 1200
-        }, {
-          "h" : 860,
-          "resize" : "fit",
-          "w" : 1200
-        } ],
-        "media_alt" : "",
-        "display_url" : "pic.twitter.com\/PsYfYUQtTU"
-      } ],
-      "hashtags" : [ ],
-      "urls" : [ ]
-    },
-    "geo" : { },
-    "id_str" : "1009245771865001984",
-    "text" : "lmao hard at this ad industry propaganda cartoon bs https:\/\/t.co\/PsYfYUQtTU",
-    "id" : 1009245771865001984,
-    "created_at" : "2018-06-20 01:25:17 +0000",
-    "user" : {
-      "name" : "dan nolan",
-      "screen_name" : "dannolan",
-      "protected" : false,
-      "id_str" : "971761",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/830008165970227200\/xO0XRuIG_normal.jpg",
-      "id" : 971761,
-      "verified" : true
-    }
-  },
-  "id" : 1010950908820312065,
-  "created_at" : "2018-06-24 18:20:53 +0000",
   "user" : {
     "name" : "Bogdan",
     "screen_name" : "bogdanvlviv",
@@ -5567,7 +5448,7 @@ Grailbird.data.tweets_2018_06 =
       "screen_name" : "DJ_c4t",
       "protected" : false,
       "id_str" : "249782295",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1051868521188212736\/ewcoNZto_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1073703874073165825\/0cTv1i8p_normal.jpg",
       "id" : 249782295,
       "verified" : false
     }
@@ -11257,7 +11138,7 @@ Grailbird.data.tweets_2018_06 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "YRP\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "indices" : [ 3, 16 ],
       "id_str" : "5787442",
@@ -11284,7 +11165,7 @@ Grailbird.data.tweets_2018_06 =
     "id" : 1004856017987895296,
     "created_at" : "2018-06-07 22:41:58 +0000",
     "user" : {
-      "name" : "YRP\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "protected" : false,
       "id_str" : "5787442",
@@ -12076,7 +11957,7 @@ Grailbird.data.tweets_2018_06 =
       "screen_name" : "SpiderVerse",
       "protected" : false,
       "id_str" : "928758856859000832",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1047242875090526209\/mRmL8A7n_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1073274602711769088\/mnrkHCS2_normal.jpg",
       "id" : 928758856859000832,
       "verified" : true
     }
@@ -16006,7 +15887,7 @@ Grailbird.data.tweets_2018_06 =
       "screen_name" : "repeatedly",
       "protected" : false,
       "id_str" : "6731442",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1062588363624996864\/DynBn_18_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1073358370747248640\/gvs3VXNt_normal.jpg",
       "id" : 6731442,
       "verified" : false
     }

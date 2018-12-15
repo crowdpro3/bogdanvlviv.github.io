@@ -3999,7 +3999,7 @@ Grailbird.data.tweets_2017_10 =
       "screen_name" : "KAKA",
       "protected" : false,
       "id_str" : "60865434",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1036374517680156672\/m36jKJHI_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1072194706547896320\/pdlYkHzk_normal.jpg",
       "id" : 60865434,
       "verified" : true
     }

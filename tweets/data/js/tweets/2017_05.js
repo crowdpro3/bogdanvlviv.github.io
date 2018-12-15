@@ -4145,7 +4145,7 @@ Grailbird.data.tweets_2017_05 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\"\u003ETwitter for Android\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "\u2728 rachel in \uD83C\uDDEF\uD83C\uDDF5\u2728",
+      "name" : "\u2728 rachel \u2728",
       "screen_name" : "ohhoe",
       "indices" : [ 3, 9 ],
       "id_str" : "2141321",
@@ -4251,7 +4251,7 @@ Grailbird.data.tweets_2017_05 =
     "in_reply_to_screen_name" : "tenderlove",
     "in_reply_to_user_id_str" : "14761655",
     "user" : {
-      "name" : "\u2728 rachel in \uD83C\uDDEF\uD83C\uDDF5\u2728",
+      "name" : "\u2728 rachel \u2728",
       "screen_name" : "ohhoe",
       "protected" : false,
       "id_str" : "2141321",

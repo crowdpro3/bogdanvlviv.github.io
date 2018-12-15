@@ -2919,7 +2919,7 @@ Grailbird.data.tweets_2017_02 =
       "screen_name" : "briananaa5",
       "protected" : false,
       "id_str" : "1373299256",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1061765333529346048\/K3OIGJiq_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1072133390642675717\/S-diU_WQ_normal.jpg",
       "id" : 1373299256,
       "verified" : false
     }

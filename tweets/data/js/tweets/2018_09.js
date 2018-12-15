@@ -98,7 +98,7 @@ Grailbird.data.tweets_2018_09 =
       "screen_name" : "_cha1tanya",
       "protected" : false,
       "id_str" : "633603670",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1011195971101847552\/5fvmDWNv_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1072844912566173696\/QAsqR11n_normal.jpg",
       "id" : 633603670,
       "verified" : false
     }
@@ -14704,7 +14704,7 @@ Grailbird.data.tweets_2018_09 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "crazy witch asian @clarity_conf nyc",
+      "name" : "crazy witch asian - post-conference blues",
       "screen_name" : "jina",
       "indices" : [ 3, 8 ],
       "id_str" : "8501792",
@@ -14731,7 +14731,7 @@ Grailbird.data.tweets_2018_09 =
     "id" : 1038851917441425408,
     "created_at" : "2018-09-09 18:09:32 +0000",
     "user" : {
-      "name" : "crazy witch asian - @clarity_conf NYC!!!",
+      "name" : "crazy witch asian - post-conference blues",
       "screen_name" : "jina",
       "protected" : false,
       "id_str" : "8501792",
@@ -18043,7 +18043,7 @@ Grailbird.data.tweets_2018_09 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "\u30AB**\u30B9",
+      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "indices" : [ 3, 16 ],
       "id_str" : "5787442",
@@ -18080,7 +18080,7 @@ Grailbird.data.tweets_2018_09 =
     "id" : 1038030689642274816,
     "created_at" : "2018-09-07 11:46:16 +0000",
     "user" : {
-      "name" : "YRP\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "protected" : false,
       "id_str" : "5787442",
@@ -20128,12 +20128,6 @@ Grailbird.data.tweets_2018_09 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Serhii",
-      "screen_name" : "ltavnqivre",
-      "indices" : [ 0, 11 ],
-      "id_str" : "3240344859",
-      "id" : 3240344859
-    }, {
       "name" : "Denysko Shtybel",
       "screen_name" : "denysko_sh",
       "indices" : [ 12, 23 ],
@@ -20152,7 +20146,7 @@ Grailbird.data.tweets_2018_09 =
   "id" : 1037049341305933824,
   "in_reply_to_status_id" : 1037048006892236800,
   "created_at" : "2018-09-04 18:46:45 +0000",
-  "in_reply_to_screen_name" : "ltavnqivre",
+  "in_reply_to_screen_name" : "just_serhii",
   "in_reply_to_user_id_str" : "3240344859",
   "user" : {
     "name" : "Bogdan",

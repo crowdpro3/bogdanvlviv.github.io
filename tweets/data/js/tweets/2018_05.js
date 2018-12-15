@@ -3,7 +3,7 @@ Grailbird.data.tweets_2018_05 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "YRP\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "indices" : [ 3, 16 ],
       "id_str" : "5787442",
@@ -92,7 +92,7 @@ Grailbird.data.tweets_2018_05 =
     "id" : 1001973160265252871,
     "created_at" : "2018-05-30 23:46:31 +0000",
     "user" : {
-      "name" : "YRP\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "protected" : false,
       "id_str" : "5787442",
@@ -6016,7 +6016,7 @@ Grailbird.data.tweets_2018_05 =
       "screen_name" : "juventusfcen",
       "protected" : false,
       "id_str" : "1638021792",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/925816184309764096\/U37FzSUq_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1073222443915993089\/RRi6qiXq_normal.jpg",
       "id" : 1638021792,
       "verified" : true
     }
@@ -10005,7 +10005,7 @@ Grailbird.data.tweets_2018_05 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "YRP\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "indices" : [ 3, 16 ],
       "id_str" : "5787442",
@@ -10042,7 +10042,7 @@ Grailbird.data.tweets_2018_05 =
     "id" : 996519592825503744,
     "created_at" : "2018-05-15 22:36:00 +0000",
     "user" : {
-      "name" : "YRP\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "protected" : false,
       "id_str" : "5787442",
@@ -12980,7 +12980,7 @@ Grailbird.data.tweets_2018_05 =
       "screen_name" : "greaterthancode",
       "protected" : false,
       "id_str" : "777617540151250944",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/898618587107258369\/GmmVl5De_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1072948876380962828\/5_VZzARd_normal.jpg",
       "id" : 777617540151250944,
       "verified" : false
     }
@@ -21383,6 +21383,38 @@ Grailbird.data.tweets_2018_05 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ {
+      "indices" : [ 29, 52 ],
+      "url" : "https:\/\/t.co\/IT5SkEdeOk",
+      "expanded_url" : "https:\/\/www.youtube.com\/watch?v=JHS27mrQCBQ",
+      "display_url" : "youtube.com\/watch?v=JHS27m\u2026"
+    } ]
+  },
+  "in_reply_to_status_id_str" : "993801599574265856",
+  "geo" : { },
+  "id_str" : "993801601390432256",
+  "in_reply_to_user_id" : 723791414388232192,
+  "text" : "On the water around Venice 7\nhttps:\/\/t.co\/IT5SkEdeOk",
+  "id" : 993801601390432256,
+  "in_reply_to_status_id" : 993801599574265856,
+  "created_at" : "2018-05-08 10:35:40 +0000",
+  "in_reply_to_screen_name" : "bogdanvlviv",
+  "in_reply_to_user_id_str" : "723791414388232192",
+  "user" : {
+    "name" : "Bogdan",
+    "screen_name" : "bogdanvlviv",
+    "protected" : false,
+    "id_str" : "723791414388232192",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/994303059932131334\/7trK_6tt_normal.jpg",
+    "id" : 723791414388232192,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ ],
     "media" : [ {
       "expanded_url" : "https:\/\/twitter.com\/bogdanvlviv\/status\/993801602812309504\/photo\/1",
       "indices" : [ 0, 23 ],
@@ -21518,38 +21550,6 @@ Grailbird.data.tweets_2018_05 =
   "text" : "https:\/\/t.co\/UO2Ez7bpGI",
   "id" : 993801602812309504,
   "in_reply_to_status_id" : 993801601390432256,
-  "created_at" : "2018-05-08 10:35:40 +0000",
-  "in_reply_to_screen_name" : "bogdanvlviv",
-  "in_reply_to_user_id_str" : "723791414388232192",
-  "user" : {
-    "name" : "Bogdan",
-    "screen_name" : "bogdanvlviv",
-    "protected" : false,
-    "id_str" : "723791414388232192",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/994303059932131334\/7trK_6tt_normal.jpg",
-    "id" : 723791414388232192,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ {
-      "indices" : [ 29, 52 ],
-      "url" : "https:\/\/t.co\/IT5SkEdeOk",
-      "expanded_url" : "https:\/\/www.youtube.com\/watch?v=JHS27mrQCBQ",
-      "display_url" : "youtube.com\/watch?v=JHS27m\u2026"
-    } ]
-  },
-  "in_reply_to_status_id_str" : "993801599574265856",
-  "geo" : { },
-  "id_str" : "993801601390432256",
-  "in_reply_to_user_id" : 723791414388232192,
-  "text" : "On the water around Venice 7\nhttps:\/\/t.co\/IT5SkEdeOk",
-  "id" : 993801601390432256,
-  "in_reply_to_status_id" : 993801599574265856,
   "created_at" : "2018-05-08 10:35:40 +0000",
   "in_reply_to_screen_name" : "bogdanvlviv",
   "in_reply_to_user_id_str" : "723791414388232192",

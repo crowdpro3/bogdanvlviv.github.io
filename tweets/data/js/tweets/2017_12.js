@@ -1577,7 +1577,7 @@ Grailbird.data.tweets_2017_12 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "YRP\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "indices" : [ 0, 13 ],
       "id_str" : "5787442",
@@ -1661,7 +1661,7 @@ Grailbird.data.tweets_2017_12 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "YRP\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "indices" : [ 3, 16 ],
       "id_str" : "5787442",
@@ -1750,7 +1750,7 @@ Grailbird.data.tweets_2017_12 =
     "id" : 940309606139535360,
     "created_at" : "2017-12-11 19:57:34 +0000",
     "user" : {
-      "name" : "YRP\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "protected" : false,
       "id_str" : "5787442",
@@ -5183,100 +5183,6 @@ Grailbird.data.tweets_2017_12 =
   },
   "id" : 941080046604832768,
   "created_at" : "2017-12-13 22:59:02 +0000",
-  "user" : {
-    "name" : "Bogdan",
-    "screen_name" : "bogdanvlviv",
-    "protected" : false,
-    "id_str" : "723791414388232192",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/994303059932131334\/7trK_6tt_normal.jpg",
-    "id" : 723791414388232192,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Tobi L\u00FCtke",
-      "screen_name" : "tobi",
-      "indices" : [ 3, 8 ],
-      "id_str" : "676573",
-      "id" : 676573
-    }, {
-      "name" : "Gavin Ballard @ \uD83C\uDDE6\uD83C\uDDFA",
-      "screen_name" : "gavinballard",
-      "indices" : [ 125, 138 ],
-      "id_str" : "36338094",
-      "id" : 36338094
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "940962676104196096",
-  "text" : "RT @tobi: I wrote liquid in 2005 on a fight cross country to San Diego. Fun to now see printed books on the topic. Thank you @gavinballard\u2026",
-  "retweeted_status" : {
-    "source" : "\u003Ca href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003ETwitter for iPhone\u003C\/a\u003E",
-    "entities" : {
-      "user_mentions" : [ {
-        "name" : "Gavin Ballard @ \uD83C\uDDE6\uD83C\uDDFA",
-        "screen_name" : "gavinballard",
-        "indices" : [ 115, 128 ],
-        "id_str" : "36338094",
-        "id" : 36338094
-      } ],
-      "media" : [ {
-        "expanded_url" : "https:\/\/twitter.com\/tobi\/status\/940961250418286592\/photo\/1",
-        "indices" : [ 129, 152 ],
-        "url" : "https:\/\/t.co\/FBxuKihKMz",
-        "media_url" : "http:\/\/pbs.twimg.com\/media\/DQ73RI1W0AA2uiA.jpg",
-        "id_str" : "940961245968125952",
-        "id" : 940961245968125952,
-        "media_url_https" : "https:\/\/pbs.twimg.com\/media\/DQ73RI1W0AA2uiA.jpg",
-        "sizes" : [ {
-          "h" : 150,
-          "resize" : "crop",
-          "w" : 150
-        }, {
-          "h" : 2048,
-          "resize" : "fit",
-          "w" : 1536
-        }, {
-          "h" : 1200,
-          "resize" : "fit",
-          "w" : 900
-        }, {
-          "h" : 2048,
-          "resize" : "fit",
-          "w" : 1536
-        }, {
-          "h" : 680,
-          "resize" : "fit",
-          "w" : 510
-        } ],
-        "media_alt" : "",
-        "display_url" : "pic.twitter.com\/FBxuKihKMz"
-      } ],
-      "hashtags" : [ ],
-      "urls" : [ ]
-    },
-    "geo" : { },
-    "id_str" : "940961250418286592",
-    "text" : "I wrote liquid in 2005 on a fight cross country to San Diego. Fun to now see printed books on the topic. Thank you @gavinballard https:\/\/t.co\/FBxuKihKMz",
-    "id" : 940961250418286592,
-    "created_at" : "2017-12-13 15:06:58 +0000",
-    "user" : {
-      "name" : "Tobi L\u00FCtke",
-      "screen_name" : "tobi",
-      "protected" : false,
-      "id_str" : "676573",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/551403375141457920\/28EOlhnM_normal.jpeg",
-      "id" : 676573,
-      "verified" : true
-    }
-  },
-  "id" : 940962676104196096,
-  "created_at" : "2017-12-13 15:12:38 +0000",
   "user" : {
     "name" : "Bogdan",
     "screen_name" : "bogdanvlviv",
