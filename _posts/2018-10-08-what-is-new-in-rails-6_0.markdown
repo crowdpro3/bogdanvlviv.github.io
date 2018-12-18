@@ -27,6 +27,7 @@ Stay tuned!
 
 Pull Requests:
 - [Parallel testing](https://github.com/rails/rails/pull/31900)
+- [Add option to set parallel test worker count to the physical core count of the machine](https://github.com/rails/rails/pull/34735)
 
 You know that class `ActiveSupport::TestCase` uses [minitest](https://github.com/seattlerb/minitest) under the hood (`Minitest::Test` is the superclass of the class).
 To `ActiveSupport::TestCase` was added `parallelize` method.
@@ -45,7 +46,14 @@ class ActiveSupport::TestCase
 end
 ```
 
-The `:workers` option controls how many times the the process is forked or how many threads are used, the default is 2.
+The `:workers` option controls how many times the the process is forked or how many threads are used.
+The default number of workers is the actual physical core count on the machine you are on:
+
+```ruby
+class ActiveSupport::TestCase
+  parallelize(workers: :number_of_processors)
+end
+```
 
 If you would like to parallelize your test suite with threads, you should set `:with` option to `:threads`:
 
