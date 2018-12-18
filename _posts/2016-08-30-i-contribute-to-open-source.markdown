@@ -39,3 +39,4 @@ I have contributed to open source projects:
 - [ggreer/the_silver_searcher](https://github.com/ggreer/the_silver_searcher/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv)
 - [rvm/rvm1-ansible](https://github.com/rvm/rvm1-ansible/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv)
 - [rvm/rvm-site](https://github.com/rvm/rvm-site/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv)
+- [pivorakmeetup/pivorak-web-app](https://github.com/pivorakmeetup/pivorak-web-app/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv)
