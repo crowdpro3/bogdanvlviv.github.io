@@ -23,7 +23,14 @@ I am [bogdanvlviv](https://github.com/bogdanvlviv) - [Rails Contributor](http://
 > In order to be notified about new changes in this post, you can [subscribe to my mailing list]({{ site.mailchimp_signup_form_url }}), [follow me on Twitter](https://twitter.com/bogdanvlviv), or just refresh this page from time to time.
 Stay tuned!
 
-## [Parallel testing](#parallel-testing)
+## Table of Contents
+
+- [Parallel testing](#parallel-testing)
+- [ActiveRecord::Relation#pick as shorthand for single-value plucks](#activerecordrelationpick-as-shorthand-for-single-value-plucks)
+- [ActiveRecord::Relation#create_or_find_by/! to lean on unique constraints](#activerecordrelationcreate_or_find_by-to-lean-on-unique-constraints)
+- [Other links](#other-links)
+
+### [Parallel testing](#parallel-testing)
 
 Pull Requests:
 - [Parallel testing](https://github.com/rails/rails/pull/31900)
@@ -92,7 +99,7 @@ end
 
 Note that these methods are not available with the threaded parallelization.
 
-## [ActiveRecord::Relation#pick as shorthand for single-value plucks](#activerecordrelationpick-as-shorthand-for-single-value-plucks)
+### [ActiveRecord::Relation#pick as shorthand for single-value plucks](#activerecordrelationpick-as-shorthand-for-single-value-plucks)
 
 Pull Requests:
 - [Add Relation#pick as short-hand for single-value plucks](https://github.com/rails/rails/pull/31941)
@@ -157,7 +164,7 @@ User.order(:id).pick(:name)
 # => "Bogdan"
 ```
 
-## [ActiveRecord::Relation#create_or_find_by/! to lean on unique constraints](#activerecordrelationcreate_or_find_by-to-lean-on-unique-constraints)
+### [ActiveRecord::Relation#create_or_find_by/! to lean on unique constraints](#activerecordrelationcreate_or_find_by-to-lean-on-unique-constraints)
 
 Pull Requests:
 - [Add #create_or_find_by to lean on unique constraints](https://github.com/rails/rails/pull/31989)
@@ -208,7 +215,7 @@ User.create_or_find_by!(email: "bogdanvlviv@gmail.com") do |user|
 end
 ```
 
-## Links to sort out:
+### [Other links](#other-links)
 
 [Start Rails 6.0 development!!!](https://github.com/rails/rails/commit/1c383df324fdf0b68b3f54a649eb7d2a4f55bcb7)
 
