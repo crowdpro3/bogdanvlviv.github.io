@@ -25,10 +25,17 @@ Stay tuned!
 
 ## Table of Contents
 
+- [Rails 6.0 requires Ruby 2.5.0 or newer](#rails-60-requires-ruby-250-or-newer)
 - [Parallel testing](#parallel-testing)
 - [ActiveRecord::Relation#pick as shorthand for single-value plucks](#activerecordrelationpick-as-shorthand-for-single-value-plucks)
 - [ActiveRecord::Relation#create_or_find_by/! to lean on unique constraints](#activerecordrelationcreate_or_find_by-to-lean-on-unique-constraints)
 - [Other links](#other-links)
+
+# [Rails 6.0 requires Ruby 2.5.0 or newer](#rails-60-requires-ruby-250-or-newer)
+
+Pull Requests:
+- [Rails 6 requires Ruby 2.4.1+](https://github.com/rails/rails/pull/32034)
+- [Require Ruby 2.5 for Rails 6](https://github.com/rails/rails/pull/34754)
 
 ### [Parallel testing](#parallel-testing)
 
@@ -218,8 +225,6 @@ end
 ### [Other links](#other-links)
 
 [Start Rails 6.0 development!!!](https://github.com/rails/rails/commit/1c383df324fdf0b68b3f54a649eb7d2a4f55bcb7)
-
-[Rails 6 requires Ruby 2.4.1+](https://github.com/rails/rails/pull/32034)
 
 [Introduce custom serializers to ActiveJob arguments](https://github.com/rails/rails/pull/30941)
 
