@@ -439,6 +439,7 @@ end
 [Add allocations to template renderer subscription](https://github.com/rails/rails/pull/34136)
 
 [Part 4: Multi db improvements, Basic API for connection switching](https://github.com/rails/rails/pull/34052)
+[Add support for hash and url configs to be used in connected_to](https://github.com/rails/rails/pull/34196)
 
 [Deprecate `ActiveSupport::Multibyte::Unicode#downcase/upcase/swapcase` in favor of `String#downcase/upcase/swapcase`](https://github.com/rails/rails/pull/34123)
 [Deprecate `ActiveSupport::Multibyte::Unicode#normalize` and `ActiveSuppport::Multibyte::Chars#normalize` in favor of `String#unicode_normalize`](https://github.com/rails/rails/pull/34202)
@@ -452,3 +453,5 @@ end
 [Deprecate ActiveSupport::Multibyte::Chars.consumes?](https://github.com/rails/rails/pull/34215)
 
 [Deprecate `ActiveSupport::Multibyte::Unicode#pack_graphemes(array)` and `ActiveSuppport::Multibyte::Unicode#unpack_graphemes(string)` in favor of `array.flatten.pack("U*")` and `string.scan(/\X/).map(&:codepoints)`, respectively](https://github.com/rails/rails/pull/34254)
+
+[Support default expression and expression indexes for MySQL](https://github.com/rails/rails/pull/34307)
