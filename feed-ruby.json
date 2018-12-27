@@ -1,0 +1,41 @@
+---
+layout: null
+permalink: /feed-ruby.json
+---
+
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": {{ site.title | jsonify }},
+  "description": {{ site.description | jsonify }},
+  "home_page_url": {{ "/index.html" | absolute_url | jsonify }},
+  "feed_url": {{ "/feed.json" | absolute_url | jsonify }},
+  "icon": {{ site.image | absolute_url | jsonify }},
+  "favicon": {{ "/images/favicon.ico" | absolute_url | jsonify }},
+  "author": {
+    "name": {{ site.username | jsonify }},
+    {%- if site.twitter_username -%}
+    "url": "https://twitter.com/{{ site.twitter_username }}",
+    {%- endif -%}
+    "avatar": {{ "/images/bogdanvlviv2.jpg" | absolute_url | jsonify }}
+  },
+  "items": [
+    {%- for post in site.posts -%}
+    {%- if post.categories contains "ruby" -%}
+    {
+      "id": {{ post.url | absolute_url | jsonify }},
+      "url": {{ post.url | absolute_url | jsonify }},
+      "title": {{ post.title | jsonify }},
+      "content_html": {{ post.content | jsonify }},
+      "summary": {{ post.excerpt | strip_html | normalize_whitespace | truncate: 280 | escape | jsonify }},
+      "image": {{ post.image | default: site.image | absolute_url | jsonify }},
+      "banner_image": {{ post.image | default: site.image | absolute_url | jsonify }},
+      "date_published": {{ post.date | jsonify }},
+      "tags": {{ post.categories | jsonify }}
+    }
+    {%- unless forloop.last -%}
+    ,
+    {%- endunless -%}
+    {%- endif -%}
+    {%- endfor -%}
+  ]
+}
