@@ -19,8 +19,8 @@ permalink: /feed-ruby.json
     "avatar": {{ "/images/bogdanvlviv2.jpg" | absolute_url | jsonify }}
   },
   "items": [
-    {%- for post in site.posts -%}
-    {%- if post.categories contains "ruby" -%}
+    {%- assign posts_ruby = site.posts | where: "categories", "ruby" -%}
+    {%- for post in posts_ruby -%}
     {
       "id": {{ post.url | absolute_url | jsonify }},
       "url": {{ post.url | absolute_url | jsonify }},
@@ -35,7 +35,6 @@ permalink: /feed-ruby.json
     {%- unless forloop.last -%}
     ,
     {%- endunless -%}
-    {%- endif -%}
     {%- endfor -%}
   ]
 }

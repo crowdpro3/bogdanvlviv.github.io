@@ -19,8 +19,8 @@ permalink: /feed-ruby.xml
     <email>{{ site.email | xml_escape }}</email>
   </author>
 
-  {%- for post in site.posts -%}
-  {%- if post.categories contains "ruby" -%}
+  {%- assign posts_ruby = site.posts | where: "categories", "ruby" -%}
+  {%- for post in posts_ruby -%}
   <entry>
     <title>{{ post.title | xml_escape }}</title>
     <link rel="alternate" type="text/html" href="{{ post.url | absolute_url | xml_escape }}"/>
@@ -34,6 +34,5 @@ permalink: /feed-ruby.xml
     <category term="{{ category | xml_escape }}"/>
     {%- endfor -%}
   </entry>
-  {%- endif -%}
   {%- endfor -%}
 </feed>
