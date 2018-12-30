@@ -29,6 +29,7 @@ Stay tuned!
 - [Parallel testing](#parallel-testing)
 - [ActiveRecord::Relation#pick as shorthand for single-value plucks](#activerecordrelationpick-as-shorthand-for-single-value-plucks)
 - [ActiveRecord::Relation#create_or_find_by/! to lean on unique constraints](#activerecordrelationcreate_or_find_by-to-lean-on-unique-constraints)
+- [Action Mailbox](#action-mailbox)
 - [Other links](#other-links)
 
 # [Rails 6.0 requires Ruby 2.5.0 or newer](#rails-60-requires-ruby-250-or-newer)
@@ -221,6 +222,16 @@ User.create_or_find_by!(email: "bogdanvlviv@gmail.com") do |user|
   user.name = "Богдан"
 end
 ```
+
+# [Action Mailbox](#action-mailbox)
+
+Pull Requests:
+- [Import Action Mailbox](https://github.com/rails/rails/pull/34786)
+- [Add Action Mailbox to guides](https://github.com/rails/rails/pull/34812)
+- [Deprecate ActionMailer::Base.receive in favor of Action Mailbox](https://github.com/rails/rails/commit/e3f832a7433a291a51c5df397dc3dd654c1858cb)
+
+[Action Mailbox](https://github.com/rails/rails/tree/6-0-stable/actionmailbox) allows you to route incoming emails to controller-like mailboxes.
+You can read more about Action Mailbox in the [Action Mailbox Basics](https://guides.rubyonrails.org/v6.0/action_mailbox_basics.html) guide.
 
 ### [Other links](#other-links)
 
@@ -455,3 +466,5 @@ end
 [Deprecate `ActiveSupport::Multibyte::Unicode#pack_graphemes(array)` and `ActiveSuppport::Multibyte::Unicode#unpack_graphemes(string)` in favor of `array.flatten.pack("U*")` and `string.scan(/\X/).map(&:codepoints)`, respectively](https://github.com/rails/rails/pull/34254)
 
 [Support default expression and expression indexes for MySQL](https://github.com/rails/rails/pull/34307)
+
+[ActiveStorage: Don’t include an undefined X-CSRF-Token header when creating a blob record](https://github.com/rails/rails/pull/34810)
