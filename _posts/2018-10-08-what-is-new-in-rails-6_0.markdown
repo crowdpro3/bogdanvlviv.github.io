@@ -468,3 +468,5 @@ You can read more about Action Mailbox in the [Action Mailbox Basics](https://gu
 [Support default expression and expression indexes for MySQL](https://github.com/rails/rails/pull/34307)
 
 [ActiveStorage: Don’t include an undefined X-CSRF-Token header when creating a blob record](https://github.com/rails/rails/pull/34810)
+
+[Make ActiveStorage::Blob keys lowercase](https://github.com/rails/rails/pull/34818)
