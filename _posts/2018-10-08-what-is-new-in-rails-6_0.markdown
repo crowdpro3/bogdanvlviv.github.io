@@ -419,6 +419,7 @@ You can read more about Action Mailbox in the [Action Mailbox Basics](https://gu
 [Allow assert_enqueued_with/assert_performed_with methods to accept a proc for the args argument. This is useful to check if only a subset of arguments matches your expectations.](https://github.com/rails/rails/pull/33995)
 
 [Add ActionCable::Channel::TestCase](https://github.com/rails/rails/pull/33969)
+[Add streams assert methods to ActionCable channel test case](https://github.com/rails/rails/pull/34740)
 
 [Add `ActionController::Parameters#each_value`](https://github.com/rails/rails/pull/33979)
 
