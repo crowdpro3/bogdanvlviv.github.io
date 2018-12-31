@@ -753,7 +753,7 @@ Grailbird.data.tweets_2018_07 =
       "screen_name" : "NikkitaFTW",
       "protected" : false,
       "id_str" : "1028595288",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1050336126144323585\/-kkiKBbk_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1075014725736501248\/DiBeOgch_normal.jpg",
       "id" : 1028595288,
       "verified" : false
     }
@@ -2137,7 +2137,7 @@ Grailbird.data.tweets_2018_07 =
       "screen_name" : "grajohnt",
       "protected" : false,
       "id_str" : "233916688",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/984500003988094976\/eySKfiWo_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1075792970622787584\/ABX3PT-c_normal.jpg",
       "id" : 233916688,
       "verified" : false
     }
@@ -2765,7 +2765,7 @@ Grailbird.data.tweets_2018_07 =
       "screen_name" : "cszhu",
       "protected" : false,
       "id_str" : "2927200279",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1067204671427698689\/H4dHCES-_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1077020866196660224\/o9pLSRHF_normal.jpg",
       "id" : 2927200279,
       "verified" : false
     }
@@ -7325,7 +7325,7 @@ Grailbird.data.tweets_2018_07 =
       "screen_name" : "gitlab",
       "protected" : false,
       "id_str" : "390167291",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/757993008461742080\/9pAwHBR0_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1076209962433441792\/W_px5CpS_normal.jpg",
       "id" : 390167291,
       "verified" : true
     }
@@ -7458,7 +7458,7 @@ Grailbird.data.tweets_2018_07 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\"\u003ETwitter for Android\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "registered hypercam 2",
+      "name" : "socialist magilou",
       "screen_name" : "Sona_Sonara",
       "indices" : [ 3, 15 ],
       "id_str" : "733368405114380288",
@@ -7485,11 +7485,11 @@ Grailbird.data.tweets_2018_07 =
     "id" : 1017513225427013632,
     "created_at" : "2018-07-12 20:57:12 +0000",
     "user" : {
-      "name" : "registered hypercam 2",
+      "name" : "socialist magilou",
       "screen_name" : "Sona_Sonara",
       "protected" : false,
       "id_str" : "733368405114380288",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1024024317405872128\/DGxa_Q_E_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1078479953413459968\/dRxhGVX__normal.jpg",
       "id" : 733368405114380288,
       "verified" : false
     }
@@ -10520,7 +10520,7 @@ Grailbird.data.tweets_2018_07 =
       "screen_name" : "NikkitaFTW",
       "protected" : false,
       "id_str" : "1028595288",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1050336126144323585\/-kkiKBbk_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1075014725736501248\/DiBeOgch_normal.jpg",
       "id" : 1028595288,
       "verified" : false
     }
@@ -10669,7 +10669,7 @@ Grailbird.data.tweets_2018_07 =
       "screen_name" : "gitlab",
       "protected" : false,
       "id_str" : "390167291",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/757993008461742080\/9pAwHBR0_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1076209962433441792\/W_px5CpS_normal.jpg",
       "id" : 390167291,
       "verified" : true
     }
@@ -11134,7 +11134,7 @@ Grailbird.data.tweets_2018_07 =
       "screen_name" : "NikkitaFTW",
       "protected" : false,
       "id_str" : "1028595288",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1050336126144323585\/-kkiKBbk_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1075014725736501248\/DiBeOgch_normal.jpg",
       "id" : 1028595288,
       "verified" : false
     }

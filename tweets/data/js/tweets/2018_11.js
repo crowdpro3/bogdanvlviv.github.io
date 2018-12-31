@@ -560,7 +560,7 @@ Grailbird.data.tweets_2018_11 =
     "id" : 1068460278994649089,
     "created_at" : "2018-11-30 11:02:36 +0000",
     "user" : {
-      "name" : "Sontsevolosa",
+      "name" : "Tvoya razvratna suchka",
       "screen_name" : "Sontsevolosa",
       "protected" : false,
       "id_str" : "1089828606",
@@ -2809,7 +2809,7 @@ Grailbird.data.tweets_2018_11 =
       "screen_name" : "thomasfuchs",
       "protected" : false,
       "id_str" : "6927562",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1046729068559978497\/T5_KOOBN_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1074006928097992704\/5muxo7z9_normal.jpg",
       "id" : 6927562,
       "verified" : true
     }
@@ -4095,7 +4095,7 @@ Grailbird.data.tweets_2018_11 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\"\u003ETwitter for Android\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "YRP\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u30CB\u30E5\u30FC\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "indices" : [ 3, 16 ],
       "id_str" : "5787442",
@@ -4184,7 +4184,7 @@ Grailbird.data.tweets_2018_11 =
     "id" : 1066208605068611584,
     "created_at" : "2018-11-24 05:55:15 +0000",
     "user" : {
-      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u30CB\u30E5\u30FC\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "protected" : false,
       "id_str" : "5787442",
@@ -4521,7 +4521,7 @@ Grailbird.data.tweets_2018_11 =
       "screen_name" : "elbirdilara",
       "protected" : false,
       "id_str" : "1215628585",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1052086673436098560\/CrxmG5Q1_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1074366924681732096\/iFlWgcDG_normal.jpg",
       "id" : 1215628585,
       "verified" : false
     }
@@ -4624,7 +4624,7 @@ Grailbird.data.tweets_2018_11 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Aditya Agarwal",
+      "name" : "Aditya Agarwal \u269B\uFE0F",
       "screen_name" : "dev__adi",
       "indices" : [ 3, 12 ],
       "id_str" : "1650129775",
@@ -4668,7 +4668,7 @@ Grailbird.data.tweets_2018_11 =
     "id" : 1065952377524482048,
     "created_at" : "2018-11-23 12:57:05 +0000",
     "user" : {
-      "name" : "Aditya Agarwal",
+      "name" : "Aditya Agarwal \u269B\uFE0F",
       "screen_name" : "dev__adi",
       "protected" : false,
       "id_str" : "1650129775",
@@ -4954,7 +4954,7 @@ Grailbird.data.tweets_2018_11 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
+      "name" : "Shiny Calpas",
       "screen_name" : "yoshi_hirano",
       "indices" : [ 0, 13 ],
       "id_str" : "5787442",
@@ -9237,7 +9237,7 @@ Grailbird.data.tweets_2018_11 =
       "screen_name" : "gitlab",
       "protected" : false,
       "id_str" : "390167291",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/757993008461742080\/9pAwHBR0_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1076209962433441792\/W_px5CpS_normal.jpg",
       "id" : 390167291,
       "verified" : true
     }
@@ -13419,7 +13419,7 @@ Grailbird.data.tweets_2018_11 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\"\u003ETwitter for Android\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "MICHAEL JACKSON",
+      "name" : "MICH\uD83C\uDF84EL JACKSON",
       "screen_name" : "mjackson",
       "indices" : [ 3, 12 ],
       "id_str" : "734903",
@@ -13446,7 +13446,7 @@ Grailbird.data.tweets_2018_11 =
     "id" : 1059523758338191360,
     "created_at" : "2018-11-05 19:12:03 +0000",
     "user" : {
-      "name" : "MICHAEL JACKSON",
+      "name" : "MICH\uD83C\uDF84EL JACKSON",
       "screen_name" : "mjackson",
       "protected" : false,
       "id_str" : "734903",

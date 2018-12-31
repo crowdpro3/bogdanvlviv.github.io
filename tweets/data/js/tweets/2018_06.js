@@ -3111,11 +3111,11 @@ Grailbird.data.tweets_2018_06 =
     "id" : 1006191381587660800,
     "created_at" : "2018-06-11 15:08:14 +0000",
     "user" : {
-      "name" : "Kelly Vaughn \uD83C\uDF84",
+      "name" : "Kelly Vaughn \uD83D\uDCAB",
       "screen_name" : "kvlly",
       "protected" : false,
       "id_str" : "123543103",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1069055195815075842\/LJsZ2xVZ_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1075424103069290497\/WXgSX-zH_normal.jpg",
       "id" : 123543103,
       "verified" : false
     }
@@ -4776,7 +4776,7 @@ Grailbird.data.tweets_2018_06 =
       "screen_name" : "gitlab",
       "protected" : false,
       "id_str" : "390167291",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/757993008461742080\/9pAwHBR0_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1076209962433441792\/W_px5CpS_normal.jpg",
       "id" : 390167291,
       "verified" : true
     }
@@ -5448,7 +5448,7 @@ Grailbird.data.tweets_2018_06 =
       "screen_name" : "DJ_c4t",
       "protected" : false,
       "id_str" : "249782295",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1073703874073165825\/0cTv1i8p_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1078613200193630210\/cSiuGhri_normal.jpg",
       "id" : 249782295,
       "verified" : false
     }
@@ -8044,7 +8044,7 @@ Grailbird.data.tweets_2018_06 =
       "screen_name" : "gitlab",
       "protected" : false,
       "id_str" : "390167291",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/757993008461742080\/9pAwHBR0_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1076209962433441792\/W_px5CpS_normal.jpg",
       "id" : 390167291,
       "verified" : true
     }
@@ -11138,7 +11138,7 @@ Grailbird.data.tweets_2018_06 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
+      "name" : "Shiny Calpas",
       "screen_name" : "yoshi_hirano",
       "indices" : [ 3, 16 ],
       "id_str" : "5787442",
@@ -11165,7 +11165,7 @@ Grailbird.data.tweets_2018_06 =
     "id" : 1004856017987895296,
     "created_at" : "2018-06-07 22:41:58 +0000",
     "user" : {
-      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u30CB\u30E5\u30FC\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "protected" : false,
       "id_str" : "5787442",
@@ -13193,7 +13193,7 @@ Grailbird.data.tweets_2018_06 =
       "screen_name" : "gitlab",
       "protected" : false,
       "id_str" : "390167291",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/757993008461742080\/9pAwHBR0_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1076209962433441792\/W_px5CpS_normal.jpg",
       "id" : 390167291,
       "verified" : true
     }

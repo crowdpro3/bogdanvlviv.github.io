@@ -266,7 +266,7 @@ Grailbird.data.tweets_2017_12 =
       "screen_name" : "blackmirror",
       "protected" : false,
       "id_str" : "4206492575",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/964147393741688833\/2sCA6eGR_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1078597781034594304\/5IwSHU-H_normal.jpg",
       "id" : 4206492575,
       "verified" : true
     }
@@ -1577,7 +1577,7 @@ Grailbird.data.tweets_2017_12 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u30CB\u30E5\u30FC\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "indices" : [ 0, 13 ],
       "id_str" : "5787442",
@@ -1661,7 +1661,7 @@ Grailbird.data.tweets_2017_12 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u30CB\u30E5\u30FC\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "indices" : [ 3, 16 ],
       "id_str" : "5787442",
@@ -1750,7 +1750,7 @@ Grailbird.data.tweets_2017_12 =
     "id" : 940309606139535360,
     "created_at" : "2017-12-11 19:57:34 +0000",
     "user" : {
-      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u30CB\u30E5\u30FC\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "protected" : false,
       "id_str" : "5787442",

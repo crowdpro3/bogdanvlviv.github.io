@@ -3368,7 +3368,7 @@ Grailbird.data.tweets_2017_04 =
       "screen_name" : "bottlerocket",
       "protected" : false,
       "id_str" : "72075547",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1042228620771483648\/95HlqK3W_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1078874243922907137\/n9KiYrgq_normal.jpg",
       "id" : 72075547,
       "verified" : true
     }

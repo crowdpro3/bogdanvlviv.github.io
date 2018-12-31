@@ -1696,13 +1696,7 @@ Grailbird.data.tweets_2018_10 =
 }, {
   "source" : "\u003Ca href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\"\u003ETwitter for Android\u003C\/a\u003E",
   "entities" : {
-    "user_mentions" : [ {
-      "name" : "ja",
-      "screen_name" : "_vector_ja",
-      "indices" : [ 3, 14 ],
-      "id_str" : "227052485",
-      "id" : 227052485
-    } ],
+    "user_mentions" : [ ],
     "media" : [ ],
     "hashtags" : [ {
       "text" : "TEDxLviv",
@@ -1731,10 +1725,10 @@ Grailbird.data.tweets_2018_10 =
     "created_at" : "2018-10-27 12:58:15 +0000",
     "user" : {
       "name" : "ja",
-      "screen_name" : "_vector_ja",
+      "screen_name" : "_pnk_lemonade",
       "protected" : false,
       "id_str" : "227052485",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1072511817862316034\/PkrQteF9_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1079341329082171392\/AMnYxvVr_normal.jpg",
       "id" : 227052485,
       "verified" : false
     }
@@ -2661,7 +2655,7 @@ Grailbird.data.tweets_2018_10 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u30CB\u30E5\u30FC\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "indices" : [ 3, 16 ],
       "id_str" : "5787442",
@@ -2750,7 +2744,7 @@ Grailbird.data.tweets_2018_10 =
     "id" : 1055573154725212160,
     "created_at" : "2018-10-25 21:33:46 +0000",
     "user" : {
-      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u30CB\u30E5\u30FC\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "protected" : false,
       "id_str" : "5787442",
@@ -3938,7 +3932,7 @@ Grailbird.data.tweets_2018_10 =
       "screen_name" : "juventusfcen",
       "protected" : false,
       "id_str" : "1638021792",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1073222443915993089\/RRi6qiXq_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1079022296772370433\/KehXg_kE_normal.jpg",
       "id" : 1638021792,
       "verified" : true
     }
@@ -4135,7 +4129,7 @@ Grailbird.data.tweets_2018_10 =
       "screen_name" : "juventusfcen",
       "protected" : false,
       "id_str" : "1638021792",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1073222443915993089\/RRi6qiXq_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1079022296772370433\/KehXg_kE_normal.jpg",
       "id" : 1638021792,
       "verified" : true
     }
@@ -5428,7 +5422,7 @@ Grailbird.data.tweets_2018_10 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\"\u003ETwitter for Android\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u30CB\u30E5\u30FC\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "indices" : [ 3, 16 ],
       "id_str" : "5787442",
@@ -5517,7 +5511,7 @@ Grailbird.data.tweets_2018_10 =
     "id" : 1054508916996956160,
     "created_at" : "2018-10-22 23:04:52 +0000",
     "user" : {
-      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u30CB\u30E5\u30FC\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "protected" : false,
       "id_str" : "5787442",
@@ -5541,7 +5535,7 @@ Grailbird.data.tweets_2018_10 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\"\u003ETwitter for Android\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "\u2708\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u30CB\u30E5\u30FC\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "indices" : [ 0, 13 ],
       "id_str" : "5787442",
@@ -7608,7 +7602,7 @@ Grailbird.data.tweets_2018_10 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
+      "name" : "Extreme Calpas",
       "screen_name" : "yoshi_hirano",
       "indices" : [ 3, 16 ],
       "id_str" : "5787442",
@@ -7697,7 +7691,7 @@ Grailbird.data.tweets_2018_10 =
     "id" : 1053925259240337408,
     "created_at" : "2018-10-21 08:25:37 +0000",
     "user" : {
-      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u30CB\u30E5\u30FC\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "protected" : false,
       "id_str" : "5787442",
@@ -13584,57 +13578,6 @@ Grailbird.data.tweets_2018_10 =
 }, {
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
-    "user_mentions" : [ {
-      "name" : "christine lynn herman \uD83C\uDF42",
-      "screen_name" : "christineexists",
-      "indices" : [ 3, 19 ],
-      "id_str" : "763453788409724928",
-      "id" : 763453788409724928
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "1051953377876283394",
-  "text" : "RT @christineexists: TELL PEOPLE IF YOU APPRECIATE THEIR WORK BECAUSE IF THEY'RE SAD IT WILL MAKE THEM FEEL BETTER &amp; IF THEY'RE NOT SAD IT\u2026",
-  "retweeted_status" : {
-    "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-    "entities" : {
-      "user_mentions" : [ ],
-      "media" : [ ],
-      "hashtags" : [ ],
-      "urls" : [ ]
-    },
-    "geo" : { },
-    "id_str" : "1051123349219368961",
-    "text" : "TELL PEOPLE IF YOU APPRECIATE THEIR WORK BECAUSE IF THEY'RE SAD IT WILL MAKE THEM FEEL BETTER &amp; IF THEY'RE NOT SAD IT WILL MAKE THEM FEEL BETTER TOO",
-    "id" : 1051123349219368961,
-    "created_at" : "2018-10-13 14:51:50 +0000",
-    "user" : {
-      "name" : "christine lynn herman \uD83C\uDF42",
-      "screen_name" : "christineexists",
-      "protected" : false,
-      "id_str" : "763453788409724928",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1073359404026814466\/Rf8m5iAz_normal.jpg",
-      "id" : 763453788409724928,
-      "verified" : false
-    }
-  },
-  "id" : 1051953377876283394,
-  "created_at" : "2018-10-15 21:50:04 +0000",
-  "user" : {
-    "name" : "Bogdan",
-    "screen_name" : "bogdanvlviv",
-    "protected" : false,
-    "id_str" : "723791414388232192",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/994303059932131334\/7trK_6tt_normal.jpg",
-    "id" : 723791414388232192,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
     "user_mentions" : [ ],
     "media" : [ ],
     "hashtags" : [ ],
@@ -15019,13 +14962,13 @@ Grailbird.data.tweets_2018_10 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\"\u003ETwitter for Android\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "\u30AB**\u30B9",
+      "name" : "Shiny Calpas",
       "screen_name" : "yoshi_hirano",
       "indices" : [ 0, 13 ],
       "id_str" : "5787442",
       "id" : 5787442
     }, {
-      "name" : "\u30AB**\u30B9",
+      "name" : "Shiny Calpas",
       "screen_name" : "yoshi_hirano",
       "indices" : [ 38, 51 ],
       "id_str" : "5787442",
@@ -18478,7 +18421,7 @@ Grailbird.data.tweets_2018_10 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\"\u003ETwitter for Android\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
+      "name" : "Shiny Calpas",
       "screen_name" : "yoshi_hirano",
       "indices" : [ 3, 16 ],
       "id_str" : "5787442",
@@ -18567,7 +18510,7 @@ Grailbird.data.tweets_2018_10 =
     "id" : 1049074369807278080,
     "created_at" : "2018-10-07 23:09:55 +0000",
     "user" : {
-      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u30CB\u30E5\u30FC\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "protected" : false,
       "id_str" : "5787442",
@@ -19215,7 +19158,7 @@ Grailbird.data.tweets_2018_10 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\"\u003ETwitter for Android\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u30CB\u30E5\u30FC\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "indices" : [ 0, 13 ],
       "id_str" : "5787442",
@@ -19248,7 +19191,7 @@ Grailbird.data.tweets_2018_10 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\"\u003ETwitter for Android\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u30CB\u30E5\u30FC\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "indices" : [ 3, 16 ],
       "id_str" : "5787442",
@@ -19337,7 +19280,7 @@ Grailbird.data.tweets_2018_10 =
     "id" : 1048683969959489536,
     "created_at" : "2018-10-06 21:18:36 +0000",
     "user" : {
-      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u30CB\u30E5\u30FC\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "protected" : false,
       "id_str" : "5787442",
@@ -19361,7 +19304,7 @@ Grailbird.data.tweets_2018_10 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\"\u003ETwitter for Android\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
+      "name" : "Shiny Calpas",
       "screen_name" : "yoshi_hirano",
       "indices" : [ 0, 13 ],
       "id_str" : "5787442",

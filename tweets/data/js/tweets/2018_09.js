@@ -1592,7 +1592,7 @@ Grailbird.data.tweets_2018_09 =
       "screen_name" : "NikkitaFTW",
       "protected" : false,
       "id_str" : "1028595288",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1050336126144323585\/-kkiKBbk_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1075014725736501248\/DiBeOgch_normal.jpg",
       "id" : 1028595288,
       "verified" : false
     }
@@ -10310,33 +10310,6 @@ Grailbird.data.tweets_2018_09 =
     "media" : [ ],
     "hashtags" : [ ],
     "urls" : [ {
-      "indices" : [ 63, 86 ],
-      "url" : "https:\/\/t.co\/gk7QcKGZyZ",
-      "expanded_url" : "https:\/\/github.com\/rails\/rails\/pull\/33569",
-      "display_url" : "github.com\/rails\/rails\/pu\u2026"
-    } ]
-  },
-  "geo" : { },
-  "id_str" : "1040562227676434432",
-  "text" : "rails link: Conditionally use `helper_method` in Flash concern\nhttps:\/\/t.co\/gk7QcKGZyZ",
-  "id" : 1040562227676434432,
-  "created_at" : "2018-09-14 11:25:42 +0000",
-  "user" : {
-    "name" : "Bogdan",
-    "screen_name" : "bogdanvlviv",
-    "protected" : false,
-    "id_str" : "723791414388232192",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/994303059932131334\/7trK_6tt_normal.jpg",
-    "id" : 723791414388232192,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ {
       "indices" : [ 82, 105 ],
       "url" : "https:\/\/t.co\/PdaNS23c8K",
       "expanded_url" : "https:\/\/github.com\/rails\/rails\/commit\/7265b897805aee6b858fb72f5fc33e4622635dab",
@@ -10353,6 +10326,33 @@ Grailbird.data.tweets_2018_09 =
   "created_at" : "2018-09-14 11:25:42 +0000",
   "in_reply_to_screen_name" : "bogdanvlviv",
   "in_reply_to_user_id_str" : "723791414388232192",
+  "user" : {
+    "name" : "Bogdan",
+    "screen_name" : "bogdanvlviv",
+    "protected" : false,
+    "id_str" : "723791414388232192",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/994303059932131334\/7trK_6tt_normal.jpg",
+    "id" : 723791414388232192,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ {
+      "indices" : [ 63, 86 ],
+      "url" : "https:\/\/t.co\/gk7QcKGZyZ",
+      "expanded_url" : "https:\/\/github.com\/rails\/rails\/pull\/33569",
+      "display_url" : "github.com\/rails\/rails\/pu\u2026"
+    } ]
+  },
+  "geo" : { },
+  "id_str" : "1040562227676434432",
+  "text" : "rails link: Conditionally use `helper_method` in Flash concern\nhttps:\/\/t.co\/gk7QcKGZyZ",
+  "id" : 1040562227676434432,
+  "created_at" : "2018-09-14 11:25:42 +0000",
   "user" : {
     "name" : "Bogdan",
     "screen_name" : "bogdanvlviv",
@@ -14704,7 +14704,7 @@ Grailbird.data.tweets_2018_09 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "crazy witch asian - post-conference blues",
+      "name" : "crazy witch asian - \uC9C4\uC544",
       "screen_name" : "jina",
       "indices" : [ 3, 8 ],
       "id_str" : "8501792",
@@ -14731,7 +14731,7 @@ Grailbird.data.tweets_2018_09 =
     "id" : 1038851917441425408,
     "created_at" : "2018-09-09 18:09:32 +0000",
     "user" : {
-      "name" : "crazy witch asian - post-conference blues",
+      "name" : "crazy witch asian",
       "screen_name" : "jina",
       "protected" : false,
       "id_str" : "8501792",
@@ -15239,7 +15239,7 @@ Grailbird.data.tweets_2018_09 =
       "screen_name" : "NikkitaFTW",
       "protected" : false,
       "id_str" : "1028595288",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1050336126144323585\/-kkiKBbk_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1075014725736501248\/DiBeOgch_normal.jpg",
       "id" : 1028595288,
       "verified" : false
     }
@@ -18043,7 +18043,7 @@ Grailbird.data.tweets_2018_09 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u30CB\u30E5\u30FC\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "indices" : [ 3, 16 ],
       "id_str" : "5787442",
@@ -18080,7 +18080,7 @@ Grailbird.data.tweets_2018_09 =
     "id" : 1038030689642274816,
     "created_at" : "2018-09-07 11:46:16 +0000",
     "user" : {
-      "name" : "\u900F\u660E\u30AB\u30EB\u30D1\u30B9",
+      "name" : "\u30CB\u30E5\u30FC\u30AB\u30EB\u30D1\u30B9",
       "screen_name" : "yoshi_hirano",
       "protected" : false,
       "id_str" : "5787442",
@@ -19063,7 +19063,7 @@ Grailbird.data.tweets_2018_09 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Mahmoud Sayed",
+      "name" : "Mahmoud Sayed  \uD83D\uDC68\u200D\uD83D\uDCBB",
       "screen_name" : "m_sayed15",
       "indices" : [ 0, 10 ],
       "id_str" : "1014952208",
@@ -19605,7 +19605,7 @@ Grailbird.data.tweets_2018_09 =
   "source" : "\u003Ca href=\"https:\/\/mobile.twitter.com\" rel=\"nofollow\"\u003ETwitter Lite\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Mahmoud Sayed",
+      "name" : "Mahmoud Sayed  \uD83D\uDC68\u200D\uD83D\uDCBB",
       "screen_name" : "m_sayed15",
       "indices" : [ 0, 10 ],
       "id_str" : "1014952208",
@@ -22554,7 +22554,7 @@ Grailbird.data.tweets_2018_09 =
       "screen_name" : "NikkitaFTW",
       "protected" : false,
       "id_str" : "1028595288",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1050336126144323585\/-kkiKBbk_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1075014725736501248\/DiBeOgch_normal.jpg",
       "id" : 1028595288,
       "verified" : false
     }
