@@ -229,6 +229,7 @@ Pull Requests:
 - [Import Action Mailbox](https://github.com/rails/rails/pull/34786)
 - [Add Action Mailbox to guides](https://github.com/rails/rails/pull/34812)
 - [Deprecate ActionMailer::Base.receive in favor of Action Mailbox](https://github.com/rails/rails/commit/e3f832a7433a291a51c5df397dc3dd654c1858cb)
+- [Add `rails test:mailboxes`](https://github.com/rails/rails/pull/34828)
 
 [Action Mailbox](https://github.com/rails/rails/tree/6-0-stable/actionmailbox) allows you to route incoming emails to controller-like mailboxes.
 You can read more about Action Mailbox in the [Action Mailbox Basics](https://guides.rubyonrails.org/v6.0/action_mailbox_basics.html) guide.
@@ -470,3 +471,5 @@ You can read more about Action Mailbox in the [Action Mailbox Basics](https://gu
 [ActiveStorage: Don’t include an undefined X-CSRF-Token header when creating a blob record](https://github.com/rails/rails/pull/34810)
 
 [Make ActiveStorage::Blob keys lowercase](https://github.com/rails/rails/pull/34818)
+
+[Permit generating variants of TIFF images](https://github.com/rails/rails/pull/34824)
