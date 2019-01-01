@@ -1,0 +1,18 @@
+---
+layout: post
+lang: "en"
+title: "My 2018"
+image: "/images/posts/life/my-2018/bogdanvlviv.jpg"
+date: 2019-01-01 16:21:00 +0200
+categories: posts life
+comments: true
+permalink: /:categories/:title.html
+---
+
+<div class="picture">
+  <img src="{{ "/images/posts/life/my-2018/bogdanvlviv.jpg" | absolute_url }}" title="bogdanvlviv / Bogdan">
+</div>
+
+<div class="picture">
+  <img src="{{ "/images/posts/life/my-2018/github-800-2018.png" | absolute_url }}" title="GitHub - bogdanvlviv - 2018">
+</div>
