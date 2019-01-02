@@ -474,3 +474,5 @@ You can read more about Action Mailbox in the [Action Mailbox Basics](https://gu
 [Make ActiveStorage::Blob keys lowercase](https://github.com/rails/rails/pull/34818)
 
 [Permit generating variants of TIFF images](https://github.com/rails/rails/pull/34824)
+
+[Permit sending Active Storage purge and analysis jobs to separate queues](https://github.com/rails/rails/pull/34838)
