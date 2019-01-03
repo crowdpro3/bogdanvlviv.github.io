@@ -21,6 +21,7 @@ I have contributed to open source projects:
 - [jekyll/jekyll](https://github.com/jekyll/jekyll/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv)
 - [rails/webpacker](https://github.com/rails/webpacker/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv)
 - [rubygems/rubygems.org](https://github.com/rubygems/rubygems.org/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv)
+- [amatsuda/jb](https://github.com/amatsuda/jb/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv)
 - [tjgrathwell/rails5-spec-converter](https://github.com/tjgrathwell/rails5-spec-converter/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv)
 - [westonganger/protected_attributes_continued](https://github.com/westonganger/protected_attributes_continued/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv)
 - [bogdanvlviv/general_time](https://github.com/bogdanvlviv/general_time)
