@@ -476,3 +476,10 @@ You can read more about Action Mailbox in the [Action Mailbox Basics](https://gu
 [Permit generating variants of TIFF images](https://github.com/rails/rails/pull/34824)
 
 [Permit sending Active Storage purge and analysis jobs to separate queues](https://github.com/rails/rails/pull/34838)
+[Send Active Storage analysis and purge jobs to dedicated queues by default](https://github.com/rails/rails/pull/34863)
+
+[Fix the need of `#protect_against_forgery?` method defined in `ActionView::Base` subclasses](https://github.com/rails/rails/pull/34797)
+
+[Add `ActiveModel::Errors#of_kind?`](https://github.com/rails/rails/pull/34866)
+
+[Convert ActionCable javascript to ES2015 modules with a modern build environment](https://github.com/rails/rails/pull/34177)
