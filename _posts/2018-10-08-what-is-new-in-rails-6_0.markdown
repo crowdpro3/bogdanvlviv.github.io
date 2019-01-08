@@ -229,6 +229,7 @@ end
 Pull Requests:
 - [Import Action Mailbox](https://github.com/rails/rails/pull/34786)
 - [Add Action Mailbox to guides](https://github.com/rails/rails/pull/34812)
+- [Add `--skip-action-mailbox` option to `rails new`](https://github.com/rails/rails/pull/34816)
 - [Deprecate ActionMailer::Base.receive in favor of Action Mailbox](https://github.com/rails/rails/commit/e3f832a7433a291a51c5df397dc3dd654c1858cb)
 - [Add `rails test:mailboxes`](https://github.com/rails/rails/pull/34828)
 
