@@ -43,7 +43,7 @@ permalink: /:categories/:title.html
           path: google.maps.SymbolPath.CIRCLE,
           fillColor: "red",
           fillOpacity: 0.6,
-          scale: 4,
+          scale: 5,
           strokeColor: "white",
           strokeWeight: 1
         }
