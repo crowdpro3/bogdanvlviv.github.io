@@ -1,0 +1,149 @@
+# I have read books
+
+- title: "\"1984\" (by George Orwell)"
+  link: "https://www.amazon.com/gp/product/0451524934"
+  progress: 100
+
+- title: "\"A Dog's Purpose\" (by W. Bruce Cameron)"
+  link: "http://www.brucecameron.com/books/a-dog-s-purpose"
+  progress: 100
+
+- title: "\"Agile Web Development with Rails 4\" (by Sam Ruby)"
+  link: "https://pragprog.com/book/rails4/agile-web-development-with-rails-4"
+  progress: 100
+
+- title: "\"Crafting Rails 4 Applications\" (by José Valim)"
+  link: "https://pragprog.com/book/jvrails2/crafting-rails-4-applications"
+  progress: 100
+
+- title: "\"Design Patterns in Ruby\" (by Russ Olsen)"
+  link: "https://www.amazon.com/Design-Patterns-Ruby-Addison-Wesley-Professional/dp/0321490452"
+  progress: 100
+
+- title: "\"Designing Your Life\" (by Bill Burnett, Dave Evans)"
+  link: "https://designingyour.life/the-book"
+  progress: 100
+
+- title: "\"It Doesn't Have to Be Crazy at Work\" (by Jason Fried, David Heinemeier Hansson)"
+  link: "https://basecamp.com/books/calm"
+  progress: 100
+
+- title: "\"JavaScript: The Good Parts\" (by Douglas Crockford)"
+  link: "http://shop.oreilly.com/product/9780596517748.do"
+  progress: 100
+
+- title: "\"Learn to Program\" (by Chris Pine)"
+  link: "https://pine.fm/LearnToProgram"
+  progress: 100
+
+- title: "\"Linux Phrasebook 1st Edition\" (by Scott Granneman)"
+  link: "https://www.amazon.com/Linux-Phrasebook-Scott-Granneman/dp/0672328380"
+  progress: 100
+
+- title: "\"Performance Reviews\" (by Harvard Business Review)"
+  link: "https://www.amazon.com/Performance-Reviews-HBR-20-Minute-Manager-ebook/dp/B00O92Q6FS"
+  progress: 100
+
+- title: "\"Refactoring: Ruby Edition\" (by Jay Fields, Shane Harvie, Martin Fowler, Kent Beck)"
+  link: "https://www.amazon.com/gp/product/0321603508"
+  progress: 100
+
+- title: "\"Remote: Office Not Required\" (by Jason Fried, David Heinemeier Hansson)"
+  link: "https://37signals.com/remote"
+  progress: 100
+
+- title: "\"Rework\" (by Jason Fried, David Heinemeier Hansson)"
+  link: "https://37signals.com/rework"
+  progress: 100
+
+- title: "\"Ruby Under a Microscope\" (by Pat Shaughnessy)"
+  link: "http://patshaughnessy.net/ruby-under-a-microscope"
+  progress: 100
+
+- title: "\"The Best of Me\" (by Nicholas Sparks)"
+  link: "http://nicholassparks.com/stories/the-best-of-me"
+  progress: 100
+
+- title: "\"The Five Dysfunctions of a Team\" (by Patrick Lencioni)"
+  link: "https://www.tablegroup.com/books/dysfunctions"
+  progress: 100
+
+- title: "\"The Healthy Programmer\" (by Joe Kutner)"
+  link: "http://healthyprog.com"
+  progress: 100
+
+- title: "\"The Ruby Programming Language\" (by David Flanagan, Yukihiro Matsumoto)"
+  link: "http://shop.oreilly.com/product/9780596516178.do"
+  progress: 100
+
+- title: "\"tmux\" (by Brian P. Hogan)"
+  link: "https://pragprog.com/book/bhtmux/tmux"
+  progress: 100
+
+# I am reading books
+
+- title: "\"Colorless Tsukuru Tazaki and His Years of Pilgrimage\" (by Haruki Murakami)"
+  link: "http://www.harukimurakami.com/book/colorless-tsukuru-tazaki-and-his-years-of-pilgrimage"
+  progress: 10
+
+- title: "\"How Linux Works, 2nd Edition\" (by Brian Ward)"
+  link: "https://nostarch.com/howlinuxworks2"
+  progress: 39
+
+- title: "\"On Writing Well: The Classic Guide to Writing Nonfiction\" (by William Zinsser)"
+  link: "https://www.amazon.com/gp/product/0060891548"
+  progress: 15
+
+- title: "\"Ruby on Rails Guides\""
+  link: "http://edgeguides.rubyonrails.org"
+  progress: 42
+
+- title: "\"The C Programming Language 2nd Edition\" (by Brian W. Kernighan, Dennis M. Ritchie)"
+  link: "https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628"
+  progress: 3
+
+# I am going to read books
+
+- title: "\"Learn Vimscript the Hard Way\" (by Steve Losh)"
+  link: "http://learnvimscriptthehardway.stevelosh.com"
+  progress: 0
+
+- title: "\"Learning SQL 2nd Edition\" (by Alan Beaulieu)"
+  link: "http://shop.oreilly.com/product/9780596520847.do"
+  progress: 0
+
+- title: "\"Les dieux voyagent toujours incognito\" (by Laurent Gounelle)"
+  link: "https://www.laurentgounelle.com/livres/les-dieux-voyagent-toujours-incognito-9782266219150"
+  progress: 0
+
+- title: "\"PostgreSQL: Up and Running\" (by Regina O. Obe, Leo S. Hsu)"
+  link: "http://shop.oreilly.com/product/0636920025061.do"
+  progress: 0
+
+- title: "\"Practical Vim, Second Edition\" (by Drew Neil)"
+  link: "https://pragprog.com/book/dnvim2/practical-vim-second-edition"
+  progress: 0
+
+- title: "\"Pro Git 2nd Edition\" (by Scott Chacon, Ben Straub)"
+  link: "https://git-scm.com/book/uk/v2"
+  progress: 0
+
+- title: "\"Remote Pairing\" (by Joe Kutner)"
+  link: "https://pragprog.com/book/jkrp/remote-pairing"
+  progress: 0
+
+- title: "\"Sinatra: Up and Running\" (by Alan Harris, Konstantin Haase)"
+  link: "http://shop.oreilly.com/product/0636920019664.do"
+  progress: 0
+
+- title: "\"UNIX and Linux System Administration Handbook 4th Edition\" (by Evi Nemeth, Garth Snyder, Trent R. Hein, Ben Whaley)"
+  link: "https://www.amazon.com/Linux-System-Administration-Handbook-Edition/dp/0131480057"
+  progress: 0
+
+- title: "\"The Power of Habit\" (by Charles Duhigg)"
+  link: "https://charlesduhigg.com/books/the-power-of-habit"
+  progress: 0
+
+- title: "\"Vagrant: Up and Running\" (by Mitchell Hashimoto)"
+  link: "http://shop.oreilly.com/product/0636920026358.do"
+  progress: 0
