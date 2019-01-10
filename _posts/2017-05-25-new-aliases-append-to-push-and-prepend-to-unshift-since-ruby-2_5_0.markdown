@@ -2,6 +2,7 @@
 layout: post
 lang: "en"
 title: 'New aliases "append" to Array#push, and "prepend" to Array#unshift (since Ruby 2.5.0)'
+author: "bogdanvlviv"
 date: 2017-05-25 08:30:00 +0300
 categories: posts ruby
 comments: true

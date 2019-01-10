@@ -2,6 +2,7 @@
 layout: post
 lang: "en"
 title: "... with __dir__ we can restore order in the Universe"
+author: "bogdanvlviv"
 image: "/images/posts/ruby/with-__dir__-we-can-restore-order-in-the-universe/dir.jpg"
 date: 2017-08-02 08:00:00 +0300
 categories: posts ruby

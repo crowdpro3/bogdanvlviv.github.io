@@ -2,6 +2,7 @@
 layout: talks/default
 lang: "en"
 title: "Example"
+author: "bogdanvlviv"
 date: 2018-05-28 22:31:31 +0300
 categories: talks
 comments: false

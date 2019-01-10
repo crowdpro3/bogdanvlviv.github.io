@@ -2,6 +2,7 @@
 layout: null
 lang: "en"
 title: "Travel map"
+author: "bogdanvlviv"
 date: 2019-01-09 19:11:00 +0200
 categories: posts life
 permalink: /:categories/:title.html

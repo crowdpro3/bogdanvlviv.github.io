@@ -2,6 +2,7 @@
 layout: post
 lang: "uk"
 title: "Мій 2017"
+author: "bogdanvlviv"
 image: "/images/posts/life/my-2017/lviv-town-hall.jpg"
 date: 2018-01-14 19:49:00 +0200
 categories: posts life

@@ -54,6 +54,10 @@
   line-height: 1;
 }
 
+.post-heading {
+  margin-bottom: 0px;
+}
+
 .post-link {
   @include relative-font-size(1.1875);
   line-height: 1;

@@ -2,6 +2,7 @@
 layout: post
 lang: "en"
 title: "Build your own tools"
+author: "bogdanvlviv"
 image: "/images/posts/life/build-your-own-tools/example-of-slides.png"
 date: 2018-06-03 01:47:00 +0300
 categories: posts life

@@ -2,6 +2,7 @@
 layout: post
 lang: "en"
 title: "Decorator Pattern in Ruby"
+author: "bogdanvlviv"
 date: 2016-10-02 16:30:00 +0300
 categories: posts ruby patterns
 comments: true

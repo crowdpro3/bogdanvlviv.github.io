@@ -2,6 +2,7 @@
 layout: post
 lang: "en"
 title: "Travels"
+author: "bogdanvlviv"
 date: 2019-01-09 19:13:00 +0200
 categories: posts life
 comments: true

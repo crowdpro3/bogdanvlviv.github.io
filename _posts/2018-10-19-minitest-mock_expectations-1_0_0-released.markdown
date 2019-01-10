@@ -2,6 +2,7 @@
 layout: post
 lang: "en"
 title: "minitest-mock_expectations 1.0.0 released"
+author: "bogdanvlviv"
 date: 2018-10-19 14:42:00 +0300
 categories: posts ruby minitest
 comments: true

@@ -2,6 +2,7 @@
 layout: post
 lang: "en"
 title: "Welcome!"
+author: "bogdanvlviv"
 date: 2016-05-24 21:02:31 +0300
 categories: posts
 comments: true
