@@ -49,6 +49,12 @@
   line-height: 1;
 }
 
+.post-list {
+  > li {
+    margin-bottom: $base-margin-bottom;
+  }
+}
+
 .post-list-heading {
   @include relative-font-size(1.25);
   line-height: 1;
