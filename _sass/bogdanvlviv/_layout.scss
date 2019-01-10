@@ -47,6 +47,7 @@
 .page-heading {
   @include relative-font-size(1.25);
   line-height: 1;
+  margin-bottom: $base-margin-bottom * 2;
 }
 
 .post-list {
