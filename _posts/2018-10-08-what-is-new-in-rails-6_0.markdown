@@ -233,6 +233,7 @@ Pull Requests:
 - [Add `--skip-action-mailbox` option to `rails new`](https://github.com/rails/rails/pull/34816)
 - [Deprecate ActionMailer::Base.receive in favor of Action Mailbox](https://github.com/rails/rails/commit/e3f832a7433a291a51c5df397dc3dd654c1858cb)
 - [Add `rails test:mailboxes`](https://github.com/rails/rails/pull/34828)
+- [Add Postmark ingress support to ActionMailbox](https://github.com/rails/rails/pull/34907)
 
 [Action Mailbox](https://github.com/rails/rails/tree/6-0-stable/actionmailbox) allows you to route incoming emails to controller-like mailboxes.
 You can read more about Action Mailbox in the [Action Mailbox Basics](https://guides.rubyonrails.org/v6.0/action_mailbox_basics.html) guide.
@@ -457,6 +458,8 @@ You can read more about Action Text in the [Action Text Overview](https://guides
 [Rename `Module#parent`, `Module#parents`, and `Module#parent_name` to `module_parent`, `module_parents`, and `module_parent_name`](https://github.com/rails/rails/pull/34051)
 
 [Parameterized mailers can configure delivery job](https://github.com/rails/rails/pull/34097)
+[Add MailDeliveryJob for unified mail delivery](https://github.com/rails/rails/pull/34591)
+[Move MailDeliveryJob default to 6.0 defaults](https://github.com/rails/rails/pull/34692)
 
 [Deprecate `ActionDispatch::Http::ParameterFilter` in favor of `ActiveSupport::ParameterFilter`](https://github.com/rails/rails/pull/34039)
 
@@ -503,3 +506,4 @@ You can read more about Action Text in the [Action Text Overview](https://guides
 
 [Keep executions for each specific exception](https://github.com/rails/rails/pull/34352)
 [Support in-flight jobs stored before individual execution counters for `retry_on`](https://github.com/rails/rails/pull/34731)
+[Run exception tests for all ActiveJob adapters and fix issue with individual counters and Resque](https://github.com/rails/rails/pull/34890)
