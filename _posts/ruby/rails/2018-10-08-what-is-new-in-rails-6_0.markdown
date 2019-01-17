@@ -261,6 +261,8 @@ Pull Requests:
 - [Add ActionCable::Channel::TestCase](https://github.com/rails/rails/pull/33969)
 - [Add streams assert methods to ActionCable channel test case](https://github.com/rails/rails/pull/34740)
 - [Add ActionCable::Connection::TestCase](https://github.com/rails/rails/pull/34845)
+- [Add Action Cable testing guides and generators](https://github.com/rails/rails/pull/34933)
+- [Add `rails test:channels` and fix Action Cable templates](https://github.com/rails/rails/pull/34947)
 
 ### [Other links](#other-links)
 
@@ -433,6 +435,7 @@ Pull Requests:
 [Deprecate ActiveRecord::Result#to_hash in favor of #to_a](https://github.com/rails/rails/pull/33912)
 
 [Add support for multi environment credentials.](https://github.com/rails/rails/pull/33521)
+[Restructure credentials after environment overrides.](https://github.com/rails/rails/pull/33962)
 
 [Error when using "recyclable" cache keys with a store that does not support it](https://github.com/rails/rails/pull/33932)
 
@@ -516,3 +519,5 @@ Pull Requests:
 [Move all npm packages to @rails scope](https://github.com/rails/rails/pull/34905)
 
 [Add support for endless ranges introduces in Ruby 2.6](https://github.com/rails/rails/pull/34906)
+
+[Refactor calculating beginning_of_quarter and end_of_quarter](https://github.com/rails/rails/pull/34927)
