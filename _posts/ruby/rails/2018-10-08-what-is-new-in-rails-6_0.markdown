@@ -521,3 +521,5 @@ Pull Requests:
 [Add support for endless ranges introduces in Ruby 2.6](https://github.com/rails/rails/pull/34906)
 
 [Refactor calculating beginning_of_quarter and end_of_quarter](https://github.com/rails/rails/pull/34927)
+
+[Allow permitted instance of `ActionController::Parameters` as argument of `ActiveRecord::Relation#exists?`](https://github.com/rails/rails/pull/34891)
