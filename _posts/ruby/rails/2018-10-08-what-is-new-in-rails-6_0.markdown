@@ -314,6 +314,7 @@ Pull Requests:
 [Allow schema/structure load for multiple databases](https://github.com/rails/rails/commit/48d58494dbfaab759531c168f0103542e4f73614)
 [Add multidb application test](https://github.com/rails/rails/commit/fa5a028ed9fccf54bb320e6a99a5a539de4c57ba)
 [Don't create namespaced tasks if single db application](https://github.com/rails/rails/commit/5ddcda6d5f560d27bbae877d6ba8fb687d1b1a3b)
+[Db schema cache dump and clear multi db](https://github.com/rails/rails/pull/34181)
 
 [Use ImageProcessing gem for ActiveStorage variants](https://github.com/rails/rails/pull/32471)
 
@@ -523,3 +524,17 @@ Pull Requests:
 [Refactor calculating beginning_of_quarter and end_of_quarter](https://github.com/rails/rails/pull/34927)
 
 [Allow permitted instance of `ActionController::Parameters` as argument of `ActiveRecord::Relation#exists?`](https://github.com/rails/rails/pull/34891)
+
+[Guard Enums against definitions with blank label names](https://github.com/rails/rails/pull/34385)
+
+[Add an :if_not_exists option to create_table](https://github.com/rails/rails/pull/31382)
+
+[Remove asset paths from autoload_paths](https://github.com/rails/rails/pull/34400)
+
+[Add support for UNLOGGED Postgresql tables](https://github.com/rails/rails/pull/34221)
+
+[Arel: Implemented DB-aware NULL-safe comparison](https://github.com/rails/rails/pull/34451)
+
+[Prevent TextHelper#word_wrap from stripping white space on the left side of long lines; Fixes #34487](https://github.com/rails/rails/pull/34488)
+
+[ActionMailer: support overriding template name in multipart](https://github.com/rails/rails/pull/22534)
