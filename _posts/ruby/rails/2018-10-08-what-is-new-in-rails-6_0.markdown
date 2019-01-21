@@ -18,8 +18,6 @@ Hello!
 
 This post about news and some changes that have been done in Rails 6.0.
 
-I am [bogdanvlviv](https://github.com/bogdanvlviv) - [Rails Contributor](http://contributors.rubyonrails.org/contributors/bogdanvlviv/commits) and Ruby Programmer.
-
 > Note that this post is being updated since Rails 6.0 has not been released yet.
 > In order to be notified about new changes in this post, you can [subscribe to my mailing list]({{ site.mailchimp_signup_form_url }}), [follow me on Twitter](https://twitter.com/bogdanvlviv), or just refresh this page from time to time.
 Stay tuned!
