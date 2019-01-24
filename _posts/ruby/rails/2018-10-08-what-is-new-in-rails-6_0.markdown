@@ -456,8 +456,6 @@ Pull Requests:
 
 [Add deprecation warning when String#first and String#last receive negative integers](https://github.com/rails/rails/pull/33058)
 
-[Remove undocumented `params` option from `url_for` helper](https://github.com/rails/rails/pull/33256)
-
 [Make Webpacker the default JavaScript compiler for Rails 6](https://github.com/rails/rails/pull/33079)
 
 [Deprecate the use of `LoggerSilence` in favor of `ActiveSupport::LoggerSilence`](https://github.com/rails/rails/pull/34045)
@@ -536,3 +534,9 @@ Pull Requests:
 [Prevent TextHelper#word_wrap from stripping white space on the left side of long lines; Fixes #34487](https://github.com/rails/rails/pull/34488)
 
 [ActionMailer: support overriding template name in multipart](https://github.com/rails/rails/pull/22534)
+
+[Refs #28025 nullify *_type column on polymorphic associations on :nulify polymorphic *_type column on dependent: :nullify strategy](https://github.com/rails/rails/pull/28078)
+
+[Add rails db:system:change command](https://github.com/rails/rails/pull/34832)
+
+[Seed database with inline ActiveJob job adapter](https://github.com/rails/rails/pull/34953)
