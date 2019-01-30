@@ -540,3 +540,7 @@ Pull Requests:
 [Add rails db:system:change command](https://github.com/rails/rails/pull/34832)
 
 [Seed database with inline ActiveJob job adapter](https://github.com/rails/rails/pull/34953)
+
+[Make `t.timestamps` with precision by default](https://github.com/rails/rails/pull/34970)
+
+[Remove all code deprecated in Rails 5.2](https://github.com/rails/rails/pull/34954)
