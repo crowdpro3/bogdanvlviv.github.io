@@ -18,6 +18,10 @@ This this is default example of my slides.
 
 ## Navigation
 
+- In order to expand slides
+  - press "e"
+- In order to reduce slides
+  - press "r"
 - In order to go to the next slide
   - click the link "Next slide(j, l)"
   - press "j"

@@ -9,7 +9,7 @@ var talk = {
     return(
       this.slides().find(function(slide) {
         return(
-          slide.style.display === ""
+          !slide.className.match("talk-hidden-content")
         );
       })
     );
@@ -24,11 +24,11 @@ var talk = {
   numberOfActiveSlide: 1,
 
   displaySlide: function(slide) {
-    slide.style.display = "";
+    slide.classList.remove("talk-hidden-content");
   },
 
   hideSlide: function(slide) {
-    slide.style.display = "none";
+    slide.classList.add("talk-hidden-content");
   },
 
   displayNumberOfSlides: function() {
@@ -36,6 +36,16 @@ var talk = {
 
     numberOfSlides.href = document.location.href.split("?")[0].split("#")[0] + "?slide=" + this.numberOfActiveSlide;
     numberOfSlides.textContent = "(" + this.numberOfActiveSlide + "/" + this.numberOfSlides() + ")";
+  },
+
+  expandSlides: function() {
+    document.getElementsByTagName("header")[0].classList.add("talk-hidden-content")
+    document.getElementsByTagName("footer")[0].classList.add("talk-hidden-content")
+  },
+
+  reduceSlides: function() {
+    document.getElementsByTagName("header")[0].classList.remove("talk-hidden-content")
+    document.getElementsByTagName("footer")[0].classList.remove("talk-hidden-content")
   },
 
   previousSlide: function() {
@@ -80,14 +90,12 @@ var talk = {
 
     document.onkeydown = function(keyboardEvent) {
       switch(keyboardEvent.key) {
-      case "F11":
-        // full screen
-        break;
-      default:
-        keyboardEvent.preventDefault();
-      }
-
-      switch(keyboardEvent.key) {
+        case "e":
+          this.expandSlides();
+          break;
+        case "r":
+          this.reduceSlides();
+          break;
         case "j":
         case "l":
         case "PageDown":
