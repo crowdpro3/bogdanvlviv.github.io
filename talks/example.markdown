@@ -12,7 +12,7 @@ permalink: /talks/example.html
 {::options parse_block_html="true" /}
 
 <div class="talk-slide">
-# Hello!
+# Example
 
 This this is default example of my slides.
 
@@ -39,6 +39,8 @@ This this is default example of my slides.
 </div>
 
 <div class="talk-slide">
+##  Text
+
 # This is h1
 
 ## This is h2
@@ -57,7 +59,7 @@ This is p with <mark>mark</mark>ed word.
 </div>
 
 <div class="talk-slide">
-# Table
+## Table
 
 <table>
   <thead>
@@ -91,7 +93,7 @@ This is p with <mark>mark</mark>ed word.
 </div>
 
 <div class="talk-slide">
-# Tweet
+## Tweet
 
 {::options parse_block_html="false" /}
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">today was a good day. <a href="https://t.co/2O5spcCCn3">pic.twitter.com/2O5spcCCn3</a></p>&mdash; Bogdan (@bogdanvlviv) <a href="https://twitter.com/bogdanvlviv/status/973236422005141504?ref_src=twsrc%5Etfw">March 12, 2018</a></blockquote>
@@ -99,13 +101,13 @@ This is p with <mark>mark</mark>ed word.
 </div>
 
 <div class="talk-slide">
-# Image
+## Image
 
 <img src="{{ "/images/talks/example/lviv-town-hall.jpg" | absolute_url }}" title="Lviv Town Hall">
 </div>
 
 <div class="talk-slide">
-# Code
+## Code
 
 ```ruby
 class User
@@ -135,7 +137,7 @@ end
 </div>
 
 <div class="talk-slide">
-# Alignment
+## Alignment
 
 Left
 
@@ -155,5 +157,5 @@ Left
 </div>
 
 <div class="talk-slide">
-# Thanks!
+## Thanks!
 </div>
