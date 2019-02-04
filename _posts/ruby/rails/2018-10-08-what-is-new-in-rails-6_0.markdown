@@ -544,3 +544,5 @@ Pull Requests:
 [Make `t.timestamps` with precision by default](https://github.com/rails/rails/pull/34970)
 
 [Remove all code deprecated in Rails 5.2](https://github.com/rails/rails/pull/34954)
+
+[All of queries should return correct result even if including large number](https://github.com/rails/rails/pull/30000)
