@@ -91,21 +91,25 @@ var talk = {
     document.onkeydown = function(keyboardEvent) {
       switch(keyboardEvent.key) {
         case "e":
+          keyboardEvent.preventDefault();
           this.expandSlides();
           break;
         case "r":
+          keyboardEvent.preventDefault();
           this.reduceSlides();
           break;
         case "j":
         case "l":
         case "PageDown":
         case "ArrowRight":
+          keyboardEvent.preventDefault();
           this.nextSlide();
           break;
         case "k":
         case "h":
         case "PageUp":
         case "ArrowLeft":
+          keyboardEvent.preventDefault();
           this.previousSlide();
           break;
       }
