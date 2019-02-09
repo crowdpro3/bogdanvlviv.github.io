@@ -18,10 +18,6 @@ Hello!
 
 This post about news and some changes that have been done in Rails 6.0.
 
-> Note that this post is being updated since Rails 6.0 has not been released yet.
-> In order to be notified about new changes in this post, you can [subscribe to my mailing list]({{ site.mailchimp_signup_form_url }}), [follow me on Twitter](https://twitter.com/bogdanvlviv), or just refresh this page from time to time.
-Stay tuned!
-
 ## Table of Contents
 
 - [Rails 6.0 requires Ruby 2.5.0 or newer](#rails-60-requires-ruby-250-or-newer)
@@ -313,6 +309,11 @@ Pull Requests:
 [Add multidb application test](https://github.com/rails/rails/commit/fa5a028ed9fccf54bb320e6a99a5a539de4c57ba)
 [Don't create namespaced tasks if single db application](https://github.com/rails/rails/commit/5ddcda6d5f560d27bbae877d6ba8fb687d1b1a3b)
 [Db schema cache dump and clear multi db](https://github.com/rails/rails/pull/34181)
+[Part 5: Multi db improvements, Fix query cache for multiple connections](https://github.com/rails/rails/pull/34491)
+[Part 7: Multi db improvements, Add ability to block writes to a database](https://github.com/rails/rails/pull/34505)
+[Part 8: Multi db improvements, Adds basic automatic database switching to Rails](https://github.com/rails/rails/pull/35073)
+[Add ability to change the names of the default handlers](https://github.com/rails/rails/pull/35132)
+[Add ActiveRecord::Base.connected_to?](https://github.com/rails/rails/pull/34680)
 
 [Use ImageProcessing gem for ActiveStorage variants](https://github.com/rails/rails/pull/32471)
 
@@ -546,3 +547,39 @@ Pull Requests:
 [Remove all code deprecated in Rails 5.2](https://github.com/rails/rails/pull/34954)
 
 [All of queries should return correct result even if including large number](https://github.com/rails/rails/pull/30000)
+
+[Fix deeply nested namespace command printing](https://github.com/rails/rails/pull/35033)
+
+[Make `t.timestamps` with precision by default](https://github.com/rails/rails/pull/34970)
+
+[MySQL: Support `:size` option to change text and blob size](https://github.com/rails/rails/pull/35071)
+
+[Action Cable: move channel_name to Channel.broadcasting_for](https://github.com/rails/rails/pull/35021)
+
+[`ActionDispatch::SystemTestCase.driven_by` can now be called with a block to define specific browser capabilities](https://github.com/rails/rails/pull/35081)
+
+[Support before_reset callback in CurrentAttributes](https://github.com/rails/rails/pull/35063
+
+[Improve performance of blank? and present? in an ActiveRecord::Base instance](https://github.com/rails/rails/commit/cc2d614e6310337a9d34ede3e67d634d84561cde)
+
+[Move compiled ERB to an AV::Base subclass](https://github.com/rails/rails/pull/35036)
+
+[Fix elapsed time calculations](https://github.com/rails/rails/pull/34618)
+
+[Add 'Hash#deep_transform_values', and 'Hash#deep_transform_values!'](https://github.com/rails/rails/commit/b8dc06b8fdc16874160f61dcf58743fcc10e57db)
+
+[Add slice! method to ActiveModel::Errors](https://github.com/rails/rails/pull/34489)
+
+[Allow all assertion helpers that have a `only` and `except` keyword to accept Procs](https://github.com/rails/rails/pull/34339)
+
+[Bump the minimum version of PostgreSQL to 9.3](https://github.com/rails/rails/pull/34520)
+
+[Make it possible to override the implicit order column](https://github.com/rails/rails/pull/34480)
+
+[option to disable all scopes that `ActiveRecord.enum` generates](https://github.com/rails/rails/pull/34605)
+
+[Allow using parsed_body in ActionController::TestCase](https://github.com/rails/rails/pull/34717)
+
+[Introduce guard against DNS rebinding attacks](https://github.com/rails/rails/pull/33145)
+
+[Add option to set parallel test worker count to the physical core count of the machine](https://github.com/rails/rails/pull/34735)
