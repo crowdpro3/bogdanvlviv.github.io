@@ -583,3 +583,5 @@ Pull Requests:
 [Introduce guard against DNS rebinding attacks](https://github.com/rails/rails/pull/33145)
 
 [Add option to set parallel test worker count to the physical core count of the machine](https://github.com/rails/rails/pull/34735)
+
+[SQLite3: Implement `add_foreign_key` and `remove_foreign_key`](https://github.com/rails/rails/pull/35212)
