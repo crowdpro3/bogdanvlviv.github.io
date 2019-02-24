@@ -39,13 +39,15 @@ var talk = {
   },
 
   expandSlides: function() {
-    document.getElementsByTagName("header")[0].classList.add("talk-hidden-content")
-    document.getElementsByTagName("footer")[0].classList.add("talk-hidden-content")
+    document.getElementsByTagName("header")[0].classList.add("talk-hidden-content");
+    document.getElementsByClassName("talk-navigation")[0].classList.add("talk-hidden-content");
+    document.getElementsByTagName("footer")[0].classList.add("talk-hidden-content");
   },
 
   reduceSlides: function() {
-    document.getElementsByTagName("header")[0].classList.remove("talk-hidden-content")
-    document.getElementsByTagName("footer")[0].classList.remove("talk-hidden-content")
+    document.getElementsByTagName("header")[0].classList.remove("talk-hidden-content");
+    document.getElementsByClassName("talk-navigation")[0].classList.remove("talk-hidden-content");
+    document.getElementsByTagName("footer")[0].classList.remove("talk-hidden-content");
   },
 
   previousSlide: function() {
