@@ -585,3 +585,11 @@ Pull Requests:
 [Add option to set parallel test worker count to the physical core count of the machine](https://github.com/rails/rails/pull/34735)
 
 [SQLite3: Implement `add_foreign_key` and `remove_foreign_key`](https://github.com/rails/rails/pull/35212)
+
+[Zeitwerk integration](https://github.com/rails/rails/pull/35235)
+
+[Adding enque time tracking and logging to a job](https://github.com/rails/rails/commit/ac68550ae6d117b1d257f5df38ba76e03b7e2cf4)
+
+[Add delete_by/destroy_by as relation methods](https://github.com/rails/rails/pull/35316)
+
+[Ensure `update_all` series cares about optimistic locking](https://github.com/rails/rails/pull/35352)
