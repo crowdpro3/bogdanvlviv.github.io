@@ -593,3 +593,5 @@ Pull Requests:
 [Add delete_by/destroy_by as relation methods](https://github.com/rails/rails/pull/35316)
 
 [Ensure `update_all` series cares about optimistic locking](https://github.com/rails/rails/pull/35352)
+
+[Add negative scopes for all enum values](https://github.com/rails/rails/pull/35381)
