@@ -14,9 +14,9 @@ permalink: /:categories/:title.html
   <img src="{{ "/images/posts/talks/ruby/rails/how-to-upgrade-a-big-rails-application/dmitrij-paskevic-631210-unsplash.jpg" | absolute_url }}" title="https://unsplash.com/photos/6ZFtDDRW82w">
 </div>
 
-\- Hello!
+\- Hello everyone!
 
-\- In this presentation, I'm going to talk about **the dual boot strategy** as an approach for upgrading a big Rails application.
+\- In this presentation, I'm going to talk about why we should upgrade applications, *long-running branch* and *dual boot* strategies as approaches for upgrading Rails applications.
 
 ## About me
 
