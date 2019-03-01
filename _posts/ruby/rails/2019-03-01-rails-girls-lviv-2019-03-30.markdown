@@ -1,0 +1,27 @@
+---
+layout: post
+lang: "en"
+title: "Rails Girls Lviv - 2019-03-30"
+author: "bogdanvlviv"
+image: "/images/posts/ruby/rails/rails-girls-lviv-2019-03-30/rails-girls-lviv-2019.jpg"
+date: 2019-03-01 20:49:00 +0200
+categories: posts ruby rails
+comments: true
+permalink: /:categories/:title.html
+---
+
+<div class="picture">
+  <img src="{{ "/images/posts/ruby/rails/rails-girls-lviv-2019-03-30/rails-girls-lviv-2019.jpg" | absolute_url }}" title="Rails Girls Lviv 2019">
+</div>
+
+[Rails Girls](http://railsgirls.com) - Get started with tech.
+
+Our aim is to give tools and a community for women to understand technology and to build their ideas.
+We do this by providing a great experience on building things and by making technology more approachable.
+
+Learn sketching, prototyping, basic programming and get introduced to the world of technology.
+Rails Girls was born in Finland, but is nowadays a global, non-profit volunteer community.
+
+Links:
+- Event page: [https://www.facebook.com/events/594087341069509](https://www.facebook.com/events/594087341069509)
+- Registration form: [Rails Girls Lviv 2019](https://docs.google.com/forms/d/e/1FAIpQLSfmTF_sO0XnqDQ3cTFjQX7vR7f5SstdaMXnYDtUhU-9efpXTA/viewform)
