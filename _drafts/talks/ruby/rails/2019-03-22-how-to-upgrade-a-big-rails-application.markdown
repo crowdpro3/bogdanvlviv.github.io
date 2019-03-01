@@ -20,7 +20,15 @@ permalink: /:categories/:title.html
 
 ## About me
 
-## RailsConf 2017: Upgrading a big application to Rails 5 by Rafael França
+## Long-Running Branches Considered Harmful - New Relic Blog
+
+[https://blog.newrelic.com/culture/long-running-branches-considered-harmful/](https://blog.newrelic.com/culture/long-running-branches-considered-harmful/)
+
+## Shopify's Rails upgrade story
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">In &#39;17 it took us 1y to upgrade from <a href="https://twitter.com/rails?ref_src=twsrc%5Etfw">@rails</a> 4.2 to 5.0. <a href="https://twitter.com/kirshatrov?ref_src=twsrc%5Etfw">@kirshatrov</a> <a href="https://twitter.com/rafaelfranca?ref_src=twsrc%5Etfw">@rafaelfranca</a> <a href="https://twitter.com/DaroudeDudek?ref_src=twsrc%5Etfw">@DaroudeDudek</a> were happy but not satisfied. Why doesn&#39;t this take a week instead of a year? Today, we are running <a href="https://twitter.com/rails?ref_src=twsrc%5Etfw">@rails</a> 6.0 in production *before* it releases.</p>&mdash; Jean-Michel Lemieux (@jmwind) <a href="https://twitter.com/jmwind/status/1100759716022636545?ref_src=twsrc%5Etfw">February 27, 2019</a></blockquote>
+
+## RailsConf 2017: Upgrading a big application to Rails 5 by [Rafael França](https://github.com/rafaelfranca)
 
 <iframe src="https://www.youtube.com/embed/I-2Xy3RS1ns" frameborder="0" allowfullscreen></iframe>
 
@@ -31,6 +39,12 @@ Link: [https://www.youtube.com/watch?v=I-2Xy3RS1ns](https://www.youtube.com/watc
 Dualboot your Ruby app made easy
 
 Link: [https://github.com/Shopify/bootboot](https://github.com/Shopify/bootboot)
+
+## RailsConf 2018: Upgrading Rails at Scale by [Edouard Chin](https://github.com/Edouard-chin)
+
+<iframe src="https://www.youtube.com/embed/N2B5V4ozc6k" frameborder="0" allowfullscreen></iframe>
+
+Link: [https://www.youtube.com/watch?v=N2B5V4ozc6k](https://www.youtube.com/watch?v=N2B5V4ozc6k)
 
 ## Thanks!
 
