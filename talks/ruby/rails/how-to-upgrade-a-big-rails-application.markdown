@@ -21,6 +21,25 @@ permalink: /talks/ruby/rails/how-to-upgrade-a-big-rails-application.html
 <div class="talk-slide">
 ## About me
 
+<img src="{{ "/images/posts/talks/ruby/rails/how-to-upgrade-a-big-rails-application/rails_contributors-bogdanvlviv-2019-02-26.png" | absolute_url }}" title="https://contributors.rubyonrails.org/contributors/bogdanvlviv/commits">
+
+[https://contributors.rubyonrails.org/contributors/bogdanvlviv/commits](https://contributors.rubyonrails.org/contributors/bogdanvlviv/commits)
+</div>
+
+<div class="talk-slide">
+## Why should we upgrade applications?
+
+- Software development issues
+  - Security issues
+  - [Dependency hell](https://en.wikipedia.org/wiki/Dependency_hell)
+  - New software
+  - Improved APIs
+  - New features
+  - Perfomance
+- Involving new people
+  - Developers
+  - Novice Developers
+- Chance to contribute to Open Source
 </div>
 
 <div class="talk-slide">

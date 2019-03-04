@@ -4,7 +4,7 @@ lang: "en"
 title: "How to upgrade a big Rails application"
 author: "bogdanvlviv"
 image: "/images/posts/talks/ruby/rails/how-to-upgrade-a-big-rails-application/dmitrij-paskevic-631210-unsplash.jpg"
-date: 2019-01-22 19:05:00 +0200
+date: 2019-02-22 19:05:00 +0200
 categories: posts talks ruby rails
 comments: true
 permalink: /:categories/:title.html
@@ -18,7 +18,48 @@ permalink: /:categories/:title.html
 
 \- In this presentation, I'm going to talk about why we should upgrade applications, *long-running branch* and *dual boot* strategies as approaches for upgrading Rails applications.
 
+\- But first, let me introduce myself.
+
 ## About me
+
+<div class="picture">
+  <img src="{{ "/images/posts/talks/ruby/rails/how-to-upgrade-a-big-rails-application/rails_contributors-bogdanvlviv-2019-02-26.png" | absolute_url }}" title="https://contributors.rubyonrails.org/contributors/bogdanvlviv/commits">
+</div>
+
+[https://contributors.rubyonrails.org/contributors/bogdanvlviv/commits](https://contributors.rubyonrails.org/contributors/bogdanvlviv/commits)
+
+\- My name is [Bogdan]({{ "/index.html" | absolute_url }}). I'm a Ruby developer. And yeah, I enjoy collaborating with people from around the world on Open Source. Usually, I contribute to [Ruby on Rails](https://rubyonrails.org/).
+
+\- Back to the topic.
+
+## Why should we upgrade applications?
+
+\- Let's find out why we should upgrade applications.
+
+\- There are lots of reasons to do so.
+
+\- The most important reason is *security issues* because if an application is vulnerable, someone can cause damage or destroy a business. It is likely to cause lots of troubles for clients. It makes clients vulnerable as well.
+
+\- Also, there are other *software development issues* like:
+
+- [Dependency hell](https://en.wikipedia.org/wiki/Dependency_hell): For instance, you might need to upgrade some dependency but you can't because of incompatibilities with some other dependencies.
+- New software: You might need to use some new software, but you can't because a software you use doesn't support it or isn't compatible with it.
+- Improved APIs: You would like to improve API of a library you use.
+- New features: You would like to use new features that are added to a newer version of a library you use.
+- Perfomance: For instance, an application has got performance issues and upgrading of software would solve it.
+
+\- Another important reason to upgrade is *involving new people* to a project. *Developers* prefer to work with technologies on the latest versions so it is easier to hire them on a project that upgrades. Just imagine that in 2019, someone tries to hire you on a project that uses Rails 2.3. Also, it is easier to involve *novice developers* to a project that upgrades because, usually, they've only studied technologies on the latest versions.
+
+\- Upgrading an application is also a *chance to contribute to Open Source*.
+
+
+
+
+
+
+
+
+
 
 ## Long-Running Branches Considered Harmful - New Relic Blog
 
