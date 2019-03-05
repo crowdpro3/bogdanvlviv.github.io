@@ -597,3 +597,7 @@ Pull Requests:
 [Add negative scopes for all enum values](https://github.com/rails/rails/pull/35381)
 
 [Add reselect method](https://github.com/rails/rails/pull/33611)
+
+[Deprecate mismatched collation comparison for uniqueness validator](https://github.com/rails/rails/pull/35350)
+
+[Allow `truncate` for SQLite3 adapter and add `rails db:seed:replant`, `rails db:truncate_all`](https://github.com/rails/rails/pull/34779)
