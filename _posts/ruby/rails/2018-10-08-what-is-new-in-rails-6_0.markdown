@@ -601,3 +601,5 @@ Pull Requests:
 [Deprecate mismatched collation comparison for uniqueness validator](https://github.com/rails/rails/pull/35350)
 
 [Allow `truncate` for SQLite3 adapter and add `rails db:seed:replant`, `rails db:truncate_all`](https://github.com/rails/rails/pull/34779)
+
+[Add `insert_all`/`insert_all!`/`upsert_all` methods to `ActiveRecord::Persistence`, allowing bulk inserts akin to the bulk updates provided by `update_all` and bulk deletes by `delete_all`](https://github.com/rails/rails/pull/35077)
