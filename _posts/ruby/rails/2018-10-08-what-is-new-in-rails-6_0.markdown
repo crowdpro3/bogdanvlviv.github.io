@@ -603,3 +603,5 @@ Pull Requests:
 [Allow `truncate` for SQLite3 adapter and add `rails db:seed:replant`, `rails db:truncate_all`](https://github.com/rails/rails/pull/34779)
 
 [Add `insert_all`/`insert_all!`/`upsert_all` methods to `ActiveRecord::Persistence`, allowing bulk inserts akin to the bulk updates provided by `update_all` and bulk deletes by `delete_all`](https://github.com/rails/rails/pull/35077)
+
+[Added Array#including, Array#excluding, Enumerable#including, Enumerable#excluding](https://github.com/rails/rails/commit/bfaa3091c3c32b5980a614ef0f7b39cbf83f6db3)
