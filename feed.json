@@ -16,7 +16,7 @@ permalink: /feed.json
     {%- if site.twitter_username -%}
     "url": "https://twitter.com/{{ site.twitter_username }}",
     {%- endif -%}
-    "avatar": {{ "/images/bogdanvlviv2.jpg" | absolute_url | jsonify }}
+    "avatar": {{ "/images/bogdanvlviv3.png" | absolute_url | jsonify }}
   },
   "items": [
     {%- for post in site.posts -%}
