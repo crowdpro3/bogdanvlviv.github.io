@@ -609,3 +609,7 @@ Pull Requests:
 [Add locale option to #parameterize](https://github.com/rails/rails/pull/35571)
 
 [Fall back to parent locale before falling back to the :errors namespace](https://github.com/rails/rails/pull/35424)
+
+[Support Optimizer Hints](https://github.com/rails/rails/pull/35615)
+
+[Add `-e/--environment` option to `rails initializers`](https://github.com/rails/rails/pull/35637)
