@@ -21,7 +21,7 @@ permalink: /talks/ruby/rails/how-to-upgrade-a-big-rails-application.html
 <div class="talk-slide">
 ## About me
 
-<img src="{{ "/images/posts/talks/ruby/rails/how-to-upgrade-a-big-rails-application/rails_contributors-bogdanvlviv-2019-02-26.png" | absolute_url }}" title="https://contributors.rubyonrails.org/contributors/bogdanvlviv/commits">
+<img src="{{ "/images/talks/ruby/rails/how-to-upgrade-a-big-rails-application/rails_contributors-bogdanvlviv-2019-03-16.png" | absolute_url }}" title="https://contributors.rubyonrails.org/contributors/bogdanvlviv/commits">
 
 [https://contributors.rubyonrails.org/contributors/bogdanvlviv/commits](https://contributors.rubyonrails.org/contributors/bogdanvlviv/commits)
 </div>
@@ -35,17 +35,28 @@ permalink: /talks/ruby/rails/how-to-upgrade-a-big-rails-application.html
   - New software
   - Improved APIs
   - New features
-  - Perfomance
+  - Performance
 - Involving new people
   - Developers
   - Novice Developers
-- Chance to contribute to Open Source
 </div>
 
 <div class="talk-slide">
-## Long-Running Branches Considered Harmful - New Relic Blog
+## About upgrading applications
 
-[https://blog.newrelic.com/culture/long-running-branches-considered-harmful/](https://blog.newrelic.com/culture/long-running-branches-considered-harmful/)
+Upgrading an application especially a big one is a complicated task, but it shouldn't be so. It should be easy!
+
+It's an opportunity to learn something new.
+
+It's a good chance to contribute to Open Source.
+</div>
+
+<div class="talk-slide">
+## Long-running branch strategy
+
+<img src="{{ "/images/talks/ruby/rails/how-to-upgrade-a-big-rails-application/upgrade-to-rails-5_0.png" | absolute_url }}" title="ss">
+
+Long-Running Branches Considered Harmful - New Relic Blog: [https://blog.newrelic.com/culture/long-running-branches-considered-harmful/](https://blog.newrelic.com/culture/long-running-branches-considered-harmful/)
 </div>
 
 <div class="talk-slide">
@@ -67,12 +78,171 @@ Link: [https://www.youtube.com/watch?v=I-2Xy3RS1ns](https://www.youtube.com/watc
 </div>
 
 <div class="talk-slide">
-## Shopify/bootboot
+## Dual boot strategy
 
-Dualboot your Ruby app made easy
-
-Link: [https://github.com/Shopify/bootboot](https://github.com/Shopify/bootboot)
+Dual boot is the process of booting your application with a different set of dependencies.
 </div>
+
+<div class="talk-slide">
+## Dual boot: BUNDLE_GEMFILE
+
+```ruby
+# Gemfile
+gem "rails", "~> 5.2.2"
+eval_gemfile "Gemfile.common"
+```
+
+```ruby
+# Gemfile.next
+gem 'rails', '~> 6.0.0.beta3'
+eval_gemfile "Gemfile.common"
+```
+
+```ruby
+# Gemfile.common
+source "https://rubygems.org"
+
+ruby "2.6.2"
+
+# ...
+```
+
+```bash
+$ bundle install # Gemfile.lock
+$ BUNDLE_GEMFILE=Gemfile.next bundle install # Gemfile.next.lock
+$ rails runner "p Rails.version"
+"5.2.2.1"
+$ BUNDLE_GEMFILE=Gemfile.next rails runner "p Rails.version"
+"6.0.0.beta3"
+```
+</div>
+
+<div class="talk-slide">
+## Dual boot: BUNDLE_GEMFILE
+
+You need to deal with three Gemfiles and the [confusion](https://github.com/bundler/bundler/issues/6777#issuecomment-436771340) that comes with it:
+
+`Gemfile`, `Gemfile.next`, `Gemfile.common` vs. `Gemfile`
+
+
+You need to ensure that all the lockfiles are in sync whenever a developer updates or adds a dependency:
+
+```bash
+$ bundle install # Gemfile.lock
+$ BUNDLE_GEMFILE=Gemfile.next bundle install # Gemfile.next.lock
+```
+
+vs.
+
+```bash
+$ bundle install # Gemfile.lock, Gemfile.next.lock
+```
+
+There is a tool to solve those issue:
+<img src="{{ "/images/talks/ruby/rails/how-to-upgrade-a-big-rails-application/boot.png" | absolute_url }}" title="https://github.githubassets.com/images/icons/emoji/unicode/1f462.png">
+<img src="{{ "/images/talks/ruby/rails/how-to-upgrade-a-big-rails-application/boot.png" | absolute_url }}" title="https://github.githubassets.com/images/icons/emoji/unicode/1f462.png">
+</div>
+
+<div class="talk-slide">
+##  [https://github.com/Shopify/bootboot](https://github.com/Shopify/bootboot)
+
+Dualboot your Ruby app made easy.
+
+Bootboot is a [Bundler plugin](https://bundler.io/v1.17/guides/bundler_plugins.html#what-is-a-plugin) meant to help dual boot your ruby application.
+
+### Installation
+1. In your `Gemfile`, add this
+```ruby
+plugin "bootboot", "~> 0.1.2"
+```
+2. Run `bundle install`
+4. Run `bundle bootboot`
+5. Commit the `Gemfile` and the `Gemfile_next.lock`
+</div>
+
+<div class="talk-slide">
+## Dual boot: Shopify/bootboot
+
+```diff
+diff --git a/Gemfile b/Gemfile
+
+-gem 'rails', '~> 5.2.2'
++if ENV['DEPENDENCIES_NEXT']
++ gem 'rails', '~> 6.0.0.beta3'
++else
++ gem 'rails', '~> 5.2.2'
++end
+```
+
+```bash
+$ DEPENDENCIES_NEXT=1 bundle update rails # Gemfile_next.lock
+$ rails runner "p Rails.version"
+$ "5.2.2.1"
+$ DEPENDENCIES_NEXT=1 rails runner "p Rails.version"
+$ "6.0.0.beta3"
+```
+</div>
+
+<div class="talk-slide">
+## Dual boot: Make tests green
+
+```bash
+$ rails test
+```
+
+```bash
+$ DEPENDENCIES_NEXT=1 rails test
+```
+
+```ruby
+if ENV['DEPENDENCIES_NEXT']
+  def execute
+    # ...
+  end
+else
+  def execute
+    # ...
+  end
+end
+```
+</div>
+
+<div class="talk-slide">
+# Dual boot: Rollout to production
+
+```bash
+$ RAILS_ENV=production rails server
+```
+
+```bash
+$ DEPENDENCIES_NEXT=1 RAILS_ENV=production rails server
+```
+</div>
+
+<div class="talk-slide">
+## Doual boot: Gradual rollout to production
+
+```nginx
+# http://nginx.org/en/docs/http/load_balancing.html#nginx_weighted_load_balancing
+upstream myapp1 {
+  server srv1.example.com weight=99;
+  server srv2.example.com weight=1;
+}
+```
+
+```bash
+srv1.example.com:~/myapp1$ RAILS_ENV=production rails server
+```
+
+```bash
+srv2.example.com:~/myapp1$ DEPENDENCIES_NEXT=1 RAILS_ENV=production rails server
+```
+
+If you have lots of servers in production you can just roll out the app with the next dependencies on 1% of servers and on the 99% servers deploy the app with the current dependencies.
+
+Once you are 100% in production with the app with the next dependencies then it is time to remove all `if ENV['DEPENDENCIES_NEXT'`]` conditions and prepare to the next upgrade.
+</div>
+
 
 <div class="talk-slide">
 ## RailsConf 2018: Upgrading Rails at Scale by [Edouard Chin](https://github.com/Edouard-chin)
@@ -80,6 +250,8 @@ Link: [https://github.com/Shopify/bootboot](https://github.com/Shopify/bootboot)
 <iframe src="https://www.youtube.com/embed/N2B5V4ozc6k" frameborder="0" allowfullscreen></iframe>
 
 Link: [https://www.youtube.com/watch?v=N2B5V4ozc6k](https://www.youtube.com/watch?v=N2B5V4ozc6k)
+
+Eliminate deprecations from your codebase: [https://github.com/Shopify/deprecation_toolkit](https://github.com/Shopify/deprecation_toolkit)
 </div>
 
 <div class="talk-slide">
