@@ -613,3 +613,7 @@ Pull Requests:
 [Support Optimizer Hints](https://github.com/rails/rails/pull/35615)
 
 [Add `-e/--environment` option to `rails initializers`](https://github.com/rails/rails/pull/35637)
+
+[Fix `Time#advance` to work with dates before 1001-03-07](https://github.com/rails/rails/pull/35659)
+
+[Add ActiveSupport::Notifications instrumentation of the processing of each middleware in the stack](https://github.com/rails/rails/commit/04ae0b0b5e594e0bb99c5cd608921745977bcdcd)
