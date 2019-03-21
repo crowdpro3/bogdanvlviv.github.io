@@ -243,7 +243,7 @@ end
 
 \- The next step is to make the app work well with both sets of dependencies.
 
-\- Dual booting allows you to do it by the usual for your team way. For instance, you can do it by small Pull Request, you can run a new CI build to test the app on the next dependencies, you can easily involve people in the upgrading process by asking them to make tests green for the code they are familiar with, and so on.
+\- Dual booting allows you to do it by the usual for your team way. For instance, you can do it by small Pull Requests, you can run a new CI build to test the app on the next dependencies, you can easily involve people in the upgrading process by asking them to make tests green for the code they are familiar with, and so on.
 
 ## Dual boot: Rollout to production
 
