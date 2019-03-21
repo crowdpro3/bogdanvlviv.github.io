@@ -66,11 +66,11 @@ permalink: /:categories/:title.html
 
 \- You probably know about the *long-running branch strategy* and its drawbacks.  In short, this is when you make a large chunk of work that takes lots of time and lots of code changes in a separate branch and then you ship it to production.
 
-\- I upgraded a small Rails application (near 2 thousand test cases) from version 4.2 to 5.0 by using this strategy once, and you know I succeeded. It took me about 1-2 weeks, the size of the work I'd done was almost acceptable to review.
+\- I upgraded a small Rails application that had near 2 thousand test cases from version 4.2 to 5.0 by using this strategy once, and you know I succeeded. It took me about 1-2 weeks, the size of the work I'd done was almost acceptable to review.
 
-\- After deploying the upgraded app to production I got about 2-3 bugs that I managed to fix quickly, but... There were some issues I didn't notice: only I was involved in upgrading the app, and I didn't ask myself very important questions like - "How would we roll back the upgrade in the production if needed?", "How can we be sure that the app will work well in the production after rollback of the upgrade?". I think there are no good answers for those questions if use this strategy.
+\- After deploying the upgraded app to production I got about 2-3 bugs that I managed to fix quickly, but... There were some issues I didn't notice: only I was involved in upgrading the app, and I didn't ask myself very important questions like - "How would we roll back the upgrade in production if needed?", "How can we be sure that the app will work well in production after rollback of the upgrade?". I think there are no good answers for those questions if use this strategy.
 
-\- Because I was lucky to succeed at that time, I didn't learn any lessons, so when I got a chance to upgrade a bigger Rails application (near 40 thousand test cases) from version 4.2 to 5.0 I tried to apply the same strategy. So, here we are. I faced a bunch of long-running branch's drawbacks like - it's hard to review the changes, spending lost of time on resolving conflicts, it's hard to involve people in the process or delegate work. And I asked myself those two important questions.
+\- Because I was lucky to succeed at that time, I didn't learn any lessons, so when I got a chance to upgrade a bigger Rails application that had near 40 thousand test cases from version 4.2 to 5.0 I tried to apply the same strategy. So, here we are. I faced a bunch of long-running branch's drawbacks like - it's hard to review the changes, spending lost of time on resolving conflicts, it's hard to involve people in the process or delegate work. And I asked myself those two important questions.
 
 \-The best answer was just to find another approach that would eliminate all mentioned issues.
 
@@ -245,7 +245,7 @@ end
 
 \- The next step is to make the app work well with both sets of dependencies.
 
-\- Dual booting allows you to do it by the usual for your team way. For instance, you can do it by small Pull Requests, you can run a new CI build to test the app on the next dependencies, you can easily involve people in the upgrading process by asking them to make tests green for the code they are familiar with, and so on.
+\- Dual booting allows you to do it by usual for your team way. For instance, you can do it by small Pull Requests, you can run a new CI build to test the app on the next dependencies, you can easily involve people in the upgrading process by asking them to make tests green for the code they are familiar with, and so on.
 
 ## Dual boot: Rollout to production
 
@@ -257,7 +257,7 @@ $ RAILS_ENV=production rails server
 $ DEPENDENCIES_NEXT=1 RAILS_ENV=production rails server
 ```
 
-\- Once all tests are green, it's time to roll out the app on the next dependencies to production. If it causes failures, then you can restart the app to make it use old dependencies, explore and fix new failures and then repeat rollout.
+\- Once all tests are green, it's time to roll out the app on the next dependencies to production. If it causes failures, then you can restart the app to make it use old dependencies, explore and fix new failures and then repeat the rollout.
 
 ## Dual boot: Gradual rollout to production
 
@@ -291,11 +291,11 @@ Link: [https://www.youtube.com/watch?v=N2B5V4ozc6k](https://www.youtube.com/watc
 
 > Eliminate deprecations from your codebase: [https://github.com/Shopify/deprecation_toolkit](https://github.com/Shopify/deprecation_toolkit)
 
-If you are interested in such things, then I highly recommend you to watch this video from RailsConf 2018.
+\- If you are interested in such things, then I highly recommend you to watch this video from RailsConf 2018.
 
 ## Thanks!
 
-That's it. Thank you!
+\- That's it. Thank you!
 
 ## Links
 
