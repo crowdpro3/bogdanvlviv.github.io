@@ -66,7 +66,11 @@ permalink: /:categories/:title.html
 
 \- You probably know about the *long-running branch strategy* and its drawbacks.  In short, this is when you make a large chunk of work that takes lots of time and lots of code changes in a separate branch and then you ship it to production.
 
-\- I upgraded a small Rails application (near 2 thousand test cases) from version 4.2 to 5.0 by using this strategy once, and you know I succeeded. It took me about 1-2 weeks, the size of the work I'd done was almost acceptable to review. After deploying the upgraded app to production I got about 2-3 bugs that I managed to fix quickly, but... There were some issues I didn't notice: only I was involved in upgrading the app, and I didn't ask myself very important questions like - "How would we roll back the upgrade in the production if needed?", "How can we be sure that the app will work well in the production after rollback of the upgrade?". I think there are no good answers for those questions if use *long-running branch strategy* as an approach for upgrading application. Because I was lucky to succeed at that time, I didn't learn any lessons, so when I got a chance to upgrade a bigger Rails application (near 40 thousand test cases) from version 4.2 to 5.0 I tried to apply the same strategy. So, here we are. I faced a bunch of long-running branch's drawbacks like - it's hard to review the changes, spending lost of time on resolving conflicts, it's hard to involve people in the process or delegate work. And I asked myself those two important questions. The best answer was just to find another approach that would eliminate all mentioned issues.
+\- I upgraded a small Rails application (near 2 thousand test cases) from version 4.2 to 5.0 by using this strategy once, and you know I succeeded. It took me about 1-2 weeks, the size of the work I'd done was almost acceptable to review.
+
+\- After deploying the upgraded app to production I got about 2-3 bugs that I managed to fix quickly, but... There were some issues I didn't notice: only I was involved in upgrading the app, and I didn't ask myself very important questions like - "How would we roll back the upgrade in the production if needed?", "How can we be sure that the app will work well in the production after rollback of the upgrade?".I think there are no good answers for those questions if this strategy.
+
+\- Because I was lucky to succeed at that time, I didn't learn any lessons, so when I got a chance to upgrade a bigger Rails application (near 40 thousand test cases) from version 4.2 to 5.0 I tried to apply the same strategy. So, here we are. I faced a bunch of long-running branch's drawbacks like - it's hard to review the changes, spending lost of time on resolving conflicts, it's hard to involve people in the process or delegate work. And I asked myself those two important questions. The best answer was just to find another approach that would eliminate all mentioned issues.
 
 ## Shopify's Rails upgrade story
 
@@ -253,7 +257,7 @@ $ DEPENDENCIES_NEXT=1 RAILS_ENV=production rails server
 
 \- Once all tests are green, it's time to roll out the app on the next dependencies to production. If it causes failures, then you can restart the app to make it use old dependencies, explore and fix new failures and then repeat rollout.
 
-## Doual boot: Gradual rollout to production
+## Dual boot: Gradual rollout to production
 
 ```nginx
 # http://nginx.org/en/docs/http/load_balancing.html#nginx_weighted_load_balancing

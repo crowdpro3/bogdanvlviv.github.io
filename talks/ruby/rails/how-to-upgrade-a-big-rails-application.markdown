@@ -226,7 +226,7 @@ $ DEPENDENCIES_NEXT=1 RAILS_ENV=production rails server
 </div>
 
 <div class="talk-slide">
-## Doual boot: Gradual rollout to production
+## Dual boot: Gradual rollout to production
 
 ```nginx
 # http://nginx.org/en/docs/http/load_balancing.html#nginx_weighted_load_balancing
