@@ -72,7 +72,7 @@ permalink: /:categories/:title.html
 
 \- Because I was lucky to succeed at that time, I didn't learn any lessons, so when I got a chance to upgrade a bigger Rails application that had near 40 thousand test cases from version 4.2 to 5.0 I tried to apply the same strategy. So, here we are. I faced a bunch of long-running branch's drawbacks like - it's hard to review the changes, wasting lots of time on resolving conflicts, it's hard to involve people in the process or delegate work. And I asked myself those two important questions.
 
-\-The best answer was just to find another approach that would eliminate all mentioned issues.
+\- The best answer was just to find another approach that would eliminate all mentioned issues.
 
 ## Shopify's Rails upgrade story
 
