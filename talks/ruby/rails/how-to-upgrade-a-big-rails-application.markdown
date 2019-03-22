@@ -223,6 +223,10 @@ $ RAILS_ENV=production rails server
 ```bash
 $ DEPENDENCIES_NEXT=1 RAILS_ENV=production rails server
 ```
+
+> Upgrading GitHub to Rails 3 with Zero Downtime: [http://shayfrendt.com/posts/upgrading-github-to-rails-3-with-zero-downtime/](http://shayfrendt.com/posts/upgrading-github-to-rails-3-with-zero-downtime/)
+
+> Upgrading a Rails application incrementally: [http://www.recursion.org/incremental-rails-upgrade/](http://www.recursion.org/incremental-rails-upgrade/)
 </div>
 
 <div class="talk-slide">
@@ -247,8 +251,6 @@ srv2.example.com:~/myapp1$ DEPENDENCIES_NEXT=1 RAILS_ENV=production rails server
 If you have lots of servers in production, you can just roll out the app with the next dependencies on 1% of servers and on the 99% servers run the app with the current dependencies and gradually change the ratio.
 
 Once you are 100% in production with the app that uses the next dependencies, then it's time to remove all `if ENV['DEPENDENCIES_NEXT']` conditions from the codebase and prepare to the next upgrade.
-
-> Upgrading a Rails application incrementally: [http://www.recursion.org/incremental-rails-upgrade/](http://www.recursion.org/incremental-rails-upgrade/)
 </div>
 
 

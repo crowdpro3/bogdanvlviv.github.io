@@ -259,6 +259,10 @@ $ DEPENDENCIES_NEXT=1 RAILS_ENV=production rails server
 
 \- Once all tests are green, it's time to roll out the app on the next dependencies to production. If it causes failures, then you can restart the app to make it use old dependencies, explore and fix new failures and then repeat the rollout.
 
+> Upgrading GitHub to Rails 3 with Zero Downtime: [http://shayfrendt.com/posts/upgrading-github-to-rails-3-with-zero-downtime/](http://shayfrendt.com/posts/upgrading-github-to-rails-3-with-zero-downtime/)
+
+> Upgrading a Rails application incrementally: [http://www.recursion.org/incremental-rails-upgrade/](http://www.recursion.org/incremental-rails-upgrade/)
+
 ## Dual boot: Gradual rollout to production
 
 ```nginx
@@ -276,8 +280,6 @@ srv1.example.com:~/myapp1$ RAILS_ENV=production rails server
 ```bash
 srv2.example.com:~/myapp1$ DEPENDENCIES_NEXT=1 RAILS_ENV=production rails server
 ```
-
-> Upgrading a Rails application incrementally: [http://www.recursion.org/incremental-rails-upgrade/](http://www.recursion.org/incremental-rails-upgrade/)
 
 \- Of course, a better idea would be to do gradual rollout to production to reduce the number of unexpected failures due to upgrading. For that, you need at least two servers in production. So you can run on the first one the app with the current dependencies and on the second one the app with the next set of dependencies. Then configure your load balancer to deliver 99% of request to the app with old dependencies and 1% of requests to the app with the next dependencies and gradually change this ratio.
 
