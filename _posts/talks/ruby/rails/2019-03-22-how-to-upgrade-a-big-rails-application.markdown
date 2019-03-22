@@ -70,7 +70,7 @@ permalink: /:categories/:title.html
 
 \- After deploying the upgraded app to production I got about 2-3 bugs that I managed to fix quickly, but... There were some issues I didn't notice: only I was involved in upgrading the app, and I didn't ask myself very important questions like - "How would we roll back the upgrade in production if needed?", "How can we be sure that the app will work well in production after rollback of the upgrade?". I think there are no good answers for those questions if use this strategy.
 
-\- Because I was lucky to succeed at that time, I didn't learn any lessons, so when I got a chance to upgrade a bigger Rails application that had near 40 thousand test cases from version 4.2 to 5.0 I tried to apply the same strategy. So, here we are. I faced a bunch of long-running branch's drawbacks like - it's hard to review the changes, spending lost of time on resolving conflicts, it's hard to involve people in the process or delegate work. And I asked myself those two important questions.
+\- Because I was lucky to succeed at that time, I didn't learn any lessons, so when I got a chance to upgrade a bigger Rails application that had near 40 thousand test cases from version 4.2 to 5.0 I tried to apply the same strategy. So, here we are. I faced a bunch of long-running branch's drawbacks like - it's hard to review the changes, wasting lost of time on resolving conflicts, it's hard to involve people in the process or delegate work. And I asked myself those two important questions.
 
 \-The best answer was just to find another approach that would eliminate all mentioned issues.
 
