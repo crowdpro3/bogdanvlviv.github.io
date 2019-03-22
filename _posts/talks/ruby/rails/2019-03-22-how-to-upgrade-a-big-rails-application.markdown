@@ -4,7 +4,7 @@ lang: "en"
 title: "How to upgrade a big Rails application"
 author: "bogdanvlviv"
 image: "/images/posts/talks/ruby/rails/how-to-upgrade-a-big-rails-application/dmitrij-paskevic-631210-unsplash.jpg"
-date: 2019-02-22 19:05:00 +0200
+date: 2019-03-22 19:05:00 +0200
 categories: posts talks ruby rails
 comments: true
 permalink: /:categories/:title.html
