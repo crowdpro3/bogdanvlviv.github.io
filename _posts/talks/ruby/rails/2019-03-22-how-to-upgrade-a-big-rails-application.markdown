@@ -277,6 +277,8 @@ srv1.example.com:~/myapp1$ RAILS_ENV=production rails server
 srv2.example.com:~/myapp1$ DEPENDENCIES_NEXT=1 RAILS_ENV=production rails server
 ```
 
+> Upgrading a Rails application incrementally: [http://www.recursion.org/incremental-rails-upgrade/](http://www.recursion.org/incremental-rails-upgrade/)
+
 \- Of course, a better idea would be to do gradual rollout to production to reduce the number of unexpected failures due to upgrading. For that, you need at least two servers in production. So you can run on the first one the app with the current dependencies and on the second one the app with the next set of dependencies. Then configure your load balancer to deliver 99% of request to the app with old dependencies and 1% of requests to the app with the next dependencies and gradually change this ratio.
 
 \- If you have lots of servers in production, you can just roll out the app with the next dependencies on 1% of servers and on the 99% servers run the app with the current dependencies and gradually change the ratio.
@@ -291,7 +293,7 @@ Link: [https://www.youtube.com/watch?v=N2B5V4ozc6k](https://www.youtube.com/watc
 
 > Eliminate deprecations from your codebase: [https://github.com/Shopify/deprecation_toolkit](https://github.com/Shopify/deprecation_toolkit)
 
-\- If you are interested in such things, then I highly recommend you to watch this video from RailsConf 2018.
+\- If you are interested in such things, then I highly recommend you to go through all the references in this talk.
 
 ## Thanks!
 
