@@ -308,3 +308,15 @@ Slides: ["How to upgrade a big Rails application"]({{ "/talks/ruby/rails/how-to-
 ## Pivorak 38
 
 "Pivorak 38 : Spring Edition": [https://www.facebook.com/events/399347927493363](https://www.facebook.com/events/399347927493363).
+
+<div class="picture">
+  <img src="{{ "/images/posts/talks/ruby/rails/how-to-upgrade-a-big-rails-application/pivorak_38-bogdanvlviv.jpg" | absolute_url }}" title="Pivorak 38: bogdanvlviv">
+</div>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">tomorrow 😱 <a href="https://t.co/pQFfKYn6u9">pic.twitter.com/pQFfKYn6u9</a></p>&mdash; Bogdan (@bogdanvlviv) <a href="https://twitter.com/bogdanvlviv/status/1108819194500530176?ref_src=twsrc%5Etfw">March 21, 2019</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/Pivorak?src=hash&amp;ref_src=twsrc%5Etfw">#Pivorak</a> 38 : Spring Edition 🔥🔥🔥<br>Thank you for being with us💕 <a href="https://t.co/9CqRerxTuI">pic.twitter.com/9CqRerxTuI</a></p>&mdash; Pivorak (@pivorakmeetup) <a href="https://twitter.com/pivorakmeetup/status/1109495621092823045?ref_src=twsrc%5Etfw">March 23, 2019</a></blockquote>
+
+Video: [https://www.youtube.com/watch?v=Xx8W6IQtyU0](https://www.youtube.com/watch?v=Xx8W6IQtyU0).
+
+<iframe src="https://www.youtube.com/embed/Xx8W6IQtyU0" frameborder="0" allowfullscreen></iframe>
