@@ -617,3 +617,13 @@ Pull Requests:
 [Fix `Time#advance` to work with dates before 1001-03-07](https://github.com/rails/rails/pull/35659)
 
 [Add ActiveSupport::Notifications instrumentation of the processing of each middleware in the stack](https://github.com/rails/rails/commit/04ae0b0b5e594e0bb99c5cd608921745977bcdcd)
+
+[Add Relation#annotate for SQL commenting](https://github.com/rails/rails/pull/35617)
+
+[Update `ActiveSupport::Notifications::Instrumenter#instrument to make passing a block optional](https://github.com/rails/rails/pull/35705)
+
+[Add config.disable_sandbox option to Rails console](https://github.com/rails/rails/pull/35723)
+
+[Type cast falsy boolean symbols on boolean attribute as false](https://github.com/rails/rails/pull/35794)
+
+[Add `ActiveRecord::Relation#extract_associated` for extracting associated record](https://github.com/rails/rails/pull/35784)
