@@ -627,3 +627,5 @@ Pull Requests:
 [Type cast falsy boolean symbols on boolean attribute as false](https://github.com/rails/rails/pull/35794)
 
 [Add `ActiveRecord::Relation#extract_associated` for extracting associated record](https://github.com/rails/rails/pull/35784)
+
+[Only clear ActionView caches in dev when files change](https://github.com/rails/rails/pull/35629)
