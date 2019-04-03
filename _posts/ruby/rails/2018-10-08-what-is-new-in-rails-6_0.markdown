@@ -629,3 +629,7 @@ Pull Requests:
 [Add `ActiveRecord::Relation#extract_associated` for extracting associated record](https://github.com/rails/rails/pull/35784)
 
 [Only clear ActionView caches in dev when files change](https://github.com/rails/rails/pull/35629)
+
+[Add `after_save_commit` callback shortcut](https://github.com/rails/rails/pull/35804)
+
+[Add `rails db:prepare` to migrate or setup a database](https://github.com/rails/rails/pull/35768)
