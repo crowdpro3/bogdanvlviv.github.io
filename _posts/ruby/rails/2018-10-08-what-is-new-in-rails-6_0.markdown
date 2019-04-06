@@ -633,3 +633,5 @@ Pull Requests:
 [Add `after_save_commit` callback shortcut](https://github.com/rails/rails/pull/35804)
 
 [Add `rails db:prepare` to migrate or setup a database](https://github.com/rails/rails/pull/35768)
+
+[Use `execute_batch2` rather than `execute_batch` to fix performance regression for fixture loading](https://github.com/rails/rails/pull/35844)
