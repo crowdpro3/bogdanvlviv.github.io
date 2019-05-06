@@ -1,6 +1,9 @@
 - title: "rails/rails"
   link: "https://github.com/rails/rails/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv"
 
+- title: "ruby/ruby"
+  link: "https://github.com/ruby/ruby/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv"
+
 - title: "gitlab-org/gitlab-ce"
   link: "https://gitlab.com/gitlab-org/gitlab-ce/merge_requests?scope=all&utf8=%E2%9C%93&state=all&author_username=bogdanvlviv"
 
@@ -9,9 +12,6 @@
 
 - title: "tolk/tolk"
   link: "https://github.com/tolk/tolk/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv"
-
-- title: "ruby/ruby"
-  link: "https://github.com/ruby/ruby/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv"
 
 - title: "rubocop-hq/rubocop"
   link: "https://github.com/rubocop-hq/rubocop/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv"
@@ -93,6 +93,9 @@
 
 - title: "pivorakmeetup/pivorak-web-app"
   link: "https://github.com/pivorakmeetup/pivorak-web-app/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv"
+
+- title: "lewispb/rubymap"
+  link: "https://github.com/lewispb/rubymap/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv"
 
 - title: "asdf-vm/asdf-ruby"
   link: "https://github.com/asdf-vm/asdf-ruby/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv"
