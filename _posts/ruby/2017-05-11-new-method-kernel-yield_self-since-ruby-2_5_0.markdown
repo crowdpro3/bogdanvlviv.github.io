@@ -5,7 +5,6 @@ title: "New method Kernel#yield_self (since Ruby 2.5.0)"
 author: "bogdanvlviv"
 date: 2017-05-11 21:44:00 +0300
 categories: posts ruby
-comments: true
 permalink: /:categories/:title.html
 ---
 

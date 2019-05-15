@@ -6,7 +6,6 @@ author: "bogdanvlviv"
 image: "/images/posts/rsync/how-to-synchronize-a-directory-between-two-remote-hosts-with-rsync/rsynclogo.jpg"
 date: 2019-01-14 20:00:00 +0200
 categories: posts rsync
-comments: true
 permalink: /:categories/:title.html
 ---
 

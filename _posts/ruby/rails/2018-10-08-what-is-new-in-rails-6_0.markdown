@@ -6,7 +6,6 @@ author: "bogdanvlviv"
 image: "/images/posts/ruby/rails/what-is-new-in-rails-6_0/rails460x460.png"
 date: 2018-10-08 11:42:00 +0300
 categories: posts ruby rails
-comments: true
 permalink: /:categories/:title.html
 ---
 

@@ -6,7 +6,6 @@ author: "bogdanvlviv"
 image: "/images/posts/tmux/how-to-install-the-latest-tmux-on-ubuntu-16_04/tmux.png"
 date: 2017-11-02 19:50:00 +0200
 categories: posts tmux
-comments: true
 permalink: /:categories/:title.html
 ---
 

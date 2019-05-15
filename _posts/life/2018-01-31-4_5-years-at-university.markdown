@@ -5,7 +5,6 @@ title: "4.5 років в університеті"
 author: "bogdanvlviv"
 date: 2018-01-31 22:00:00 +0200
 categories: posts life
-comments: true
 permalink: /:categories/:title.html
 ---
 

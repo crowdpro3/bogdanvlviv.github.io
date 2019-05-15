@@ -6,7 +6,6 @@ author: "bogdanvlviv"
 image: "/images/posts/ruby/rails/array-extract-to-activesupport-6-0/rails460x460.png"
 date: 2018-08-15 17:30:00 +0300
 categories: posts ruby rails
-comments: true
 permalink: /:categories/:title.html
 ---
 

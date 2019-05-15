@@ -6,7 +6,6 @@ author: "bogdanvlviv"
 image: "/images/talks/ruby/rails/how-to-upgrade-a-big-rails-application/dmitrij-paskevic-631210-unsplash.jpg"
 date: 2019-03-22 19:05:00 +0200
 categories: talks ruby rails
-comments: false
 permalink: /talks/ruby/rails/how-to-upgrade-a-big-rails-application.html
 ---
 

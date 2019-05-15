@@ -6,7 +6,6 @@ author: "bogdanvlviv"
 image: "/images/posts/ruby/patterns/design-patterns-in-ruby/main.jpg"
 date: 2016-12-18 01:17:00 +0200
 categories: posts ruby patterns
-comments: true
 permalink: /:categories/:title.html
 ---
 

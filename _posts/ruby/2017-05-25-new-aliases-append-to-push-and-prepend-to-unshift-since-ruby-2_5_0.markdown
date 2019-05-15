@@ -5,7 +5,6 @@ title: 'New aliases "append" to Array#push, and "prepend" to Array#unshift (sinc
 author: "bogdanvlviv"
 date: 2017-05-25 08:30:00 +0300
 categories: posts ruby
-comments: true
 permalink: /:categories/:title.html
 ---
 

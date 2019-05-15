@@ -5,7 +5,6 @@ title: "I contribute to Open Source"
 author: "bogdanvlviv"
 date: 2016-08-30 15:23:00 +0300
 categories: posts work
-comments: true
 permalink: /:categories/:title.html
 ---
 

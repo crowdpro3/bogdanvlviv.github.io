@@ -6,7 +6,6 @@ author: "bogdanvlviv"
 image: "/images/posts/ruby/rails/rails-girls-lviv-2018-02-10/rails-girls-lviv-2018.jpg"
 date: 2018-02-10 19:00:00 +0200
 categories: posts ruby rails
-comments: true
 permalink: /:categories/:title.html
 ---
 

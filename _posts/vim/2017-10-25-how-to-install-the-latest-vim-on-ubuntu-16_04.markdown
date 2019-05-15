@@ -6,7 +6,6 @@ author: "bogdanvlviv"
 image: "/images/posts/vim/how-to-install-the-latest-vim-on-ubuntu-16_04/vim.png"
 date: 2017-10-25 17:55:00 +0300
 categories: posts vim
-comments: true
 permalink: /:categories/:title.html
 ---
 

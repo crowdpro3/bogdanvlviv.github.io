@@ -6,7 +6,6 @@ author: "bogdanvlviv"
 image: "/images/posts/life/ruby/how-i-met-ruby/ruby.png"
 date: 2018-02-24 18:22:00 +0200
 categories: posts life ruby
-comments: true
 permalink: /:categories/:title.html
 ---
 

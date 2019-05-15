@@ -6,7 +6,6 @@ author: "bogdanvlviv"
 image: "/images/posts/ruby/rails/rails-teens-programming-day-for-senior-pupils-08-12-2018-lviv/rails_teens.jpg"
 date: 2018-11-22 18:42:00 +0200
 categories: posts ruby rails
-comments: true
 permalink: /:categories/:title.html
 ---
 

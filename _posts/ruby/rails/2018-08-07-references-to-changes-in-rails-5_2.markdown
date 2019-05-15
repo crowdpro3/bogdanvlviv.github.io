@@ -6,7 +6,6 @@ author: "bogdanvlviv"
 image: "/images/posts/ruby/rails/references-to-changes-in-rails-5_2/rails460x460.png"
 date: 2018-08-07 21:18:00 +0300
 categories: posts ruby rails
-comments: true
 permalink: /:categories/:title.html
 ---
 

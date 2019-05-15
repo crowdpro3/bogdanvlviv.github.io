@@ -6,7 +6,6 @@ author: "bogdanvlviv"
 image: "/images/posts/talks/pivorak-28-rails-5_2/pivorak-28-rails-5_2-bogdanvlviv.jpg"
 date: 2017-11-24 20:30:00 +0200
 categories: posts talks
-comments: true
 permalink: /:categories/:title.html
 ---
 
