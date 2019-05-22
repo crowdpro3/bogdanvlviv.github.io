@@ -12,6 +12,8 @@ permalink: /:categories/:title.html
 >
 > Feature #15831: [https://bugs.ruby-lang.org/issues/15831](https://bugs.ruby-lang.org/issues/15831)
 
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Add `Hash#slice!` and `ENV.slice!`: <a href="https://t.co/YXS7laoOIh">https://t.co/YXS7laoOIh</a><br><br>Add `Array#extract`, `Hash#extract`, and `ENV.extract`: <a href="https://t.co/UaMZMJKR6K">https://t.co/UaMZMJKR6K</a><br><br>Status: Rejected<br><br>If you have a good argument why it should be rejected or why it should be added to Ruby, comment there.</p>&mdash; Bogdan (@bogdanvlviv) <a href="https://twitter.com/bogdanvlviv/status/1131299801612652546?ref_src=twsrc%5Etfw">May 22, 2019</a></blockquote>
+
 ## Array#extract
 
 Initially, this method was added to Active Support as `Array#extract!`, read more about it in the post - ["Array#extract! to Active Support 6.0"]({{ "/posts/ruby/rails/array-extract-to-activesupport-6-0.html" | absolute_url }}).

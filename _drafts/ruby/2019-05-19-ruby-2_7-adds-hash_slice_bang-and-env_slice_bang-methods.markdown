@@ -12,6 +12,8 @@ permalink: /:categories/:title.html
 >
 > Feature #15863: [https://bugs.ruby-lang.org/issues/15863](https://bugs.ruby-lang.org/issues/15863)
 
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Add `Hash#slice!` and `ENV.slice!`: <a href="https://t.co/YXS7laoOIh">https://t.co/YXS7laoOIh</a><br><br>Add `Array#extract`, `Hash#extract`, and `ENV.extract`: <a href="https://t.co/UaMZMJKR6K">https://t.co/UaMZMJKR6K</a><br><br>Status: Rejected<br><br>If you have a good argument why it should be rejected or why it should be added to Ruby, comment there.</p>&mdash; Bogdan (@bogdanvlviv) <a href="https://twitter.com/bogdanvlviv/status/1131299801612652546?ref_src=twsrc%5Etfw">May 22, 2019</a></blockquote>
+
 ## Hash#slice!
 
 > **hsh.slice!(*keys)** -> **new_hash**
