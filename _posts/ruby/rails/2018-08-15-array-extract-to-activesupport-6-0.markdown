@@ -235,4 +235,8 @@ Looks more readable if use [`Array#extract!`](https://api.rubyonrails.org/v6.0/c
 
 I hope to see [`Array#extract!`](https://api.rubyonrails.org/v6.0/classes/Array.html#method-i-extract-21) and [`Hash#extract!`](https://api.rubyonrails.org/v5.2/classes/Hash.html#method-i-extract-21), which [was added to Active Support in 2009](https://github.com/rails/rails/commit/8dcf91ca113579646e95b0fd7a864dfb6512a53b), in [Ruby](https://github.com/ruby/ruby) itself, because both are very useful.
 
+> I have tried to add Active Support's `Array#extract!` as `Array#extract` to Ruby, see [Feature #15831: "Add `Array#extract`, `Hash#extract`, and `ENV.extract`"](https://bugs.ruby-lang.org/issues/15831).
+>
+> I have tried to add Active Support's `Hash#extract!` as `Hash#slice!` to Ruby, see [Feature #15863: "Add `Hash#slice!` and `ENV.slice!`"](https://bugs.ruby-lang.org/issues/15863).
+
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">It&#39;s lovely when Active Support can serve as an experimental lab for future core features in Ruby ❤️👌 <a href="https://t.co/JCHAdxCaHI">https://t.co/JCHAdxCaHI</a></p>&mdash; DHH (@dhh) <a href="https://twitter.com/dhh/status/871034291786002433?ref_src=twsrc%5Etfw">June 3, 2017</a></blockquote>
