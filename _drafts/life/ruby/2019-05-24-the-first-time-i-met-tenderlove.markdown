@@ -23,11 +23,23 @@ permalink: /:categories/:title.html
 </div>
 
 <div class="picture">
-  <img src="{{ "/images/posts/life/ruby/the-first-time-i-met-tenderlove/IMG_20190524_181010_1.jpg" | absolute_url }}" title="2019-05-24 18:17:10 +0300">
+  <img src="{{ "/images/posts/life/ruby/the-first-time-i-met-tenderlove/IMG_20190524_181010_0.jpg" | absolute_url }}" title="2019-05-24 18:10:10 +0300">
+</div>
+
+<div class="picture">
+  <img src="{{ "/images/posts/life/ruby/the-first-time-i-met-tenderlove/IMG_20190524_181010_1.jpg" | absolute_url }}" title="2019-05-24 18:10:10 +0300">
 </div>
 
 <div class="picture">
   <img src="{{ "/images/posts/life/ruby/the-first-time-i-met-tenderlove/IMG_20190524_220000.jpeg" | absolute_url }}" title="2019-05-24 22:00:00 +0300">
+</div>
+
+<div class="picture">
+  <img src="{{ "/images/posts/life/ruby/the-first-time-i-met-tenderlove/IMG_20190524_220000_0.jpg" | absolute_url }}" title="2019-05-24 22:00:00 +0300">
+</div>
+
+<div class="picture">
+  <img src="{{ "/images/posts/life/ruby/the-first-time-i-met-tenderlove/IMG_20190524_220000_1.jpg" | absolute_url }}" title="2019-05-24 22:00:00 +0300">
 </div>
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Speaking a <a href="https://twitter.com/hashtag/pivorak?src=hash&amp;ref_src=twsrc%5Etfw">#pivorak</a> Ruby meetup tonight!! <a href="https://t.co/9sMlczmYsr">pic.twitter.com/9sMlczmYsr</a></p>&mdash; Aaron Patterson (@tenderlove) <a href="https://twitter.com/tenderlove/status/1131925962461974528?ref_src=twsrc%5Etfw">May 24, 2019</a></blockquote>
