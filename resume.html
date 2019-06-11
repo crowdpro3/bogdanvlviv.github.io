@@ -149,6 +149,11 @@ permalink: /resume.html
           <li>
             <a href="{{ "/posts.html" | absolute_url }}" target="_blank">{{ "/posts.html" | absolute_url }}</a>
           </li>
+          {%- if site.telegram_username -%}
+          <li>
+            <a href="https://t.me/s/{{ site.telegram_username }}" target="_blank">https://t.me/s/{{ site.telegram_username }}</a>
+          </li>
+          {%- endif -%}
           {%- if site.twitter_username -%}
           <li>
             <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">https://twitter.com/{{ site.twitter_username }}</a>

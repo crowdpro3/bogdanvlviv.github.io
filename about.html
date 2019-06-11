@@ -27,17 +27,21 @@ permalink: /about.html
   Bogdan is a fan of FC Karpaty Lviv and Liverpool FC.
 </p>
 
+{%- if site.email -%}
 <p>
   Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a>
 </p>
+{%- endif -%}
 
 <p>
   GPG: CAE1FE8EA37079D9031AE57FE4ACD76A6DB6DFDD
 </p>
 
+{%- if site.github_username -%}
 <p>
   GitHub: <a href="https://github.com/{{ site.github_username }}" target="_blank">https://github.com/{{ site.github_username }}</a>
 </p>
+{%- endif -%}
 
 <p>
   GitLab: <a href="https://gitlab.com/bogdanvlviv" target="_blank">https://gitlab.com/bogdanvlviv</a>
@@ -47,13 +51,17 @@ permalink: /about.html
   LinkedIn: <a href="https://www.linkedin.com/in/bogdanvlviv/" target="_blank">https://www.linkedin.com/in/bogdanvlviv/</a>
 </p>
 
+{%- if site.telegram_username -%}
 <p>
-  Telegram: <a href="https://t.me/s/bogdanvlviv" target="_blank">https://t.me/s/bogdanvlviv</a>
+  Telegram: <a href="https://t.me/s/{{ site.telegram_username }}" target="_blank">https://t.me/s/{{ site.telegram_username }}</a>
 </p>
+{%- endif -%}
 
+{%- if site.twitter_username -%}
 <p>
   Twitter: <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">https://twitter.com/{{ site.twitter_username }}</a>
 </p>
+{%- endif -%}
 
 <p>
   Periscope: <a href="https://www.periscope.tv/bogdanvlviv" target="_blank">https://www.periscope.tv/bogdanvlviv</a>
