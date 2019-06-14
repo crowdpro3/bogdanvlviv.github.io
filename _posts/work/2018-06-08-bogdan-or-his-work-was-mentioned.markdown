@@ -13,7 +13,7 @@ permalink: /:categories/:title.html
   <img src="{{ "/images/posts/work/bogdan-or-his-work-was-mentioned/saint-p-rubyconf-2019-ssnickolay-anything-new-rails-6.jpeg" | absolute_url }}" title="bogdanvlviv">
 </div>
 
-## This week in Rails
+## [This week in Rails](#this-week-in-rails)
 
 Link: [https://rails-weekly.ongoodbits.com](https://rails-weekly.ongoodbits.com)
 
@@ -24,7 +24,7 @@ Link: [https://rails-weekly.ongoodbits.com](https://rails-weekly.ongoodbits.com)
 - [Action Cable testing utilities, bugfixes and more!](https://rails-weekly.ongoodbits.com/2018/08/26/action-cable-testing-utilities-bugfixes-and-more)
 - [Security fixes, bulk insert and upsert, seeds replanting](https://rails-weekly.ongoodbits.com/2019/03/15/security-fixes-bulk-insert-and-upsert-seeds-replanting)
 
-## Ruby Weekly
+## [Ruby Weekly](#ruby-weekly)
 
 Link: [https://rubyweekly.com](https://rubyweekly.com)
 
@@ -34,7 +34,7 @@ Link: [https://rubyweekly.com](https://rubyweekly.com)
 - [https://rubyweekly.com/issues/422](https://rubyweekly.com/issues/422)
 - [https://rubyweekly.com/issues/438](https://rubyweekly.com/issues/438)
 
-## RubyC
+## [RubyC](#rubyc)
 
 Link: [https://rubyc.eu](https://rubyc.eu)
 
@@ -47,7 +47,7 @@ Link: [https://rubyc.eu](https://rubyc.eu)
   <img src="{{ "/images/posts/work/bogdan-or-his-work-was-mentioned/rubyc-2017-fxn-little-snippets.jpg" | absolute_url }}" title="RubyC 2017: Xavier Noria - Little Snippets">
 </div>
 
-## Saint P Rubyconf
+## [Saint P Rubyconf](#saint-p-rubyconf)
 
 Link: [https://spbrubyconf.ru](https://spbrubyconf.ru)
 
@@ -60,3 +60,10 @@ Slide: [{{ "/images/posts/work/bogdan-or-his-work-was-mentioned/saint-p-rubyconf
 <div class="picture">
   <img src="{{ "/images/posts/work/bogdan-or-his-work-was-mentioned/saint-p-rubyconf-2019-ssnickolay-anything-new-rails-6.jpeg" | absolute_url }}" title="Saint P Rubyconf 2019: Nickolay Sverchkov - Anything new, Rails 6?">
 </div>
+
+## [TechRacho](#techracho)
+
+Link: [https://techracho.bpsinc.jp](https://techracho.bpsinc.jp)
+
+- [https://techracho.bpsinc.jp/hachi8833/2018_10_22/63380](https://techracho.bpsinc.jp/hachi8833/2018_10_22/63380)
+- [https://techracho.bpsinc.jp/hachi8833/2018_11_05/63937](https://techracho.bpsinc.jp/hachi8833/2018_11_05/63937)
