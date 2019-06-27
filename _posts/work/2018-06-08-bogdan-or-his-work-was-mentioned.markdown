@@ -33,6 +33,7 @@ Link: [https://rubyweekly.com](https://rubyweekly.com)
 - [https://rubyweekly.com/issues/420](https://rubyweekly.com/issues/420)
 - [https://rubyweekly.com/issues/422](https://rubyweekly.com/issues/422)
 - [https://rubyweekly.com/issues/438](https://rubyweekly.com/issues/438)
+- [https://rubyweekly.com/issues/456](https://rubyweekly.com/issues/456)
 
 ## [RubyC](#rubyc)
 
