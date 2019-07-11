@@ -1,23 +1,23 @@
 - title: "rails/rails"
-  link: "https://github.com/rails/rails/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv"
+  link: "https://github.com/rails/rails/pulls?q=author%3Abogdanvlviv"
 
 - title: "ruby/ruby"
-  link: "https://github.com/ruby/ruby/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv"
+  link: "https://github.com/ruby/ruby/pulls?q=author%3Abogdanvlviv"
 
 - title: "Ruby Issue Tracking System"
   link: "https://bugs.ruby-lang.org/users/11231"
 
 - title: "gitlab-org/gitlab-ce"
-  link: "https://gitlab.com/gitlab-org/gitlab-ce/merge_requests?scope=all&utf8=%E2%9C%93&state=all&author_username=bogdanvlviv"
+  link: "https://gitlab.com/gitlab-org/gitlab-ce/merge_requests?scope=all&state=all&author_username=bogdanvlviv"
 
 - title: "plataformatec/devise"
-  link: "https://github.com/plataformatec/devise/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv"
+  link: "https://github.com/plataformatec/devise/pulls?q=author%3Abogdanvlviv"
 
 - title: "tolk/tolk"
-  link: "https://github.com/tolk/tolk/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv"
+  link: "https://github.com/tolk/tolk/pulls?q=author%3Abogdanvlviv"
 
 - title: "rubocop-hq/rubocop"
-  link: "https://github.com/rubocop-hq/rubocop/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv"
+  link: "https://github.com/rubocop-hq/rubocop/pulls?q=author%3Abogdanvlviv"
 
 - title: "bogdanvlviv/minitest-mock_expectations"
   link: "https://github.com/bogdanvlviv/minitest-mock_expectations"
@@ -26,40 +26,40 @@
   link: "https://github.com/bogdanvlviv/i-vagrant"
 
 - title: "antirez/redis"
-  link: "https://github.com/antirez/redis/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv"
+  link: "https://github.com/antirez/redis/pulls?q=author%3Abogdanvlviv"
 
 - title: "jekyll/jekyll"
-  link: "https://github.com/jekyll/jekyll/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv"
+  link: "https://github.com/jekyll/jekyll/pulls?q=author%3Abogdanvlviv"
 
 - title: "rails/webpacker"
-  link: "https://github.com/rails/webpacker/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv"
+  link: "https://github.com/rails/webpacker/pulls?q=author%3Abogdanvlviv"
 
 - title: "rubygems/rubygems.org"
-  link: "https://github.com/rubygems/rubygems.org/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv"
+  link: "https://github.com/rubygems/rubygems.org/pulls?q=author%3Abogdanvlviv"
 
 - title: "amatsuda/jb"
-  link: "https://github.com/amatsuda/jb/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv"
+  link: "https://github.com/amatsuda/jb/pulls?q=author%3Abogdanvlviv"
 
 - title: "solidusio/solidus"
-  link: "https://github.com/solidusio/solidus/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv"
+  link: "https://github.com/solidusio/solidus/pulls?q=author%3Abogdanvlviv"
 
 - title: "tjgrathwell/rails5-spec-converter"
-  link: "https://github.com/tjgrathwell/rails5-spec-converter/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv"
+  link: "https://github.com/tjgrathwell/rails5-spec-converter/pulls?q=author%3Abogdanvlviv"
 
 - title: "westonganger/protected_attributes_continued"
-  link: "https://github.com/westonganger/protected_attributes_continued/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv"
+  link: "https://github.com/westonganger/protected_attributes_continued/pulls?q=author%3Abogdanvlviv"
 
 - title: "bogdanvlviv/general_time"
   link: "https://github.com/bogdanvlviv/general_time"
 
 - title: "elastic/elasticsearch-ruby"
-  link: "https://github.com/elastic/elasticsearch-ruby/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv"
+  link: "https://github.com/elastic/elasticsearch-ruby/pulls?q=author%3Abogdanvlviv"
 
 - title: "elastic/elasticsearch-rails"
-  link: "https://github.com/elastic/elasticsearch-rails/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv"
+  link: "https://github.com/elastic/elasticsearch-rails/pulls?q=author%3Abogdanvlviv"
 
 - title: "Shopify/bootboot"
-  link: "https://github.com/Shopify/bootboot/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv"
+  link: "https://github.com/Shopify/bootboot/pulls?q=author%3Abogdanvlviv"
 
 - title: "bogdanvlviv/dottmux"
   link: "https://github.com/bogdanvlviv/dottmux"
@@ -74,34 +74,34 @@
   link: "https://github.com/bogdanvlviv/windows10vagrantbox"
 
 - title: "thoughtbot/factory_bot"
-  link: "https://github.com/thoughtbot/factory_bot/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv"
+  link: "https://github.com/thoughtbot/factory_bot/pulls?q=author%3Abogdanvlviv"
 
 - title: "jekyll/minima"
-  link: "https://github.com/jekyll/minima/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv"
+  link: "https://github.com/jekyll/minima/pulls?q=author%3Abogdanvlviv"
 
 - title: "matenia/bootstrap-kaminari-views"
-  link: "https://github.com/matenia/bootstrap-kaminari-views/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv"
+  link: "https://github.com/matenia/bootstrap-kaminari-views/pulls?q=author%3Abogdanvlviv"
 
 - title: "hisea/devise-bootstrap-views"
-  link: "https://github.com/hisea/devise-bootstrap-views/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv"
+  link: "https://github.com/hisea/devise-bootstrap-views/pulls?q=author%3Abogdanvlviv"
 
 - title: "RailsApps/rails-devise-roles"
-  link: "https://github.com/RailsApps/rails-devise-roles/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv"
+  link: "https://github.com/RailsApps/rails-devise-roles/pulls?q=author%3Abogdanvlviv"
 
 - title: "ggreer/the_silver_searcher"
-  link: "https://github.com/ggreer/the_silver_searcher/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv"
+  link: "https://github.com/ggreer/the_silver_searcher/pulls?q=author%3Abogdanvlviv"
 
 - title: "rvm/rvm1-ansible"
-  link: "https://github.com/rvm/rvm1-ansible/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv"
+  link: "https://github.com/rvm/rvm1-ansible/pulls?q=author%3Abogdanvlviv"
 
 - title: "rvm/rvm-site"
-  link: "https://github.com/rvm/rvm-site/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv"
+  link: "https://github.com/rvm/rvm-site/pulls?q=author%3Abogdanvlviv"
 
 - title: "pivorakmeetup/pivorak-web-app"
-  link: "https://github.com/pivorakmeetup/pivorak-web-app/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv"
+  link: "https://github.com/pivorakmeetup/pivorak-web-app/pulls?q=author%3Abogdanvlviv"
 
 - title: "lewispb/rubymap"
-  link: "https://github.com/lewispb/rubymap/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv"
+  link: "https://github.com/lewispb/rubymap/pulls?q=author%3Abogdanvlviv"
 
 - title: "asdf-vm/asdf-ruby"
-  link: "https://github.com/asdf-vm/asdf-ruby/pulls?utf8=%E2%9C%93&q=author%3Abogdanvlviv"
+  link: "https://github.com/asdf-vm/asdf-ruby/pulls?q=author%3Abogdanvlviv"
