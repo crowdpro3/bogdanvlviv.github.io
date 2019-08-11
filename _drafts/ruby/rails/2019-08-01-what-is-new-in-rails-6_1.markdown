@@ -30,3 +30,4 @@ This post about news and some changes that have been done in Rails 6.1.
 - [Sync test DB from schema using its SHA1](https://github.com/rails/rails/pull/36870)
 - [Add at option to perform_enqueued_jobs test helper](https://github.com/rails/rails/pull/36864)
 - [Allow easier creation of multi-part emails from the `create_inbound_email_from_mail` and `receive_inbound_email_from_mail` test helpers](https://github.com/rails/rails/pull/36856)
+- [Support multiple arguments in `HashWithIndifferentAccess` for `merge` and `update` methods, to follow Ruby 2.6 addition](https://github.com/rails/rails/pull/36880)
