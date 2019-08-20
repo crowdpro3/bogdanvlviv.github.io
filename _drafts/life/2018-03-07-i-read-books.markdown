@@ -20,7 +20,7 @@ I have read books:
 
 I am reading books:
 <ul>
-  {%- assign i_am_reading_books = site.data.books | where_exp: "book", "book.progress > 0" | where_exp: "book", "book.progress < 100" -%}
+  {%- assign i_am_reading_books = site.data.books | where_exp: "book", "book.progress > 0 and book.progress < 100" -%}
   {%- for book in i_am_reading_books -%}
   <li>
     <a href="{{ book.link }}">{{ book.title }}</a>
