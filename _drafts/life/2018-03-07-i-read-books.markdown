@@ -10,7 +10,7 @@ permalink: /:categories/:title.html
 
 I have read books:
 <ul>
-  {%- assign i_have_read_books = site.data.books | where: "progress", 100 -%}
+  {%- assign i_have_read_books = site.data.books | where_exp: "book", "book.progress == 100" -%}
   {%- for book in i_have_read_books -%}
   <li>
     <a href="{{ book.link }}">{{ book.title }}</a>
