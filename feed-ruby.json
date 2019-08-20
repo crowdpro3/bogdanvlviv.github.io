@@ -19,7 +19,7 @@ permalink: /feed-ruby.json
     "avatar": {{ "/images/bogdanvlviv3.png" | absolute_url | jsonify }}
   },
   "items": [
-    {%- assign posts_ruby = site.posts | where: "categories", "ruby" -%}
+    {%- assign posts_ruby = site.posts | where_exp: "post", "post.categories contains 'ruby'" -%}
     {%- for post in posts_ruby -%}
     {
       "id": {{ post.url | absolute_url | jsonify }},

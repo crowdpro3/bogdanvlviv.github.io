@@ -19,7 +19,7 @@ permalink: /feed-ruby.xml
     <email>{{ site.email | xml_escape }}</email>
   </author>
 
-  {%- assign posts_ruby = site.posts | where: "categories", "ruby" -%}
+  {%- assign posts_ruby = site.posts | where_exp: "post", "post.categories contains 'ruby'" -%}
   {%- for post in posts_ruby -%}
   <entry>
     <title>{{ post.title | xml_escape }}</title>
