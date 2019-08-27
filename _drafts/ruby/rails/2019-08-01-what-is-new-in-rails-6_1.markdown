@@ -32,3 +32,5 @@ This post about news and some changes that have been done in Rails 6.1.
 - [Allow easier creation of multi-part emails from the `create_inbound_email_from_mail` and `receive_inbound_email_from_mail` test helpers](https://github.com/rails/rails/pull/36856)
 - [Support multiple arguments in `HashWithIndifferentAccess` for `merge` and `update` methods, to follow Ruby 2.6 addition](https://github.com/rails/rails/pull/36880)
 - [Log potential matches in `assert_enqueued_with` and `assert_performed_with`](https://github.com/rails/rails/pull/36920)
+- [Add `ActiveSupport::Cache::Store#delete_multi` method to delete multiple keys from the cache store](https://github.com/rails/rails/pull/36927)
+- [Added `email_address_with_name` to properly escape addresses with names](https://github.com/rails/rails/pull/36454)
