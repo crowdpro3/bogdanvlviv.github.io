@@ -43,9 +43,11 @@ permalink: /about.html
 </p>
 {%- endif -%}
 
+{%- if site.gitlab_username -%}
 <p>
-  GitLab: <a href="https://gitlab.com/bogdanvlviv" target="_blank">https://gitlab.com/bogdanvlviv</a>
+  GitLab: <a href="https://gitlab.com/{{ site.gitlab_username }}" target="_blank">https://gitlab.com/{{ site.gitlab_username }}</a>
 </p>
+{%- endif -%}
 
 <p>
   lichess.org: <a href="https://lichess.org/@/bogdanvlviv" target="_blank">https://lichess.org/@/bogdanvlviv</a>
