@@ -38,6 +38,13 @@ permalink: /resume.html
   </div>
   {%- endif -%}
 
+  {%- if site.gitlab_username -%}
+  <div class="info">
+    <b>GitLab:</b>
+    <span><a href="https://gitlab.com/{{ site.gitlab_username }}" target="_blank">https://gitlab.com/{{ site.gitlab_username }}</a></span>
+  </div>
+  {%- endif -%}
+
   <div class="info">
     <b>LinkedIn:</b>
     <span><a href="https://www.linkedin.com/in/bogdanvlviv/" target="_blank">https://www.linkedin.com/in/bogdanvlviv/</a></span>
