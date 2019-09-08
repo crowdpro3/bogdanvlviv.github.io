@@ -12,9 +12,7 @@ x-app: &app
   tty: true
   volumes:
    - .:/app:cached
-   - bundle:/bundle
-   - jekyll_cache:/app/.jekyll-cache
-   - sass_cache:/app/.sass-cache
+   - bundle:/usr/local/bundle
   tmpfs:
     - /tmp
 
@@ -30,5 +28,3 @@ services:
 
 volumes:
   bundle:
-  jekyll_cache:
-  sass_cache:

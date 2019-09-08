@@ -5,8 +5,6 @@ ARG BUNDLER_VERSION
 
 RUN apt-get update && apt-get upgrade -y
 
-ENV GEM_HOME=/bundle
-ENV BUNDLE_PATH $GEM_HOME
 ENV BUNDLE_JOBS=4
 ENV BUNDLE_RETRY=3
 
