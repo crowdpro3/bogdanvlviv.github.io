@@ -17,6 +17,22 @@ code {
   background: black !important;
 }
 
+table {
+  tr {
+    &:nth-child(even) {
+      color: black !important;
+    }
+
+    &:nth-child(odd) {
+      color: white !important;
+    }
+  }
+
+  th {
+    color: black !important;
+  }
+}
+
 .highlight {
   .highlighter-rouge & {
     background: black !important;
