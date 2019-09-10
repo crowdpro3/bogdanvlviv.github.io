@@ -7,6 +7,7 @@
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 280 | escape }}">
 
   <link rel="stylesheet" href="{{ "/assets/main.css" | absolute_url }}">
+  <link rel="stylesheet" href="{{ "/assets/dark_theme.css" | absolute_url }}" media="(prefers-color-scheme: dark)">
   <link rel="canonical" href="{{ page.url | replace:'/index.html','' | absolute_url }}">
   <link rel="icon" type="image/x-icon" href="{{ "/images/favicon.ico" | absolute_url }}">
   <link rel="alternate" type="application/json" title="{{ site.title | escape }}" href="{{ "/feed.json" | absolute_url }}">

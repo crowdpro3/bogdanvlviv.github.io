@@ -1,10 +1,7 @@
 @charset "utf-8";
 
-// Define defaults for each variable.
-
 $base-margin-bottom: 15px !default;
 
-// Import partials.
 @import
   "bogdanvlviv/base",
   "bogdanvlviv/layout"
