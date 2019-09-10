@@ -3,14 +3,22 @@ var darkTheme = {
 
   enable: function() {
     this.darkCSS.media = "";
+    window.sessionStorage.setItem("darkTheme", "enable")
   },
 
   disable: function() {
     this.darkCSS.media = this.darkCSS.dataset.originalMedia;
+    window.sessionStorage.setItem("darkTheme", "disable")
   },
 
   start: function() {
     this.darkCSS.dataset.originalMedia = this.darkCSS.media;
+
+    if (window.sessionStorage.getItem("darkTheme") === "enable") {
+      this.enable();
+    } else if (window.sessionStorage.getItem("darkTheme") === "disable") {
+      this.disable();
+    }
 
     var previousOnKeyUp = document.onkeyup;
     document.onkeyup = function(keyboardEvent) {
