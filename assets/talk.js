@@ -90,7 +90,12 @@ var talk = {
 
     this.displayNumberOfSlides();
 
+    var previousOnKeyUp = document.onkeyup;
     document.onkeyup = function(keyboardEvent) {
+      if (previousOnKeyUp) {
+        previousOnKeyUp(keyboardEvent);
+      }
+
       switch(keyboardEvent.key) {
         case "e":
           keyboardEvent.preventDefault();
