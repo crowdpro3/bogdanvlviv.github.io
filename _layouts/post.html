@@ -7,7 +7,7 @@ layout: default
     <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
 
     <p class="post-meta">
-      Posted by <span itemprop="author">{{ page.author }}</span>, <time datetime="{{ page.date }}" itemprop="datePublished">{{ page.date | date: site.date_format }}</time>
+      Posted by <span itemprop="author">{{ page.author }}</span> / <time datetime="{{ page.date }}" itemprop="datePublished">{{ page.date | date: site.date_format }}</time>
     </p>
   </header>
 

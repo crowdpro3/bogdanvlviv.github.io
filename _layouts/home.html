@@ -18,7 +18,7 @@ layout: default
       </h3>
 
       <span class="post-meta">
-        Posted by <span itemprop="author">{{ post.author }}</span>, <time datetime="{{ post.date }}" itemprop="datePublished">{{ post.date | date: site.date_format }}</time>
+        Posted by <span itemprop="author">{{ post.author }}</span> / <time datetime="{{ post.date }}" itemprop="datePublished">{{ post.date | date: site.date_format }}</time>
       </span>
     </li>
     {%- endfor -%}
