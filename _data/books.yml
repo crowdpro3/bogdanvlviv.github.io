@@ -44,6 +44,10 @@
   link: "https://www.amazon.com/Linux-Phrasebook-Scott-Granneman/dp/0672328380"
   progress: 100
 
+- title: "\"On Writing Well: The Classic Guide to Writing Nonfiction\" (by William Zinsser)"
+  link: "https://www.amazon.com/gp/product/0060891548"
+  progress: 100
+
 - title: "\"Performance Reviews\" (by Harvard Business Review)"
   link: "https://www.amazon.com/Performance-Reviews-HBR-20-Minute-Manager-ebook/dp/B00O92Q6FS"
   progress: 100
@@ -97,10 +101,6 @@
 - title: "\"How Linux Works, 2nd Edition\" (by Brian Ward)"
   link: "https://nostarch.com/howlinuxworks2"
   progress: 39
-
-- title: "\"On Writing Well: The Classic Guide to Writing Nonfiction\" (by William Zinsser)"
-  link: "https://www.amazon.com/gp/product/0060891548"
-  progress: 15
 
 - title: "\"Ruby on Rails Guides\""
   link: "http://edgeguides.rubyonrails.org"
