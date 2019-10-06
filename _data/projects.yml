@@ -7,8 +7,8 @@
 - title: "Ruby Issue Tracking System"
   link: "https://bugs.ruby-lang.org/users/11231"
 
-- title: "gitlab-org/gitlab-ce"
-  link: "https://gitlab.com/gitlab-org/gitlab-ce/merge_requests?scope=all&state=all&author_username=bogdanvlviv"
+- title: "gitlab-org/gitlab-foss"
+  link: "https://gitlab.com/gitlab-org/gitlab-foss/merge_requests?scope=all&state=all&author_username=bogdanvlviv"
 
 - title: "plataformatec/devise"
   link: "https://github.com/plataformatec/devise/pulls?q=author%3Abogdanvlviv"
