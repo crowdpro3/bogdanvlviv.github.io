@@ -33,8 +33,10 @@ This this is default example of my slides.
   - press "h"
   - press "PageUp"
   - press "ArrowLeft"
-- In order to open slides in a the full screen
-  - press "F11"
+- In order to enable the dark theme
+  - press "d"
+- In order to disable the dark theme
+  - press "s"
 </div>
 
 <div class="talk-slide">
