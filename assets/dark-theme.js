@@ -3,12 +3,12 @@ var darkTheme = {
 
   enable: function() {
     this.darkCSS.media = "";
-    window.sessionStorage.setItem("darkTheme", "enable")
+    window.sessionStorage.setItem("darkTheme", "enable");
   },
 
   disable: function() {
     this.darkCSS.media = this.darkCSS.dataset.originalMedia;
-    window.sessionStorage.setItem("darkTheme", "disable")
+    window.sessionStorage.setItem("darkTheme", "disable");
   },
 
   start: function() {
